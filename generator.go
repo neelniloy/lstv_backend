@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"regexp"
 	"sort"
 	"strings"
 )
@@ -28,8 +29,9 @@ func GenerateJSON(entries []StreamEntry, outputPath string) error {
 	groups := make(map[string]*Channel)
 
 	for _, entry := range entries {
-		// Grouping key: normalized name primarily to merge all servers for that channel
-		key := entry.Name
+		// Grouping key: lowercase and no spaces/symbols to merge variations
+		key := strings.ToLower(entry.Name)
+		key = regexp.MustCompile(`[^a-z0-9]`).ReplaceAllString(key, "")
 
 		if key == "" {
 			continue
@@ -44,12 +46,14 @@ func GenerateJSON(entries []StreamEntry, outputPath string) error {
 			}
 		} else {
 			// Metadata Prioritization: Update name or logo if entry has a better one
-			// Prefer names that aren't empty and logos that aren't empty
 			if groups[key].Logo == "" && entry.Logo != "" {
 				groups[key].Logo = entry.Logo
 			}
-			if len(entry.Name) > len(groups[key].Name) && !strings.Contains(entry.Name, "()") {
-				groups[key].Name = entry.Name
+			// Prefer names that are longer or have better casing (not all caps)
+			currentName := groups[key].Name
+			newName := entry.Name
+			if len(newName) > len(currentName) || (currentName == strings.ToUpper(currentName) && newName != strings.ToUpper(newName)) {
+				groups[key].Name = newName
 			}
 		}
 
