@@ -1,0 +1,35 @@
+name: Update IPTV Channels
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # Every 30 minutes
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-channels:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.21"
+          check-latest: true
+
+      - name: Install dependencies
+        run: go mod tidy
+
+      - name: Run Backend Processor
+        run: go run . --cron
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add channels.json
+          git commit -m "chore: automated 30-minute channel update [skip ci]" || echo "No changes to commit"
+          git push
