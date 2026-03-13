@@ -7,7 +7,15 @@ import (
 	"net/http"
 	"os"
 	"strings"
+	"sync"
 )
+
+// Result represents the outcome of a playlist download.
+type downloadResult struct {
+	Index   int
+	Content string
+	Error   error
+}
 
 // FetchPlaylists reads sources.txt and downloads each playlist content.
 func FetchPlaylists(sourcesPath string) ([]string, error) {
@@ -17,7 +25,6 @@ func FetchPlaylists(sourcesPath string) ([]string, error) {
 	}
 	defer file.Close()
 
-	var playlists []string
 	var urls []string
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
@@ -31,18 +38,46 @@ func FetchPlaylists(sourcesPath string) ([]string, error) {
 		return nil, fmt.Errorf("error reading sources file: %w", err)
 	}
 
-	for _, url := range urls {
-		fmt.Printf("Fetching playlist: %s\n", url)
-		content, err := downloadURL(url)
-		if err != nil {
-			fmt.Printf("Warning: failed to download %s: %v\n", url, err)
-			continue
-		}
-		playlists = append(playlists, content)
+	total := len(urls)
+	playlists := make([]string, total)
+	results := make(chan downloadResult, total)
+	var wg sync.WaitGroup
+
+	for i, url := range urls {
+		wg.Add(1)
+		go func(index int, u string) {
+			defer wg.Done()
+			fmt.Printf("Fetching playlist [%d/%d]: %s\n", index+1, total, u)
+			content, err := downloadURL(u)
+			results <- downloadResult{Index: index, Content: content, Error: err}
+		}(i, url)
 	}
 
-	fmt.Printf("Successfully fetched %d playlists.\n", len(playlists))
-	return playlists, nil
+	go func() {
+		wg.Wait()
+		close(results)
+	}()
+
+	successCount := 0
+	for res := range results {
+		if res.Error != nil {
+			fmt.Printf("Warning: failed to download playlist at index %d: %v\n", res.Index, res.Error)
+			continue
+		}
+		playlists[res.Index] = res.Content
+		successCount++
+	}
+
+	// Filter out empty strings (failed downloads)
+	var filtered []string
+	for _, p := range playlists {
+		if p != "" {
+			filtered = append(filtered, p)
+		}
+	}
+
+	fmt.Printf("Successfully fetched %d/%d playlists.\n", successCount, total)
+	return filtered, nil
 }
 
 func downloadURL(url string) (string, error) {

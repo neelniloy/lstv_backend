@@ -21,7 +21,10 @@ type Channel struct {
 type Server struct {
 	URL     string `json:"url"`
 	Latency int64  `json:"latency"`
+	Quality string `json:"quality"`
 }
+
+var reKey = regexp.MustCompile(`[^a-z0-9]`)
 
 // GenerateJSON groups entries and writes them to channels.json.
 func GenerateJSON(entries []StreamEntry, outputPath string) error {
@@ -31,7 +34,7 @@ func GenerateJSON(entries []StreamEntry, outputPath string) error {
 	for _, entry := range entries {
 		// Grouping key: lowercase and no spaces/symbols to merge variations
 		key := strings.ToLower(entry.Name)
-		key = regexp.MustCompile(`[^a-z0-9]`).ReplaceAllString(key, "")
+		key = reKey.ReplaceAllString(key, "")
 
 		if key == "" {
 			continue
@@ -70,6 +73,7 @@ func GenerateJSON(entries []StreamEntry, outputPath string) error {
 			groups[key].Servers = append(groups[key].Servers, Server{
 				URL:     entry.URL,
 				Latency: entry.Latency,
+				Quality: entry.Quality,
 			})
 		}
 	}
@@ -101,6 +105,7 @@ func GenerateJSON(entries []StreamEntry, outputPath string) error {
 	defer file.Close()
 
 	encoder := json.NewEncoder(file)
+	encoder.SetEscapeHTML(false)
 	encoder.SetIndent("", "  ")
 	if err := encoder.Encode(channels); err != nil {
 		return fmt.Errorf("failed to encode JSON: %w", err)

@@ -14,7 +14,14 @@ type StreamEntry struct {
 	Logo     string `json:"logo"`
 	URL      string `json:"url"`
 	Latency  int64  `json:"latency"`
+	Quality  string `json:"quality"`
 }
+
+var (
+	reTvgID = regexp.MustCompile(`tvg-id="([^"]*)"`)
+	reLogo  = regexp.MustCompile(`tvg-logo="([^"]*)"`)
+	reGroup = regexp.MustCompile(`group-title="([^"]*)"`)
+)
 
 // ParseM3U parses M3U playlist content and returns a list of stream entries.
 func ParseM3U(content string) []StreamEntry {
@@ -23,11 +30,6 @@ func ParseM3U(content string) []StreamEntry {
 
 	var currentEntry StreamEntry
 	hasEntry := false
-
-	// Regex to extract tags
-	reTvgID := regexp.MustCompile(`tvg-id="([^"]*)"`)
-	reLogo := regexp.MustCompile(`tvg-logo="([^"]*)"`)
-	reGroup := regexp.MustCompile(`group-title="([^"]*)"`)
 
 	for scanner.Scan() {
 		line := strings.TrimSpace(scanner.Text())

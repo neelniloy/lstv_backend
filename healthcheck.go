@@ -101,12 +101,24 @@ func worker(wg *sync.WaitGroup, jobs <-chan StreamEntry, results chan<- Result) 
 		bodyPrefix := string(buf[:n])
 
 		// Relaxed validation: EXTM3U is required.
-		// Then either EXTINF (media playlist) or EXT-X-STREAM-INF (master playlist)
 		isHLS := strings.Contains(bodyPrefix, "#EXTM3U") &&
 			(strings.Contains(bodyPrefix, "#EXTINF") || strings.Contains(bodyPrefix, "#EXT-X-STREAM-INF"))
 
 		if isHLS {
 			entry.Latency = latency
+
+			// If quality is still unknown, try to sniff from HLS tags
+			if entry.Quality == "" {
+				if strings.Contains(bodyPrefix, "RESOLUTION=") {
+					if strings.Contains(bodyPrefix, "1920x1080") {
+						entry.Quality = "FHD"
+					} else if strings.Contains(bodyPrefix, "1280x720") {
+						entry.Quality = "HD"
+					} else if strings.Contains(bodyPrefix, "3840x2160") {
+						entry.Quality = "4K"
+					}
+				}
+			}
 			results <- Result{Entry: entry, Success: true}
 		} else {
 			results <- Result{Entry: entry, Success: false}

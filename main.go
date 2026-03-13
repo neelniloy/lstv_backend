@@ -4,6 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"os"
+	"sync"
 	"time"
 )
 
@@ -19,14 +20,25 @@ func runPipeline() {
 
 	// 2. Parse and Normalize
 	var allEntries []StreamEntry
+	var mu sync.Mutex
+	var wg sync.WaitGroup
+
 	for _, content := range playlists {
-		entries := ParseM3U(content)
-		for i := range entries {
-			entries[i].Name = NormalizeName(entries[i].Name)
-			entries[i].Category = NormalizeCategory(entries[i].Category, entries[i].Name)
-		}
-		allEntries = append(allEntries, entries...)
+		wg.Add(1)
+		go func(c string) {
+			defer wg.Done()
+			entries := ParseM3U(c)
+			for i := range entries {
+				entries[i].Quality = DetectQuality(entries[i].Name, entries[i].URL)
+				entries[i].Name = NormalizeName(entries[i].Name)
+				entries[i].Category = NormalizeCategory(entries[i].Category, entries[i].Name)
+			}
+			mu.Lock()
+			allEntries = append(allEntries, entries...)
+			mu.Unlock()
+		}(content)
 	}
+	wg.Wait()
 	fmt.Printf("Total entries parsed: %d\n", len(allEntries))
 
 	// 3. Health Check
