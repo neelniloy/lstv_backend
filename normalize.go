@@ -170,7 +170,7 @@ func NormalizeName(name string) string {
 	return normalized
 }
 
-// NormalizeCategory standardizes category names and filters out provider tags.
+// NormalizeCategory standardizes category names into a fixed list.
 func NormalizeCategory(category string, channelName string) string {
 	parts := strings.Split(category, ";")
 	if len(parts) > 1 {
@@ -180,87 +180,77 @@ func NormalizeCategory(category string, channelName string) string {
 	c := strings.ToLower(strings.TrimSpace(category))
 	n := strings.ToLower(channelName)
 
-	// 1. Mandatory Name-Based Overrides (These words always define the category)
-	if strings.Contains(n, "jalsha") || strings.Contains(n, "zee bangla") || strings.Contains(n, "colors bangla") {
-		return "Bangla"
-	}
-	if strings.Contains(n, "star plus") || strings.Contains(n, "sony sab") || strings.Contains(n, "colors hd") || (strings.Contains(n, "zee tv") && !strings.Contains(n, "bangla")) {
-		return "Hindi"
-	}
-	if strings.Contains(n, "news") || strings.Contains(n, "times") {
-		return "News"
-	}
-	if strings.Contains(n, "sport") || strings.Contains(n, "cricket") || strings.Contains(n, "football") || strings.Contains(n, "ten ") {
+	// Required List: Sports, Movies, News, Kids, Entertainment, Music, Documentary, Religious, International, General
+
+	// 1. Mandatory Name-Based Overrides
+	if strings.Contains(n, "sport") || strings.Contains(n, "cricket") || strings.Contains(n, "football") || strings.Contains(n, "ten ") || strings.Contains(n, "europort") || strings.Contains(n, "fancode") {
 		return "Sports"
 	}
-	if strings.Contains(n, "movie") || strings.Contains(n, "cinema") || strings.Contains(n, "film") || strings.Contains(n, "action") {
+	if strings.Contains(n, "movie") || strings.Contains(n, "cinema") || strings.Contains(n, "film") || strings.Contains(n, "action") || strings.Contains(n, "prive") || strings.Contains(n, "flix") || strings.Contains(n, "xplore") || strings.Contains(n, "hbo") {
 		return "Movies"
 	}
-	if strings.Contains(n, "music") || strings.Contains(n, "song") || strings.Contains(n, "vh1") || strings.Contains(n, "mix") {
-		return "Music"
+	if strings.Contains(n, "news") || strings.Contains(n, "times") || strings.Contains(n, "reuters") || strings.Contains(n, "cnn") || strings.Contains(n, "bbc") {
+		return "News"
 	}
-	if strings.Contains(n, "kids") || strings.Contains(n, "cartoon") || strings.Contains(n, "nick") || strings.Contains(n, "disney") || strings.Contains(n, "pogo") {
+	if strings.Contains(n, "kids") || strings.Contains(n, "cartoon") || strings.Contains(n, "nick") || strings.Contains(n, "disney") || strings.Contains(n, "pogo") || strings.Contains(n, "sony yay") {
 		return "Kids"
 	}
-	if strings.Contains(n, "islam") || strings.Contains(n, "quran") || strings.Contains(n, "religion") || strings.Contains(n, "peace tv") {
+	if strings.Contains(n, "music") || strings.Contains(n, "song") || strings.Contains(n, "vh1") || strings.Contains(n, "mix") || strings.Contains(n, "zoom") || strings.Contains(n, "9x") {
+		return "Music"
+	}
+	if strings.Contains(n, "docu") || strings.Contains(n, "geo") || strings.Contains(n, "history") || strings.Contains(n, "discovery") || strings.Contains(n, "animal") || strings.Contains(n, "planet") {
+		return "Documentary"
+	}
+	if strings.Contains(n, "islam") || strings.Contains(n, "quran") || strings.Contains(n, "religion") || strings.Contains(n, "peace tv") || strings.Contains(n, "god") || strings.Contains(n, "church") {
 		return "Religious"
 	}
-
-	// 2. Provider tags to discard
-	providers := []string{"lgtv", "samsung", "plex", "yupp", "fast", "hilay", "ott", "playlist", "distro", "pluto", "klowd", "wns", "local", "latest", "usa", "uk", "india"}
-	for _, p := range providers {
-		if c == p || strings.Contains(c, p) {
-			c = "" // Mark for reset
-			break
-		}
+	if strings.Contains(n, "uk") || strings.Contains(n, "usa") || strings.Contains(n, "france") || strings.Contains(n, "germany") || strings.Contains(n, "global") || strings.Contains(n, "international") {
+		return "International"
 	}
 
-	if c == "" || c == "undefined" || c == "general" || c == "other" || c == "channels" || c == "live" {
-		c = "General"
-	}
-
+	// 2. Map existing category strings
 	mappings := map[string]string{
-		"movie":         "Movies",
-		"movies":        "Movies",
-		"film":          "Movies",
-		"cinema":        "Movies",
-		"entertainment": "Entertainment",
-		"ent":           "Entertainment",
-		"kids":          "Kids",
-		"children":      "Kids",
-		"cartoon":       "Kids",
-		"sports":        "Sports",
 		"sport":         "Sports",
-		"football":      "Sports",
-		"cricket":       "Sports",
+		"movie":         "Movies",
+		"cinema":        "Movies",
+		"film":          "Movies",
 		"news":          "News",
+		"kids":          "Kids",
+		"cartoon":       "Kids",
+		"disney":        "Kids",
 		"music":         "Music",
-		"religious":     "Religious",
+		"video":         "Music",
+		"documentary":   "Documentary",
+		"geo":           "Documentary",
+		"nature":        "Documentary",
 		"religion":      "Religious",
-		"islamic":       "Religious",
+		"religious":     "Religious",
 		"islam":         "Religious",
-		"comedy":        "Comedy",
-		"business":      "Business",
-		"bangladeshi":   "Bangla",
-		"bangla":        "Bangla",
-		"kolkata":       "Bangla",
-		"india":         "Hindi",
-		"hindi":         "Hindi",
-		"bakery":        "Lifestyle",
-		"food":          "Lifestyle",
-		"travel":        "Lifestyle",
+		"international": "International",
+		"world":         "International",
+		"foreign":       "International",
+		"entertainment": "Entertainment",
+		"general":       "General",
 	}
 
-	// Check for direct match or partial match
 	for key, val := range mappings {
 		if strings.Contains(c, key) {
 			return val
 		}
 	}
 
-	// Capitalize first letter of unknown categories
-	if len(c) > 0 && c != "general" {
-		return strings.ToUpper(c[:1]) + strings.ToLower(c[1:])
+	// 3. Fallback for common local categories to Entertainment
+	if strings.Contains(c, "bangla") || strings.Contains(c, "hindi") || strings.Contains(c, "indian") || strings.Contains(c, "drama") || strings.Contains(c, "comedy") || strings.Contains(c, "series") {
+		return "Entertainment"
 	}
+
 	return "General"
+}
+
+// SimplifyForID creates a unique identifier from a name (lowercase, no spaces/special chars)
+func SimplifyForID(name string) string {
+	s := strings.ToLower(name)
+	s = strings.ReplaceAll(s, "&", "and")
+	s = reKey.ReplaceAllString(s, "")
+	return s
 }
