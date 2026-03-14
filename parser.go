@@ -8,13 +8,17 @@ import (
 
 // StreamEntry represents a single stream from an M3U file.
 type StreamEntry struct {
-	Name     string `json:"name"`
-	TvgID    string `json:"tvg_id"`
-	Category string `json:"category"`
-	Logo     string `json:"logo"`
-	URL      string `json:"url"`
-	Latency  int64  `json:"latency"`
-	Quality  string `json:"quality"`
+	ID        string  `json:"id"`
+	Name      string  `json:"name"`
+	TvgID     string  `json:"tvg_id"`
+	EPGID     string  `json:"epg_id"`
+	Category  string  `json:"category"`
+	Logo      string  `json:"logo"`
+	URL       string  `json:"url"`
+	Latency   int64   `json:"latency"`
+	Quality   string  `json:"quality"`
+	Stability float64 `json:"stability"`
+	Type      string  `json:"type"`
 }
 
 var (
