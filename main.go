@@ -11,6 +11,11 @@ import (
 func runPipeline() {
 	fmt.Printf("\n--- Starting Pipeline: %s ---\n", time.Now().Format(time.RFC3339))
 
+	// 0. Load Stability Data
+	if err := LoadStability(); err != nil {
+		fmt.Printf("Warning: failed to load stability data: %v\n", err)
+	}
+
 	// 1. Fetch Playlists
 	playlists, err := FetchPlaylists("sources.txt")
 	if err != nil {
@@ -41,11 +46,28 @@ func runPipeline() {
 	wg.Wait()
 	fmt.Printf("Total entries parsed: %d\n", len(allEntries))
 
+	// 2.5 Deduplicate by URL before Health Check to save time/bandwidth
+	fmt.Println("Deduplicating entries before health check...")
+	uniqueEntries := make([]StreamEntry, 0, len(allEntries))
+	urlSeen := make(map[string]bool)
+	for _, entry := range allEntries {
+		if !urlSeen[entry.URL] {
+			urlSeen[entry.URL] = true
+			uniqueEntries = append(uniqueEntries, entry)
+		}
+	}
+	fmt.Printf("Unique entries to check: %d\n", len(uniqueEntries))
+
 	// 3. Health Check
 	fmt.Println("Running health checks on streams...")
-	healthyEntries := RunHealthChecks(allEntries, 100)
+	healthyEntries := RunHealthChecks(uniqueEntries, 100)
 
-	// 4. Generate JSON
+	// 4. Save Stability Data
+	if err := SaveStability(); err != nil {
+		fmt.Printf("Warning: failed to save stability data: %v\n", err)
+	}
+
+	// 5. Generate JSON
 	err = GenerateJSON(healthyEntries, "channels.json")
 	if err != nil {
 		fmt.Printf("Error generating output: %v\n", err)
