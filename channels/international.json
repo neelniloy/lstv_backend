@@ -7,7 +7,7 @@
     "servers": [
       {
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8",
-        "latency": 127,
+        "latency": 180,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -22,7 +22,7 @@
     "servers": [
       {
         "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8",
-        "latency": 38,
+        "latency": 601,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -38,7 +38,7 @@
     "servers": [
       {
         "url": "https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8",
-        "latency": 660,
+        "latency": 668,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -53,30 +53,39 @@
     "servers": [
       {
         "url": "https://edge2.roarzone.info:8447/roarzone/edge3/global-tv/index.m3u8?token=929ee1b6b79b13aa9d380ab8801bcbc3efe9c0ee-7b6796aa3a37504f0aad76c4f4086146-1773565186-1773561586",
-        "latency": 565,
+        "latency": 493,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/global-tv/index.m3u8?token=0c4d0b4c9d954ea868863d29881ba28807688e6a-67dc5a9f5754b980dddd848a3983c3d0-1773563287-1773559687",
-        "latency": 620,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/global-tv/index.m3u8?token=c936ee707c3a311399e5f56534e9bf0b07ae2335-9a6ce503c84f1c0e2dca2e5432650afa-1773570821-1773567221",
+        "latency": 969,
         "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1773568078&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b9171ae342c59af44612bbb2b894a9da",
-        "latency": 862,
-        "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1773571253&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=bdc6e7d2eb3858296d2bc332f2f7cf3d",
-        "latency": 1143,
+        "latency": 1668,
         "quality": "HD",
         "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "harvestusa",
+    "name": "Harvest USA",
+    "category": "International",
+    "logo": "https://www.lyngsat.com/logo/tv/hh/harvest_tv_in_usa.png",
+    "epg_id": "HarvestUSA.in@SD",
+    "servers": [
+      {
+        "url": "https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8",
+        "latency": 943,
+        "quality": "SD",
+        "stability": 0.5,
         "type": "hls"
       }
     ]
@@ -88,15 +97,8 @@
     "logo": "https://s3.aynaott.com/storage/1678abdbf203bb77af4bbf2905a3de59",
     "servers": [
       {
-        "url": "https://tvsen7.aynascope.net/ibtvusa/index.m3u8?e=1773568202&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a3340589827a8a927a582fe8c17ed1a3",
-        "latency": 750,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen7.aynascope.net/ibtvusa/index.m3u8?e=1773571397&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=dfef7ca521a3293de341f6150487c339",
-        "latency": 4940,
+        "latency": 1554,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -111,7 +113,7 @@
     "servers": [
       {
         "url": "https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8",
-        "latency": 254,
+        "latency": 63,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -126,8 +128,8 @@
     "epg_id": "216",
     "servers": [
       {
-        "url": "https://yuppnimrestreammum.akamaized.net/090823/smil:manatvint.smil/playlist.m3u8?hdnts=st%3D1773561783~exp%3D1773583383~acl%3D%21%2A%2F090823%2Fsmil%3Amanatvint.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_172.183.183.215_yuppfast_2_channel_216_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_172.183.183.215_yuppfast_2_channel_216_-1~hmac%3Dd29d467610815ecc4cf2ef27e85aedacfa0f1e386118a2f66f1b0a2b46cd9648",
-        "latency": 138,
+        "url": "https://livegeorouus.akamaized.net/090823/smil:manatvint.smil/playlist.m3u8?hdnts=st%3D1773565540~exp%3D1773587140~acl%3D%21%2A%2F090823%2Fsmil%3Amanatvint.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.225.4_yuppfast_2_channel_216_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.225.4_yuppfast_2_channel_216_-1~hmac%3D1c041857fdae0c8bca5a4e73ac18ec2be0302e972c3f88812e1d90310f58745e",
+        "latency": 39,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -142,7 +144,7 @@
     "servers": [
       {
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ntvuk00332211.stream/playlist.m3u8",
-        "latency": 121,
+        "latency": 177,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -157,8 +159,8 @@
     "epg_id": "67",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-YuppTV/title-THE-CHUKKER-CHANNEL-INT_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3bd726a3-0d30-491d-b5e7-e1afb6e02112/master.m3u8?hdnts=st%3D1773561826~exp%3D1773583426~acl%3D%21%2A%2Fptnr-YuppTV%2Ftitle-THE-CHUKKER-CHANNEL-INT_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F3bd726a3-0d30-491d-b5e7-e1afb6e02112%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_172.183.183.215_yuppfast_2_channel_67_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_172.183.183.215_yuppfast_2_channel_67_-1~hmac%3D51567dcc03a7fc3d86ac42768e1c6073ae2351fe7985e7046fe9e6190af93bfe",
-        "latency": 897,
+        "url": "https://streams2.sofast.tv/ptnr-YuppTV/title-THE-CHUKKER-CHANNEL-INT_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3bd726a3-0d30-491d-b5e7-e1afb6e02112/master.m3u8?hdnts=st%3D1773565582~exp%3D1773587182~acl%3D%21%2A%2Fptnr-YuppTV%2Ftitle-THE-CHUKKER-CHANNEL-INT_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F3bd726a3-0d30-491d-b5e7-e1afb6e02112%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.225.4_yuppfast_2_channel_67_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.225.4_yuppfast_2_channel_67_-1~hmac%3D4c86ab0e9d43184b46cb23fb6f40d31ad24f59ea9129bc7377698af4766fde40",
+        "latency": 713,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -172,15 +174,8 @@
     "logo": "https://s3.aynaott.com/storage/111bfd01fb43770e925ca9cf16663f56",
     "servers": [
       {
-        "url": "https://tvsen7.aynascope.net/timetv/index.m3u8?e=1773568065&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5317a559cf1a01c65ccdb39f0efb826d",
-        "latency": 704,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen7.aynascope.net/timetv/index.m3u8?e=1773571238&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=47bc12b0458029ce0b70385102df986c",
-        "latency": 2226,
+        "latency": 1873,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -194,15 +189,8 @@
     "logo": "https://s3.aynaott.com/storage/376b8483457b06dbc5b7b7b327a21ac6",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/usa/index.m3u8?e=1773568206&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a3e17af41c60766b5725b72af721b11d",
-        "latency": 747,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen6.aynascope.net/usa/index.m3u8?e=1773571401&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=083e1250efec20311885f86578d4276d",
-        "latency": 2854,
+        "latency": 942,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -217,7 +205,7 @@
     "servers": [
       {
         "url": "https://dms.redbull.tv/v5/destination/rallytv/07f960dc-fd36-466c-971f-64a597518b83/personal_computer/http/us/en_US/playlist.m3u8",
-        "latency": 346,
+        "latency": 351,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -231,15 +219,8 @@
     "logo": "https://s3.aynaott.com/storage/0cb865748deefd42e69fd9a221cf38ee",
     "servers": [
       {
-        "url": "https://tvsen5.aynascope.net/PNEb3v2q6GBk/index.m3u8?e=1773568242&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6f3d91c91ab33ebf945db4ad34162f26",
-        "latency": 610,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen5.aynascope.net/PNEb3v2q6GBk/index.m3u8?e=1773571443&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=7b6cec5dbf6693c92e5531aa3ee25ef2",
-        "latency": 3537,
+        "latency": 1368,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -254,8 +235,8 @@
     "epg_id": "29",
     "servers": [
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeeupuk/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/a8c57b70-538f-49ae-af12-2fc2acaa4ff1/main.m3u8?hdnts=st%3D1773561735~exp%3D1773583335~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeeupuk%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fa8c57b70-538f-49ae-af12-2fc2acaa4ff1%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_172.183.183.215_yuppfast_2_channel_29_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_172.183.183.215_yuppfast_2_channel_29_-1~hmac%3D318eec11a1e7c050e605bfc093c0e5610011d8617a25b5169a269569cfba624a",
-        "latency": 466,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeeupuk/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/a8c57b70-538f-49ae-af12-2fc2acaa4ff1/main.m3u8?hdnts=st%3D1773565491~exp%3D1773587091~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeeupuk%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fa8c57b70-538f-49ae-af12-2fc2acaa4ff1%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.225.4_yuppfast_2_channel_29_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.225.4_yuppfast_2_channel_29_-1~hmac%3D72e6de3f919d0eb6e5e98d95c791825174be447cd62a8bf63535bc1486a0d2a0",
+        "latency": 846,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
