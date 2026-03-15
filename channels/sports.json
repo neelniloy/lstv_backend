@@ -3,34 +3,66 @@
     "id": "asports",
     "name": "A Sports",
     "category": "Sports",
-    "logo": "https://tvassets.roarzone.info/images/add-sports-1.png",
+    "logo": "http://103.144.89.251/assets/images/A SPORTS HD1745044782.png",
     "epg_id": "a.sports.hd",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/A.SPORTS.HD/index.m3u8?token=c11e1a6fbb2d6e50565686394f1adae7138046e9-524746347ad5f1270d3e7ca3e3c4e8fe-1773623358-1773612558&remote=no_check_ip",
-        "latency": 508,
+        "url": "http://103.144.89.251:8082/A.SPORTS.HD/index.m3u8?token=50043e77e25fd44105e2fd4d855f0c9c4b31c3f6-6b6d98e1d2665c521cc990a438d0d681-1773627161-1773616361&remote=no_check_ip",
+        "latency": 577,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/a-sports/index.m3u8?token=802be6b7fd8eb9bf7ddb9754d4abe8f374ea9f55-e23a5460c5a9e2323886055cbd29f7f7-1773617872-1773614272",
+        "latency": 1140,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
         "url": "https://tvsen6.aynascope.net/asports/index.m3u8?e=1773621129&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=1c899d158a2e825d1ef5896500ceec1a",
-        "latency": 957,
+        "latency": 1149,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/a-sports/index.m3u8?token=644c8df7398323c0acc4c4c64f49969be4a93aa0-3380b68535dfe5a8be19416e84bd8b09-1773615347-1773611747",
-        "latency": 1151,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/a-sports/index.m3u8?token=d9757f3287fc0db2f5fa4d16fbd7ab92e0ab8986-a2e44496ebd6b3cd4c4046f083542340-1773619288-1773615688",
+        "latency": 1183,
         "quality": "",
         "stability": 1,
         "type": "hls"
-      },
+      }
+    ]
+  },
+  {
+    "id": "absinthetv",
+    "name": "Absinthe Tv",
+    "category": "Sports",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/badjix.png",
+    "epg_id": "298",
+    "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/asports/index.m3u8?e=1773617504&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=50ae5008bdc61df7e531c419f2a55ce0",
-        "latency": 1237,
-        "quality": "",
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-absinthetv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/254b2fef-a3dd-4a6d-af18-38711e02e31c/manifest.m3u8?hdnts=st%3D1773615687~exp%3D1773637287~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-absinthetv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F254b2fef-a3dd-4a6d-af18-38711e02e31c%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_298_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_298_-1~hmac%3Df661c4d153b925b4cb8acc37a4da1b078f4260f2e14ed92fe34196981af5bcd8",
+        "latency": 442,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "acetv",
+    "name": "Ace Tv",
+    "category": "Sports",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/whjmwm.png",
+    "epg_id": "253",
+    "servers": [
+      {
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-ACE_TV_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8f7ca5bc-6bd2-4dc4-98d0-9ff71eedf477/master.m3u8?hdnts=st%3D1773615685~exp%3D1773637285~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-ACE_TV_YUPPTV%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F8f7ca5bc-6bd2-4dc4-98d0-9ff71eedf477%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_253_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_253_-1~hmac%3De895216db28372d02027df50fec3dfbe8daf22b6b2282f4b7c603e0dd33a7aea",
+        "latency": 435,
+        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -44,8 +76,8 @@
     "epg_id": "42",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/04c3a27e-c2a0-420b-8eef-7dae9ab93056/manifest.m3u8?hdnts=st%3D1773613957~exp%3D1773635557~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F04c3a27e-c2a0-420b-8eef-7dae9ab93056%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_42_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_42_-1~hmac%3D4bb6298de3d03b8ec4315639e67a573ce3ba31fe9e4b67b3ac18fed28e07d0a5",
-        "latency": 245,
+        "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/04c3a27e-c2a0-420b-8eef-7dae9ab93056/manifest.m3u8?hdnts=st%3D1773615683~exp%3D1773637283~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F04c3a27e-c2a0-420b-8eef-7dae9ab93056%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_42_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_42_-1~hmac%3Df658d4d2dae6360a45077cbd525adc651f7f5896c27ccb865c668e590c36de8d",
+        "latency": 435,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -60,22 +92,7 @@
     "servers": [
       {
         "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
-        "latency": 627,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "bahrainsports2",
-    "name": "Bahrain Sports 2",
-    "category": "Sports",
-    "logo": "https://s3.aynaott.com/storage/4429e88eac56b0c7c7274ce36db967d8",
-    "servers": [
-      {
-        "url": "https://tvsen6.aynascope.net/BahrainSports2/index.m3u8?e=1773617534&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=9ad42759997e0b1dba1454e8ef38e18c",
-        "latency": 644,
+        "latency": 772,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -90,7 +107,7 @@
     "servers": [
       {
         "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8",
-        "latency": 373,
+        "latency": 89,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -105,7 +122,7 @@
     "servers": [
       {
         "url": "https://linear-493.frequency.stream/dist/glewedtv/493/hls/master/playlist.m3u8",
-        "latency": 163,
+        "latency": 41,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -120,14 +137,7 @@
     "servers": [
       {
         "url": "https://tvsen6.aynascope.net/bloombergtv/index.m3u8?e=1773621146&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a873c64eaf8326b23f8a403e12ffbcc6",
-        "latency": 749,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/bloombergtv/index.m3u8?e=1773617522&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=67251a9834522149c50356a2493068e5",
-        "latency": 757,
+        "latency": 897,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -142,8 +152,8 @@
     "epg_id": "49",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-CHRONO-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d375ebca-9cd0-475e-ad4d-0cde6634de9c/manifest.m3u8?hdnts=st%3D1773613958~exp%3D1773635558~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-CHRONO-TV-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fd375ebca-9cd0-475e-ad4d-0cde6634de9c%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_49_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_49_-1~hmac%3D67155d925f7fe22b3d5a049df5c0f60b9ca4b860da0386bf2760986c8aa8286f",
-        "latency": 449,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-CHRONO-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d375ebca-9cd0-475e-ad4d-0cde6634de9c/manifest.m3u8?hdnts=st%3D1773615684~exp%3D1773637284~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-CHRONO-TV-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fd375ebca-9cd0-475e-ad4d-0cde6634de9c%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_49_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_49_-1~hmac%3D9116746fed46086d3ae810566440be1d9bda3733ed983bf7ae9e7cfba10ba7b1",
+        "latency": 600,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -158,7 +168,7 @@
     "servers": [
       {
         "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8",
-        "latency": 253,
+        "latency": 110,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -169,18 +179,19 @@
     "id": "cricketgold",
     "name": "Cricket Gold",
     "category": "Sports",
-    "logo": "https://s3.aynaott.com/storage/7d20b575edc4e4b5276faa8c246e72a4",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/cricket-gold.png",
+    "epg_id": "290",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/CricketGold/index.m3u8?e=1773617505&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=4ba90644e4c27bde0455e04eb617b960",
-        "latency": 559,
-        "quality": "",
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8?hdnts=st%3D1773615685~exp%3D1773637285~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-cricketgold%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fb2048bb8-1686-4432-aa50-647245383e0c%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_290_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_290_-1~hmac%3D3011425e4d97dfe9d8452422d8019e7e043aa0b61b8d0c71b8f73dea3794acde",
+        "latency": 1122,
+        "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://tvsen6.aynascope.net/CricketGold/index.m3u8?e=1773621130&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3a03a8b54dd5ce1065045b69307980cd",
-        "latency": 1627,
+        "latency": 1204,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -196,14 +207,14 @@
     "servers": [
       {
         "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
-        "latency": 216,
+        "latency": 264,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://cdn-6.pishow.tv/live/13/master.m3u8",
-        "latency": 655,
+        "latency": 647,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -218,8 +229,8 @@
     "epg_id": "293",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-Drive_Speed/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d00c9b93-97ca-488c-9072-265d0079fae6/manifest.m3u8?hdnts=st%3D1773613961~exp%3D1773635561~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-Drive_Speed%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fd00c9b93-97ca-488c-9072-265d0079fae6%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_293_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_293_-1~hmac%3D7c5b1dd18f3d6ae7de84e36f99e90aa011d368f983e78dbcc1e967fe9c267870",
-        "latency": 956,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-Drive_Speed/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d00c9b93-97ca-488c-9072-265d0079fae6/manifest.m3u8?hdnts=st%3D1773615686~exp%3D1773637286~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-Drive_Speed%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fd00c9b93-97ca-488c-9072-265d0079fae6%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_293_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_293_-1~hmac%3D4395ae18aa303e1982c8094089d2637d19dac5284fa8129dcf5ee640ebb8d6d6",
+        "latency": 1065,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -233,15 +244,8 @@
     "logo": "https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76",
     "servers": [
       {
-        "url": "https://tvsen5.aynascope.net/espn/index.m3u8?e=1773617513&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=da8045aeb463804416d6c037973680a8",
-        "latency": 844,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen5.aynascope.net/espn/index.m3u8?e=1773621138&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=58e61f1de2ed48a7dcb5c02e81b06a03",
-        "latency": 1018,
+        "latency": 1831,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -252,19 +256,26 @@
     "id": "eurosports",
     "name": "Euro Sports",
     "category": "Sports",
-    "logo": "https://tvassets.roarzone.info/images/euro_sports_hd.png",
+    "logo": "http://103.144.89.251/assets/images/EUROSPORTS HD1745040406.png",
     "epg_id": "eurosports.hd",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/EUROSPORTS.HD/index.m3u8?token=bd7e378feab9d015a9f74e699e6d5898b4c34992-d232a0ecd92ff1c63b6ee0a57996ccab-1773623369-1773612569&remote=no_check_ip",
-        "latency": 487,
+        "url": "http://103.144.89.251:8082/EUROSPORTS.HD/index.m3u8?token=74de958113193ae43ef883fd706ea30beefd414a-9a419014f2dc13138e67c2aa1d5e7a3e-1773627172-1773616372&remote=no_check_ip",
+        "latency": 546,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/euro-sport-hd/index.m3u8?token=09a18122309ca9aeb32ae9d0172da463ed92b471-dc1d77af0ce494a796bd5aa2e782fe9c-1773615347-1773611747",
-        "latency": 1093,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/euro-sport-hd/index.m3u8?token=7435a255e46470ebed110129e872d45bf5f2561a-2dc1da54cde5f5593341d13e1776963c-1773617872-1773614272",
+        "latency": 1083,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/euro-sport-hd/index.m3u8?token=e648e9e6a38a9830836cfa039266ad6b42d64843-fbe97b0eda2de3894784152742736e7b-1773619288-1773615688",
+        "latency": 1168,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -279,8 +290,8 @@
     "epg_id": "fast.sports.hd",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/FAST.SPORTS.HD/index.m3u8?token=093f02abbeacf62b19c38313e7bc9da9dd10c998-f1bff511a0815f1273edf18bd22dfbbf-1773623370-1773612570&remote=no_check_ip",
-        "latency": 507,
+        "url": "http://103.144.89.251:8082/FAST.SPORTS.HD/index.m3u8?token=c0ea5c3c0f84d2f24766f76177aaeb50d397348b-d1b37cdd11ff29a18fc4c0f08c5bebaf-1773627173-1773616373&remote=no_check_ip",
+        "latency": 581,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -295,8 +306,8 @@
     "epg_id": "68",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-FIGHT-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/70e45fc8-1f6c-4492-ac26-9868f70f4e02/manifest.m3u8?hdnts=st%3D1773613956~exp%3D1773635556~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-FIGHT-TV-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F70e45fc8-1f6c-4492-ac26-9868f70f4e02%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_68_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_68_-1~hmac%3D8deaf9c2dc942911b48c34da98fb1a57b324942c2a5319dfb26ed383345b206f",
-        "latency": 526,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-FIGHT-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/70e45fc8-1f6c-4492-ac26-9868f70f4e02/manifest.m3u8?hdnts=st%3D1773615681~exp%3D1773637281~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-FIGHT-TV-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F70e45fc8-1f6c-4492-ac26-9868f70f4e02%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_68_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_68_-1~hmac%3D4679f23f88f90558aa1a492fc852acdd7f62117d730f8fc41eaaf096b4d87433",
+        "latency": 359,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -310,15 +321,8 @@
     "logo": "https://s3.aynaott.com/storage/04d612228fedede6da010e5b163d5ac6",
     "servers": [
       {
-        "url": "https://tvsen7.aynascope.net/foxsports1/index.m3u8?e=1773617528&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=71e436ee8114799c400450ff0e7b328a",
-        "latency": 644,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen7.aynascope.net/foxsports1/index.m3u8?e=1773621151&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b156182594795cf1dfe8bfabf58ba161",
-        "latency": 2115,
+        "latency": 987,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -333,38 +337,31 @@
     "epg_id": "GaziTV.bd@SD",
     "servers": [
       {
-        "url": "https://tvsen5.aynascope.net/Ravc7gPCZpxk/index.m3u8?e=1773617463&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2de04df017a7fba4c09eac063dfd5760",
-        "latency": 759,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/gazi/index.m3u8?token=25079b370f219f766cd846d5727b66514c453ca7-f383155d020d7205aec6ced0473abf67-1773617872-1773614272",
+        "latency": 1033,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/gazi/index.m3u8?token=351e2be6a2429d38bbf1ba181eaba97b1cb93c98-9889d4d73d17df5bf527fecec3fdcaa9-1773615347-1773611747",
-        "latency": 1083,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/gazi/index.m3u8?token=32b367e8ef094274b92938f30441ec4ed8107df5-c8f9d320eb88bc8b77bde51f80f87e4e-1773619288-1773615688",
+        "latency": 1036,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://tvsen5.aynascope.net/Ravc7gPCZpxk/index.m3u8?e=1773621092&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f4a0f3b12f3963b99bbba8ccb3a57a7a",
-        "latency": 1794,
+        "latency": 1680,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8",
-        "latency": 595,
+        "latency": 513,
         "quality": "FHD",
-        "stability": 0.9534883720930233,
-        "type": "hls"
-      },
-      {
-        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
-        "latency": 450,
-        "quality": "",
-        "stability": 0.5833333333333334,
+        "stability": 0.9545454545454546,
         "type": "hls"
       }
     ]
@@ -376,15 +373,8 @@
     "logo": "https://s3.aynaott.com/storage/edb73991516696dfd53efbd32d80ca58",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/golfchannel/index.m3u8?e=1773617508&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=0652ae812257e1e336d2824ea2bbf8f1",
-        "latency": 804,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen6.aynascope.net/golfchannel/index.m3u8?e=1773621133&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=228ab2b3fa7febd9a5aa1d94e1b21a58",
-        "latency": 1267,
+        "latency": 972,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -399,8 +389,8 @@
     "epg_id": "golf.sports",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/GOLF.SPORTS/index.m3u8?token=3bd5b850c31ad9659feab171cf1b0087f8062479-3b55129ea958874e0bd94112206a7f7a-1773623371-1773612571&remote=no_check_ip",
-        "latency": 492,
+        "url": "http://103.144.89.251:8082/GOLF.SPORTS/index.m3u8?token=7985fd1b9556efd4e2c82e1a6defe77eac9e4a43-dca30a0e14493609a4eb46f724cc5563-1773627174-1773616374&remote=no_check_ip",
+        "latency": 541,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -415,8 +405,8 @@
     "epg_id": "294",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-Hunt_Fish_TV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/7545a786-3458-4aaf-ad71-db896a1c4b83/master.m3u8?hdnts=st%3D1773613962~exp%3D1773635562~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-Hunt_Fish_TV%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F7545a786-3458-4aaf-ad71-db896a1c4b83%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_294_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_294_-1~hmac%3D0b0a06f7c88fa6ee0eca1763d7c446365c2c50f8083a9b7a881fbde20cff886b",
-        "latency": 935,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-Hunt_Fish_TV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/7545a786-3458-4aaf-ad71-db896a1c4b83/master.m3u8?hdnts=st%3D1773615686~exp%3D1773637286~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-Hunt_Fish_TV%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F7545a786-3458-4aaf-ad71-db896a1c4b83%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_294_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_294_-1~hmac%3Deda3650c1420601483dfbb83b02cd4b90a4417f4f98da77f12e7df89b4cdc73e",
+        "latency": 637,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -431,8 +421,8 @@
     "epg_id": "79",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-ITSF-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20a0ac30-d157-4400-8f64-3c52b37c645c/manifest.m3u8?hdnts=st%3D1773613958~exp%3D1773635558~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-ITSF-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F20a0ac30-d157-4400-8f64-3c52b37c645c%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_79_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_79_-1~hmac%3Df7a55336f4a09f8924d017cb4de72228f5ff3bfe085cc16d189f2176c8bf357f",
-        "latency": 695,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-ITSF-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20a0ac30-d157-4400-8f64-3c52b37c645c/manifest.m3u8?hdnts=st%3D1773615684~exp%3D1773637284~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-ITSF-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F20a0ac30-d157-4400-8f64-3c52b37c645c%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_79_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_79_-1~hmac%3D9e1d017cf07724f97b1db4c6ceb771cc9b579d398f40697112a6a73f48001260",
+        "latency": 798,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -447,7 +437,7 @@
     "servers": [
       {
         "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
-        "latency": 549,
+        "latency": 389,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -461,15 +451,8 @@
     "logo": "https://s3.aynaott.com/storage/66bdaa21aba96de6d32a3515715f7502",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/MarqueeSportsNetwork/index.m3u8?e=1773617517&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=d67adb8697cadfc5897aa1d982ebc5e4",
-        "latency": 939,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen6.aynascope.net/MarqueeSportsNetwork/index.m3u8?e=1773621142&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5580970550fe35fae7657a3dd8be16cb",
-        "latency": 1218,
+        "latency": 741,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -484,8 +467,8 @@
     "epg_id": "272",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-MMA_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/72581a39-9590-4c64-998e-b61fcf2d0294/playlist.m3u8?hdnts=st%3D1773613959~exp%3D1773635559~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-MMA_YUPPTV%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F72581a39-9590-4c64-998e-b61fcf2d0294%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_272_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_272_-1~hmac%3D717248ec6f596a0861607901b263237260707b5091b1ec19fd6a9b1911a4f8da",
-        "latency": 803,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-MMA_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/72581a39-9590-4c64-998e-b61fcf2d0294/playlist.m3u8?hdnts=st%3D1773615684~exp%3D1773637284~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-MMA_YUPPTV%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F72581a39-9590-4c64-998e-b61fcf2d0294%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_272_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_272_-1~hmac%3Daf36b6f26d2063ea2427e7a3e9028efd9a2d1cfbeee125462cc58e7ad8ab4815",
+        "latency": 513,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -500,7 +483,7 @@
     "servers": [
       {
         "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8",
-        "latency": 883,
+        "latency": 1210,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -515,8 +498,24 @@
     "epg_id": "273",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-motorracing_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/db917aee-4061-4081-b5fc-d5786defb057/master.m3u8?hdnts=st%3D1773613959~exp%3D1773635559~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-motorracing_YUPPTV%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fdb917aee-4061-4081-b5fc-d5786defb057%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_273_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_273_-1~hmac%3Df7695c76d1b48ffde73f80b911f34a8d9406ad556eca478c519884a3240d5a37",
-        "latency": 910,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-motorracing_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/db917aee-4061-4081-b5fc-d5786defb057/master.m3u8?hdnts=st%3D1773615685~exp%3D1773637285~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-motorracing_YUPPTV%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fdb917aee-4061-4081-b5fc-d5786defb057%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_273_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_273_-1~hmac%3D47bd9c028a6c6f01af9dc641830326e43ffcb1ba203b82600c6f46b3900583f1",
+        "latency": 785,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "nauticalchannel",
+    "name": "Nautical Channel",
+    "category": "Sports",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/nautical-channel.png",
+    "epg_id": "295",
+    "servers": [
+      {
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-Nautical_TV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f2e7e4ed-1b9c-4404-9fc6-41d0d13880b7/index.m3u8?hdnts=st%3D1773615687~exp%3D1773637287~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-Nautical_TV%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Ff2e7e4ed-1b9c-4404-9fc6-41d0d13880b7%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_295_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_295_-1~hmac%3D06ee981208e43a63aa145d18d85ed677b2a274ed7be41671ce7d1ee537967972",
+        "latency": 845,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -531,7 +530,7 @@
     "servers": [
       {
         "url": "https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8",
-        "latency": 281,
+        "latency": 144,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -546,14 +545,7 @@
     "servers": [
       {
         "url": "https://tvsen6.aynascope.net/nfl/index.m3u8?e=1773621150&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=8775f2c1941600b874934b6f98af4c1c",
-        "latency": 1046,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/nfl/index.m3u8?e=1773617527&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e99c7eab3ffa65dafc30810ebbf0f143",
-        "latency": 1280,
+        "latency": 1181,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -568,7 +560,7 @@
     "servers": [
       {
         "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
-        "latency": 149,
+        "latency": 304,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -583,8 +575,8 @@
     "epg_id": "325",
     "servers": [
       {
-        "url": "https://distro-timesgroup.vgcdn.net/vglive-sk-843549/playlist.m3u8?hdnts=st%3D1773613963~exp%3D1773635563~acl%3D%21%2A%2Fvglive-sk-843549%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_325_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_325_-1~hmac%3D9a06595fcb9a01786b183116ba7e27deec02b172f020861a98eb000c06f29171",
-        "latency": 951,
+        "url": "https://distro-timesgroup.vgcdn.net/vglive-sk-843549/playlist.m3u8?hdnts=st%3D1773615688~exp%3D1773637288~acl%3D%21%2A%2Fvglive-sk-843549%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_325_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_325_-1~hmac%3D2280f8f9d0d10e804422ff0cec9a9a9bb451e4b0cb1bb9cb09683ff3d30749a9",
+        "latency": 310,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -599,7 +591,7 @@
     "servers": [
       {
         "url": "https://proshls.wns.live/hls/stream.m3u8",
-        "latency": 273,
+        "latency": 482,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -614,22 +606,15 @@
     "epg_id": "ptv.sports.hd",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/PTV-SPORTS-HD/index.m3u8?token=2d92cf8b6bb5d5f40f34603ebde8e520bcf7e08f-44586fb2723036a75b8276290677cfe0-1773623382-1773612582&remote=no_check_ip",
-        "latency": 517,
+        "url": "http://103.144.89.251:8082/PTV-SPORTS-HD/index.m3u8?token=08d9c596a4dfd5ce8516a360fb46947e3e89f429-16ae41f31a3858fa54ef4ec1950f55c9-1773627185-1773616385&remote=no_check_ip",
+        "latency": 536,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen5.aynascope.net/PtvSports/index.m3u8?e=1773617503&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=eb273177753f8c78f827aa96a70a84ac",
-        "latency": 680,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen5.aynascope.net/PtvSports/index.m3u8?e=1773621128&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=8d30f6935c5f3f6c144ad05ccc07e2e8",
-        "latency": 902,
+        "latency": 1335,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -643,8 +628,15 @@
     "logo": "https://tvassets.roarzone.info/images/73.png",
     "servers": [
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/ptv-sports/index.m3u8?token=a40992f95750d09207c28c7c5da415f04f1020ff-def25797fdae05d0fd830f239cdfcd22-1773615347-1773611747",
-        "latency": 1102,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/ptv-sports/index.m3u8?token=cbfc499a4375f3a79b76e12a5240f9f731ede487-1aaed703c64488d96ff4ee43a6346daa-1773617872-1773614272",
+        "latency": 1032,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/ptv-sports/index.m3u8?token=7c3fa79c3035b40ef46060c2b6c854df121adcfa-c0bb6a67297c6c94ca03065c48bd4532-1773619288-1773615688",
+        "latency": 1182,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -659,21 +651,21 @@
     "servers": [
       {
         "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/03.m3u8",
-        "latency": 122,
+        "latency": 440,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8",
-        "latency": 381,
+        "latency": 452,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/index.m3u8",
-        "latency": 434,
+        "latency": 598,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -687,8 +679,15 @@
     "logo": "https://tvassets.roarzone.info/images/24.png",
     "servers": [
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/sony-sports-5-hd/index.m3u8?token=c84e5312f8260c9350ad364a560a3c6dccdf3ac2-de40d3232e80f1e1cca41bcd0e63f564-1773615347-1773611747",
-        "latency": 1149,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/sony-sports-5-hd/index.m3u8?token=c4caaa2b9ada60b52bc73f907bb2b391c625a0cc-f9e020a63449531cc4fd4de97c6b559a-1773617872-1773614272",
+        "latency": 1132,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/sony-sports-5-hd/index.m3u8?token=64b80d6f53967cfeb1d13bdbcd0947ad215b8b10-05eee0e600d4bd9f253ba5cd6a6c8e69-1773619288-1773615688",
+        "latency": 1148,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -703,8 +702,8 @@
     "epg_id": "sony.sports.1.hd",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/SONY.SPORTS.1HD/index.m3u8?token=78fe5b6e3167b060788e90a74ce76f3b97324857-d408e0cf7f330c03b2b1678528b197c6-1773623387-1773612587&remote=no_check_ip",
-        "latency": 520,
+        "url": "http://103.144.89.251:8082/SONY.SPORTS.1HD/index.m3u8?token=d296a45542062a3eaf11a992a6d1fe42255aac42-79f3ee50e80922fa04e975483ea93df9-1773627190-1773616390&remote=no_check_ip",
+        "latency": 541,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -719,8 +718,8 @@
     "epg_id": "sony.sports.2.hd",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/SONY.SPORTS2.HD/index.m3u8?token=982b64fe5809fed0a5ded5436270ef5e7d416404-9652e8b43ce4cac07c05b7e76cf1a9a2-1773623387-1773612587&remote=no_check_ip",
-        "latency": 519,
+        "url": "http://103.144.89.251:8082/SONY.SPORTS2.HD/index.m3u8?token=461a4a84612156ea94204fa22f23dc943e716ad3-fdb2de3b4a09228c81228e15b371aeb1-1773627190-1773616390&remote=no_check_ip",
+        "latency": 541,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -735,8 +734,8 @@
     "epg_id": "sony.sports.3",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/SONY.SPORTS.3/index.m3u8?token=d3ed39b44b5c3eeeece43bc2073bc31823791c3e-471a50b53c55d698f6193c73399122ac-1773623388-1773612588&remote=no_check_ip",
-        "latency": 519,
+        "url": "http://103.144.89.251:8082/SONY.SPORTS.3/index.m3u8?token=ec04760f42cd301955f8e2ca68e2d2b154ff8254-440e039c0de4dc5e3fda261ed98ccf3e-1773627191-1773616391&remote=no_check_ip",
+        "latency": 568,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -751,8 +750,8 @@
     "epg_id": "sony.sports.4",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/SONY.SPORTS.4/index.m3u8?token=4030d4b3225eb95978e9117a430c942ac0b0e6ef-40ab43f8e5d6b0df2f30946c9e391e08-1773623388-1773612588&remote=no_check_ip",
-        "latency": 493,
+        "url": "http://103.144.89.251:8082/SONY.SPORTS.4/index.m3u8?token=51a954447a3a28b7c926dc345bb2113e4bdacc64-62018a01c381351a10a40ec30997a468-1773627191-1773616391&remote=no_check_ip",
+        "latency": 547,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -767,8 +766,8 @@
     "epg_id": "sony.sports.5.hd",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/SONY-SPORTS.5HD/index.m3u8?token=c1e6f48007dc0561d30892899068bbeb94f766e4-65e7bf3d831bd0e02e674a98fafb50ac-1773623389-1773612589&remote=no_check_ip",
-        "latency": 516,
+        "url": "http://103.144.89.251:8082/SONY-SPORTS.5HD/index.m3u8?token=edf514f80a6e644d1cb751500ecaaada9e6a22e5-3408b3f989f2c22fbbd3bed711aa974d-1773627192-1773616392&remote=no_check_ip",
+        "latency": 572,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -784,9 +783,9 @@
     "servers": [
       {
         "url": "http://103.229.254.25:7001/play/a02t/index.m3u8",
-        "latency": 545,
+        "latency": 442,
         "quality": "FHD",
-        "stability": 0.926829268292683,
+        "stability": 0.9285714285714286,
         "type": "hls"
       }
     ]
@@ -800,7 +799,7 @@
     "servers": [
       {
         "url": "http://103.229.254.25:7001/play/a09q/index.m3u8",
-        "latency": 548,
+        "latency": 438,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -816,16 +815,16 @@
     "servers": [
       {
         "url": "http://103.229.254.25:7001/play/a0dw/index.m3u8",
-        "latency": 550,
+        "latency": 441,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "http://103.99.249.139/sonyten3/index.m3u8",
-        "latency": 547,
+        "latency": 431,
         "quality": "",
-        "stability": 0.975,
+        "stability": 0.975609756097561,
         "type": "hls"
       }
     ]
@@ -837,8 +836,15 @@
     "logo": "https://tvassets.roarzone.info/images/20.png",
     "servers": [
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/sony-sports-1-hd/index.m3u8?token=f86de9abbfa8e3311f073535c55351ea5ebf773e-703c32d87ee5c6d716258bc9693bf3eb-1773615347-1773611747",
-        "latency": 1118,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/sony-sports-1-hd/index.m3u8?token=eacb5d4db3cc1bdf46961d8ba2df8b804df5093f-54af2f14ccf1f4e538b8480e08f0f883-1773617872-1773614272",
+        "latency": 1144,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/sony-sports-1-hd/index.m3u8?token=7bf33c50b9cb05292f2e91173256a027eab69227-71f37c7245244997f66f795810b0cf92-1773619288-1773615688",
+        "latency": 1150,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -852,8 +858,15 @@
     "logo": "https://tvassets.roarzone.info/images/21.png",
     "servers": [
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/sony-sports-2-hd/index.m3u8?token=37bb00f08d9bde43f9c9dacd9583d434b848923f-604afdef1408039496e64da69e29f443-1773615347-1773611747",
-        "latency": 1138,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/sony-sports-2-hd/index.m3u8?token=f4c4bd1752db297502ff3f27f8065d80c4db269b-84814f63e85ce69d0b32ddb733f477c6-1773617872-1773614272",
+        "latency": 1139,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/sony-sports-2-hd/index.m3u8?token=4a11caed672f8385a6e378609089dcea2fc20d3e-48776df07a8903e500b47f865e8db2fc-1773619288-1773615688",
+        "latency": 1165,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -867,8 +880,15 @@
     "logo": "https://tvassets.roarzone.info/images/22.png",
     "servers": [
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/sony-sports-3-hd/index.m3u8?token=0bdc431f0c4c017e430d8bc7709bac84bc839811-3dc3a9e859aafdd6b30ce2ad4afca005-1773615347-1773611747",
-        "latency": 1149,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/sony-sports-3-hd/index.m3u8?token=3a5da279feb6c20b265de4d7b1315beb5b34c085-f2a125b52a6f6f731acd7bcab37a3feb-1773617872-1773614272",
+        "latency": 1145,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/sony-sports-3-hd/index.m3u8?token=557f323ddef1adb57c51c6b38c23cad23e635e5d-f3482afafb9dbf17c548b5fdd5330adc-1773619288-1773615688",
+        "latency": 1176,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -883,9 +903,9 @@
     "servers": [
       {
         "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-ten-cricket/tracks-v1a1/mono.m3u8",
-        "latency": 954,
+        "latency": 256,
         "quality": "HD",
-        "stability": 0.975609756097561,
+        "stability": 0.9761904761904762,
         "type": "hls"
       }
     ]
@@ -898,8 +918,8 @@
     "epg_id": "star.select.1.hd",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/STAR.SPORTS-SEL1.HD/index.m3u8?token=0bfb69fcfbd99991646dc245202a6fcbd31dafa0-026d43778c8159430526f1d7ae645f17-1773623395-1773612595&remote=no_check_ip",
-        "latency": 257,
+        "url": "http://103.144.89.251:8082/STAR.SPORTS-SEL1.HD/index.m3u8?token=22db9f2794104b8fd72f0811b4a9d6424ee37829-93363aba832c0eb5ed815b3d22c5a49d-1773627198-1773616398&remote=no_check_ip",
+        "latency": 536,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -910,49 +930,49 @@
     "id": "starsports1",
     "name": "STAR Sports 1",
     "category": "Sports",
-    "logo": "https://tvassets.roarzone.info/images/25.png",
+    "logo": "http://103.144.89.251/assets/images/STAR SPORTS 1 HD1744991778.png",
     "epg_id": "star.sports.1.hd",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/STAR.SPORTS1.HD/index.m3u8?token=4bca7f50e708b5622c0ed192ea311c0adc1f9a04-36a260a93cf59aa5b80453116425af59-1773623395-1773612595&remote=no_check_ip",
-        "latency": 303,
+        "url": "http://103.144.89.251:8082/STAR.SPORTS1.HD/index.m3u8?token=0fa4387d8f867bee565a4c5b256c71abfb4f0602-1d117189522afde23e22db3c1c88a20f-1773627198-1773616398&remote=no_check_ip",
+        "latency": 572,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen5.aynascope.net/c9EpzZ6fQBJ3/index.m3u8?e=1773617510&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=44adc52a65a31e78debd3f9c44099161",
-        "latency": 718,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen5.aynascope.net/c9EpzZ6fQBJ3/index.m3u8?e=1773621135&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=56ed7e055925d068d46d9b383279b5fe",
-        "latency": 785,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/star-sports-1/index.m3u8?token=8b08ee509e35c7947b1b972d68b9f924249140f4-449908231d2768032fc96eb8058f1833-1773615347-1773611747",
-        "latency": 1105,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/star-sports-1/index.m3u8?token=cddd570d02f660789448b6f4215db50baa71552a-b34203b7dc5de2639436589794f412d6-1773617872-1773614272",
+        "latency": 1030,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
-        "latency": 405,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/star-sports-1/index.m3u8?token=03e1c4938930577ab0f597b502188707b88abdc4-e67e17e22fdd57b4c8e98886d5907926-1773619288-1773615688",
+        "latency": 1078,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://tvsen5.aynascope.net/c9EpzZ6fQBJ3/index.m3u8?e=1773621135&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=56ed7e055925d068d46d9b383279b5fe",
+        "latency": 1116,
         "quality": "HD",
-        "stability": 0.9666666666666667,
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+        "latency": 544,
+        "quality": "HD",
+        "stability": 0.967741935483871,
         "type": "hls"
       },
       {
         "url": "http://tvn1.chowdhury-shaheb.com/starsport1/index.m3u8",
-        "latency": 453,
+        "latency": 1342,
         "quality": "HD",
-        "stability": 0.9629629629629629,
+        "stability": 0.9642857142857143,
         "type": "hls"
       }
     ]
@@ -965,7 +985,7 @@
     "servers": [
       {
         "url": "https://starsportshindiii.pages.dev/index.m3u8",
-        "latency": 85,
+        "latency": 42,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -976,33 +996,33 @@
     "id": "starsports2",
     "name": "STAR Sports 2",
     "category": "Sports",
-    "logo": "https://tvassets.roarzone.info/images/26.png",
+    "logo": "http://103.144.89.251/assets/images/STAR SPORTS 2 HD1744991842.png",
     "epg_id": "star.sports.2.hd",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/STAR.SPORTS2.HD/index.m3u8?token=acaf6ae4ef212e30ee64a249add97b98280e418a-ff2e7315cfa3fca966f5e3ae9261f064-1773623396-1773612596&remote=no_check_ip",
-        "latency": 280,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8?e=1773617538&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2718c3799ef889929122e3e1cc833332",
-        "latency": 688,
+        "url": "http://103.144.89.251:8082/STAR.SPORTS2.HD/index.m3u8?token=46bfc77fe0172afc9a6c5a9095b97afa407b49b1-86fd918c9d43c179e3c167f48a5eee04-1773627199-1773616399&remote=no_check_ip",
+        "latency": 543,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8?e=1773621160&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=0e4bf61b6b79ce8a4353e35b680d53a9",
-        "latency": 829,
+        "latency": 981,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/star-sports-2/index.m3u8?token=a00265deaaadf0c5424a3e599fe25d2f48b86365-1b3e4608efa14aec9959f16cd7ba7a36-1773615347-1773611747",
-        "latency": 1147,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/star-sports-2/index.m3u8?token=ac8c79e683ab7d50559de20fa96fceb7190b271e-4e4a66063fe9352a2bd553f3f52fb98d-1773617872-1773614272",
+        "latency": 1026,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/star-sports-2/index.m3u8?token=71f69b9527bb6254292fc5d80f5f1c7274f5b21d-97edb73d796b138f40363731d4f82b87-1773619288-1773615688",
+        "latency": 1070,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1017,9 +1037,9 @@
     "servers": [
       {
         "url": "http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8",
-        "latency": 589,
+        "latency": 1873,
         "quality": "HD",
-        "stability": 0.967741935483871,
+        "stability": 0.96875,
         "type": "hls"
       }
     ]
@@ -1029,20 +1049,20 @@
     "name": "STAR Sports 2 Tamil",
     "category": "Sports",
     "logo": "https://i.imgur.com/eWPoUxB.png",
-    "epg_id": "StarSports2Tamil.in@SD",
+    "epg_id": "StarSports2Tamil.in@HD",
     "servers": [
       {
         "url": "http://103.229.254.25:7001/play/a0dc/index.m3u8",
-        "latency": 537,
+        "latency": 438,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "http://103.229.254.25:7001/play/a0d1/index.m3u8",
-        "latency": 539,
+        "latency": 443,
         "quality": "FHD",
-        "stability": 0.9024390243902439,
+        "stability": 0.9047619047619048,
         "type": "hls"
       }
     ]
@@ -1055,15 +1075,15 @@
     "epg_id": "star.sports.3",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/STAR-SPORTS.3/index.m3u8?token=0894cc8eb6a056fb8a1f177cb5c09dbc5ab916a2-a40ba8f4d5bbd8799da5cec343412550-1773623396-1773612596&remote=no_check_ip",
-        "latency": 281,
+        "url": "http://103.121.6.5:8000/play/a05y/index.m3u8",
+        "latency": 544,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "http://103.121.6.5:8000/play/a05y/index.m3u8",
-        "latency": 726,
+        "url": "http://103.144.89.251:8082/STAR-SPORTS.3/index.m3u8?token=3f9572230752d05ec7c0a42f2dad3a1c73ee9bc7-f21bd5756f02f8f44192a55d6ef51c69-1773627199-1773616399&remote=no_check_ip",
+        "latency": 562,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1077,8 +1097,15 @@
     "logo": "https://tvassets.roarzone.info/images/27.png",
     "servers": [
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/star-sports-select-1/index.m3u8?token=5917b941bb313d21e342a2567e87eb13fa46a2ac-4f9436ad8fa260d162429e5ce95e2e6e-1773615347-1773611747",
-        "latency": 1149,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/star-sports-select-1/index.m3u8?token=3654108626eb1555275f8b74c4e4b6f2799e1815-53d1608e0dadade70238a9347a4d5389-1773617872-1773614272",
+        "latency": 1121,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/star-sports-select-1/index.m3u8?token=35dcf9dc44a751c9a17e640d6ff1e9c85e662560-8bb47f343296de06f863fc5dd8f84262-1773619288-1773615688",
+        "latency": 1140,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1089,19 +1116,26 @@
     "id": "starsportsselect2",
     "name": "STAR Sports Select 2",
     "category": "Sports",
-    "logo": "https://tvassets.roarzone.info/images/28.png",
+    "logo": "http://103.144.89.251/assets/images/STAR SPORTS SELECT 2 HD1745033722.png",
     "epg_id": "star.sports.select.2.hd",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/STAR.SPORTS.SEL.2.HD/index.m3u8?token=fe4de07417f623bb29c14f24874cea6e30a06689-6ea60d637f90e0af2444fb2187e6b3ad-1773623396-1773612596&remote=no_check_ip",
-        "latency": 275,
+        "url": "http://103.144.89.251:8082/STAR.SPORTS.SEL.2.HD/index.m3u8?token=9c9556821bca43f4745aae35ed6385eeb430a481-eb72ea2de0f416c6ea037310f68418fd-1773627200-1773616400&remote=no_check_ip",
+        "latency": 552,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/star-sports-select-2/index.m3u8?token=de9742b3adde1cebb32fab5de12613f7428d50cd-eb1451cb19c06550c7e02985fc9a4be8-1773615347-1773611747",
-        "latency": 1124,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/star-sports-select-2/index.m3u8?token=0cb84501f9169cab5c3792a20c314c1a6049d8ee-967c5c17e31a5453fb5d54ea906444bf-1773617872-1773614272",
+        "latency": 1122,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/star-sports-select-2/index.m3u8?token=0219bcdc44cc0a92eb1777d812c33655c7421093-8721091a87f0f4202571198c8ba99eb8-1773619288-1773615688",
+        "latency": 1143,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1116,7 +1150,7 @@
     "servers": [
       {
         "url": "https://svs.itworkscdn.net/smc4sportslive/smc4.smil/smc4sportspublish/smc4tv_720p/chunks.m3u8",
-        "latency": 131,
+        "latency": 451,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1131,7 +1165,7 @@
     "servers": [
       {
         "url": "https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8",
-        "latency": 428,
+        "latency": 516,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1146,7 +1180,7 @@
     "servers": [
       {
         "url": "https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8",
-        "latency": 724,
+        "latency": 84,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1161,8 +1195,8 @@
     "epg_id": "76",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-SPORT-FISHING-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8?hdnts=st%3D1773613957~exp%3D1773635557~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-SPORT-FISHING-TV-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Feea68b79-bfe2-451e-a227-d637a5b9548a%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_76_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_135.232.200.66_yuppfast_2_channel_76_-1~hmac%3D7cd5f02e44e2f247b554d1ccc759210d1eb0a33d6fd21367fddcc2e1d74f6d93",
-        "latency": 188,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-SPORT-FISHING-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8?hdnts=st%3D1773615682~exp%3D1773637282~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-SPORT-FISHING-TV-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Feea68b79-bfe2-451e-a227-d637a5b9548a%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_76_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_76_-1~hmac%3D5b181a1221be731428677f36ca5287d1ef7192de643676f5e83bea802f10fbbc",
+        "latency": 365,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1177,9 +1211,9 @@
     "servers": [
       {
         "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8",
-        "latency": 400,
+        "latency": 793,
         "quality": "",
-        "stability": 0.9534883720930233,
+        "stability": 0.9545454545454546,
         "type": "hls"
       }
     ]
@@ -1192,14 +1226,7 @@
     "servers": [
       {
         "url": "https://tvsen6.aynascope.net/SportsGrid/index.m3u8?e=1773621143&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=d05df2498382776c947c2c4f071b5ffb",
-        "latency": 529,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/SportsGrid/index.m3u8?e=1773617519&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=120fe3d7e47588915856469464893dae",
-        "latency": 648,
+        "latency": 786,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1210,33 +1237,33 @@
     "id": "tsports",
     "name": "T Sports",
     "category": "Sports",
-    "logo": "https://tvassets.roarzone.info/images/102.png",
+    "logo": "http://103.144.89.251/assets/images/T SPORTS1744972630.png",
     "epg_id": "t.sports",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/T-SPORTS-HD/index.m3u8?token=ceb097b263b58b41011c0a169b97d79a754a1882-fe4ae969ba7de61709f8750213045df2-1773623398-1773612598&remote=no_check_ip",
-        "latency": 272,
+        "url": "http://103.144.89.251:8082/T-SPORTS-HD/index.m3u8?token=365b5ab2d8f642cf2dcd59ae6329f0ac886b03c3-57d4e04b78af4c18bfd199cd81b99906-1773627201-1773616401&remote=no_check_ip",
+        "latency": 539,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen7.aynascope.net/tsports-hd/index.m3u8?e=1773617502&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=ba588b7dfc1f83de5a379f03501deaba",
-        "latency": 611,
-        "quality": "HD",
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/tsports/index.m3u8?token=f083994e184636bb270753c8d83997bd694e6569-b7962e378ceaf1a7a197ca4c94cfa227-1773617872-1773614272",
+        "latency": 1027,
+        "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/tsports/index.m3u8?token=9a2b29009b1ab385a2bdeb0a202889d8e2ecf3ba-89d1cb6f6ae8c4d54cc081749da94631-1773615347-1773611747",
-        "latency": 1152,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge2/tsports/index.m3u8?token=9d1903cad30a7aec116e1b2c62f40b823d09b6dc-77daeb4b83e320e6713662976f58aa6a-1773619288-1773615688",
+        "latency": 1150,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://tvsen7.aynascope.net/tsports-hd/index.m3u8?e=1773621127&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=cc97f2fb0facc8b0ec9a98be6a76fb61",
-        "latency": 1725,
+        "latency": 1994,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1250,8 +1277,15 @@
     "logo": "https://tvassets.roarzone.info/images/ten_cricket.png",
     "servers": [
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-ten-cricket/index.m3u8?token=8793d089c5b362a2d70977c30444044e93b1b8f5-75cba9bb44ef4ba6496805515619e1be-1773615347-1773611747",
-        "latency": 1140,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-ten-cricket/index.m3u8?token=168f8a486c4239d71d794ddc0cc09f1be2ed3158-f91617f155bec3313189117c95d89511-1773617872-1773614272",
+        "latency": 1060,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-ten-cricket/index.m3u8?token=9f36facd3b09f38432b11535388984a019795507-3d5ae9d56ce39679a0318c26e2011b5a-1773619288-1773615688",
+        "latency": 1177,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1266,14 +1300,7 @@
     "servers": [
       {
         "url": "https://tvsen6.aynascope.net/talkSPORT/index.m3u8?e=1773621140&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=94db13af83e31511ba8508667c8af36a",
-        "latency": 805,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/talkSPORT/index.m3u8?e=1773617515&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=ea7b471733886f5bcdcbca3fc32bc7b1",
-        "latency": 1381,
+        "latency": 995,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1287,15 +1314,8 @@
     "logo": "https://s3.aynaott.com/storage/59fe7ff434fed04ecec29b4d737ebc95",
     "servers": [
       {
-        "url": "https://tvsen7.aynascope.net/tsn1/index.m3u8?e=1773617529&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3c788a3b593f28e3ba62a6bbb449c5da",
-        "latency": 852,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen7.aynascope.net/tsn1/index.m3u8?e=1773621152&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a1162a5b39a26ea4c98a09cbd1fe8cad",
-        "latency": 966,
+        "latency": 985,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1310,14 +1330,7 @@
     "servers": [
       {
         "url": "https://tvsen7.aynascope.net/tsn2/index.m3u8?e=1773621139&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5050afd3fcad0d1d9dca7c345045d7b3",
-        "latency": 984,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen7.aynascope.net/tsn2/index.m3u8?e=1773617514&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=21bc7f039305f843a1683d4e84803d02",
-        "latency": 1025,
+        "latency": 1399,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1331,15 +1344,8 @@
     "logo": "https://s3.aynaott.com/storage/1cb10107a47db353e35ad78d3160eda7",
     "servers": [
       {
-        "url": "https://tvsen7.aynascope.net/tsn3/index.m3u8?e=1773617529&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5feb9702d09a21458cc9ef7b570b159c",
-        "latency": 674,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen7.aynascope.net/tsn3/index.m3u8?e=1773621153&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=d9adefc2d8af5303f821e12bb3c3c696",
-        "latency": 830,
+        "latency": 1219,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1354,14 +1360,7 @@
     "servers": [
       {
         "url": "https://tvsen5.aynascope.net/willowhd/index.m3u8?e=1773621149&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6c76c9aa13c8755d0cb3b0053bb63bb1",
-        "latency": 571,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen5.aynascope.net/willowhd/index.m3u8?e=1773617526&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=4983248d1678bb393f7f4ec9e7cb2e09",
-        "latency": 699,
+        "latency": 1365,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1376,7 +1375,7 @@
     "servers": [
       {
         "url": "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8",
-        "latency": 435,
+        "latency": 571,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1391,9 +1390,9 @@
     "servers": [
       {
         "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8",
-        "latency": 397,
+        "latency": 349,
         "quality": "",
-        "stability": 0.9302325581395349,
+        "stability": 0.9318181818181818,
         "type": "hls"
       }
     ]
@@ -1407,9 +1406,25 @@
     "servers": [
       {
         "url": "https://streams2.sofast.tv/ptnr-yupptv/title-XTREM-SPORTS-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8",
-        "latency": 390,
+        "latency": 442,
         "quality": "",
-        "stability": 0.9024390243902439,
+        "stability": 0.9047619047619048,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "yachtingtv",
+    "name": "Yachting Tv",
+    "category": "Sports",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/yachting-tv.png",
+    "epg_id": "296",
+    "servers": [
+      {
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-yachtingtv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9c7be81a-7dd6-481e-a010-d306ed060db7/manifest.m3u8?hdnts=st%3D1773615687~exp%3D1773637287~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-yachtingtv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F9c7be81a-7dd6-481e-a010-d306ed060db7%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_296_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_128.24.160.164_yuppfast_2_channel_296_-1~hmac%3D90053003df05dbb47b54054b33183e44b13a753a0175f0be316240e66c8b93e4",
+        "latency": 1542,
+        "quality": "HD",
+        "stability": 1,
         "type": "hls"
       }
     ]
