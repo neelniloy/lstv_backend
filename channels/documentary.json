@@ -7,7 +7,7 @@
     "servers": [
       {
         "url": "https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8",
-        "latency": 3799,
+        "latency": 175,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -18,34 +18,41 @@
     "id": "animalplanet",
     "name": "Animal Planet",
     "category": "Documentary",
-    "logo": "http://103.144.89.251/assets/images/ANIMAL PLANET HD1745038671.png",
-    "epg_id": "animal.planet.hd",
+    "logo": "https://tvassets.roarzone.info/images/animalplanet.png",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/ANIMAL.PLANET.HD/index.m3u8?token=13ce46f2a4a0d2d847c8e6942f725868b8132d2f-abe5faa324721fa118fde27e3afa434f-1773684707-1773673907&remote=no_check_ip",
-        "latency": 562,
+        "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
+        "latency": 494,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/animal-planet-hd/index.m3u8?token=0e80589f7f3fc4df35cb41025e15b36454a7f5c9-064fecfd9ba3bd484d043af83c771d8b-1773685770-1773682170",
+        "latency": 945,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://edge2.roarzone.info:8447/roarzone/edge3/animal-planet-hd/index.m3u8?token=504f2b0261b9fe4480a106b0616942f5d416b1fe-274184aebce764a989b6f0f749279643-1773652279-1773648679",
-        "latency": 1132,
+        "latency": 1052,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
-      },
+      }
+    ]
+  },
+  {
+    "id": "cgtndocu",
+    "name": "CGTN Docu",
+    "category": "Documentary",
+    "logo": "https://s3.aynaott.com/storage/319020b844885cbabcd34e3f2f84d283",
+    "servers": [
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/animal-planet-hd/index.m3u8?token=f1a9d70ea0511ed47d258c987de9acc5faba1e28-ff02d3383c3a4d6dbe918b541f24f1b0-1773681279-1773677679",
-        "latency": 1133,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
-        "latency": 1199,
-        "quality": "HD",
+        "url": "https://tvsen6.aynascope.net/cgtnDocumentary/index.m3u8?e=1773689871&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5ee3baa3baa8ba6ea8733976dc6d6cd7",
+        "latency": 1249,
+        "quality": "",
         "stability": 1,
         "type": "hls"
       }
@@ -55,33 +62,25 @@
     "id": "discovery",
     "name": "Discovery",
     "category": "Documentary",
-    "logo": "http://103.144.89.251/assets/images/discovery hd.png",
-    "epg_id": "discovery.hd",
+    "logo": "https://tvassets.roarzone.info/images/43.png",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/DISCOVERY.HD/index.m3u8?token=76a55507f7aa88deed156b61209c7f7eb1a96a7f-3baa3265af9610334be6ef6584eef246-1773684714-1773673914&remote=no_check_ip",
-        "latency": 559,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/discovery-hd/index.m3u8?token=3f93287a2608fec3ff3526b110c1ec29164eda2c-b99438553deaaa6ff08554a111cffce3-1773685770-1773682170",
+        "latency": 962,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://edge2.roarzone.info:8447/roarzone/edge3/discovery-hd/index.m3u8?token=713ec504e3051f7c2b2eeff042c879674b0bd161-12899b2d881976930df2e49034c56b2e-1773652279-1773648679",
-        "latency": 1073,
+        "latency": 1067,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/discovery-hd/index.m3u8?token=c255cd29e94492c423338956ea2aeedec712921b-dcd48fd0b57dc982c0ba5fe34a934345-1773681279-1773677679",
-        "latency": 1150,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/discovery_hd/index.m3u8?e=1773684590&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=718dd65c546be5b1647d8b3813c50ee5",
-        "latency": 1546,
+        "url": "https://tvsen6.aynascope.net/discovery_hd/index.m3u8?e=1773689849&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5b2ca9cf322669a707089378f338b5f5",
+        "latency": 1210,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -95,8 +94,8 @@
     "logo": "https://s3.aynaott.com/storage/3f7983c0bc7cacd206dd195a2eff6b10",
     "servers": [
       {
-        "url": "https://tvsen5.aynascope.net/discoveryfamily/index.m3u8?e=1773684616&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b62b96fd6b8fa28733264bf87044d50c",
-        "latency": 1225,
+        "url": "https://tvsen5.aynascope.net/discoveryfamily/index.m3u8?e=1773689874&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f9975b59a3ed8b658889cbbc7256b393",
+        "latency": 1343,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -110,15 +109,15 @@
     "logo": "https://tvassets.roarzone.info/images/discoveryhdInvestigation.png",
     "servers": [
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/investigation-discovery-hd/index.m3u8?token=74b23ec97b1f8b9c1bfc26ae26b3b2d4fb29e757-75ef8de5f273a830e1e6907c2813bdd3-1773652279-1773648679",
-        "latency": 1130,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/investigation-discovery-hd/index.m3u8?token=903b623810de804345187712a528bcd705449e7b-fd855286af348e75ab2e6c0d7de9e671-1773685770-1773682170",
+        "latency": 939,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/investigation-discovery-hd/index.m3u8?token=41035ee8501310ec45e66bd682b0861d17c3dbf5-6e161da482c6f256fd41d62117ca9e0f-1773681279-1773677679",
-        "latency": 1160,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/investigation-discovery-hd/index.m3u8?token=74b23ec97b1f8b9c1bfc26ae26b3b2d4fb29e757-75ef8de5f273a830e1e6907c2813bdd3-1773652279-1773648679",
+        "latency": 1039,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -132,22 +131,22 @@
     "logo": "https://tvassets.roarzone.info/images/discoveryscience.png",
     "servers": [
       {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/discovery-science/index.m3u8?token=3dbcf88c056c33c49d20a9342dcb0b55a2b14bb7-c1493b4b36050e8c6302212d2e6c5576-1773685770-1773682170",
+        "latency": 945,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
         "url": "https://edge2.roarzone.info:8447/roarzone/edge3/discovery-science/index.m3u8?token=051112863128afd0ec0f0784c66dbde0fd144dcb-0c115d0dc35381a98df8902a17ab54e2-1773652279-1773648679",
-        "latency": 1162,
+        "latency": 1061,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/discovery-science/index.m3u8?token=6c92ffa227c724290effc49b2a0252e1a7fd5dda-1d412b8eec1b4900366d2ba4d4c031e7-1773681279-1773677679",
-        "latency": 1167,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/discovery_science/index.m3u8?e=1773684582&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=9551d74881e9fdf645f9e7f1fab1784f",
-        "latency": 1214,
+        "url": "https://tvsen6.aynascope.net/discovery_science/index.m3u8?e=1773689841&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=dcbacfabc5bfe46b77dbea74377320f0",
+        "latency": 1286,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -161,22 +160,22 @@
     "logo": "https://tvassets.roarzone.info/images/discoveryturbo.png",
     "servers": [
       {
+        "url": "https://tvsen6.aynascope.net/discovery_turbo/index.m3u8?e=1773689871&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=278d82e5c505e5e82c1d2e1f73404766",
+        "latency": 560,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/discovery-turbo/index.m3u8?token=8249055d748771729bd199c54b0c378533192a1f-25dec704f890aea49724108211d414de-1773685770-1773682170",
+        "latency": 955,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
         "url": "https://edge2.roarzone.info:8447/roarzone/edge3/discovery-turbo/index.m3u8?token=d91461a57eeeee904f63c0a887a4c93b903fa842-20a032a49853866dcc661684efec5ce8-1773652279-1773648679",
-        "latency": 1140,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/discovery-turbo/index.m3u8?token=b43ad6c45992abf4fdc4d91c51af3d059595b5c8-f63175c300e49850d0a5479426967dbb-1773681279-1773677679",
-        "latency": 1165,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/discovery_turbo/index.m3u8?e=1773684613&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=d7b4c85343a7ff7e14d853ce3315cfea",
-        "latency": 1172,
+        "latency": 1067,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -191,7 +190,7 @@
     "servers": [
       {
         "url": "https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8",
-        "latency": 536,
+        "latency": 645,
         "quality": "SD",
         "stability": 1,
         "type": "hls"
@@ -205,25 +204,9 @@
     "logo": "https://s3.aynaott.com/storage/72ea808c9221d980cb79623ce3c5e820",
     "servers": [
       {
-        "url": "https://tvsen5.aynascope.net/historyen/index.m3u8?e=1773684612&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a5dec710b2192c059b905a35102de93d",
-        "latency": 759,
+        "url": "https://tvsen5.aynascope.net/historyen/index.m3u8?e=1773689870&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=178722406e1ef71cf683ff094e20566d",
+        "latency": 1274,
         "quality": "",
-        "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "historytv",
-    "name": "History Tv",
-    "category": "Documentary",
-    "logo": "http://103.144.89.251/assets/images/HISTORY TV HD1745033679.png",
-    "epg_id": "history.tv.hd",
-    "servers": [
-      {
-        "url": "http://103.144.89.251:8082/HISTORY.TV.18.HD/index.m3u8?token=ca8d4b15ea215c49b8adff003696e9b47a17c6e0-1b0be4c02dbe9439e2dc3d0088a3cb06-1773684720-1773673920&remote=no_check_ip",
-        "latency": 561,
-        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -238,9 +221,9 @@
     "servers": [
       {
         "url": "https://amg01550-amg01550c6-samsung-in-4679.playouts.now.amagi.tv/playlist/amg01550-indiatvfast-indiatvakasamsung-samsungin/playlist.m3u8",
-        "latency": 296,
+        "latency": 486,
         "quality": "FHD",
-        "stability": 0.9423076923076923,
+        "stability": 0.9433962264150944,
         "type": "hls"
       }
     ]
@@ -253,7 +236,7 @@
     "servers": [
       {
         "url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8",
-        "latency": 441,
+        "latency": 415,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -269,7 +252,7 @@
     "servers": [
       {
         "url": "https://amg00861-amg00861c7-stirr-us-8227.playouts.now.amagi.tv/playlist.m3u8",
-        "latency": 434,
+        "latency": 308,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -283,41 +266,9 @@
     "logo": "https://s3.aynaott.com/storage/2dce8297266bbc9c235c27119f914e1b",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/natgeo/index.m3u8?e=1773684625&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b7547a08e8e92ba7bd73f8f9346af07e",
-        "latency": 799,
+        "url": "https://tvsen6.aynascope.net/natgeo/index.m3u8?e=1773689882&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=765576bb2faa962c1e857289c2b84c27",
+        "latency": 1089,
         "quality": "",
-        "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "natgeowild",
-    "name": "Natgeo Wild",
-    "category": "Documentary",
-    "logo": "http://103.144.89.251/assets/images/NATGEO WILD HD1745038542.png",
-    "epg_id": "natgeo.wild.hd",
-    "servers": [
-      {
-        "url": "http://103.144.89.251:8082/NATGEO.WILD.HD/index.m3u8?token=81ab0b53a455ced34ab140c04f3212bf9825be5b-ab4635138fb2ef581cd8c50f0c06eb24-1773684729-1773673929&remote=no_check_ip",
-        "latency": 523,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "nationalgeographic",
-    "name": "National Geographic",
-    "category": "Documentary",
-    "logo": "http://103.144.89.251/assets/images/NATGEO HD1745038634.png",
-    "epg_id": "natgeo.hd",
-    "servers": [
-      {
-        "url": "http://103.144.89.251:8082/NATGEO.HD/index.m3u8?token=c0575a99356155b36d5dd82b959ca0dc5a1d47de-a14b66e6cce101229f933b66178a6ec9-1773684728-1773673928&remote=no_check_ip",
-        "latency": 553,
-        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -331,7 +282,7 @@
     "servers": [
       {
         "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8",
-        "latency": 277,
+        "latency": 312,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -347,9 +298,9 @@
     "servers": [
       {
         "url": "https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8",
-        "latency": 850,
+        "latency": 537,
         "quality": "SD",
-        "stability": 0.9807692307692307,
+        "stability": 0.9811320754716981,
         "type": "hls"
       }
     ]
