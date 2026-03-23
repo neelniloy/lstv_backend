@@ -1,15 +1,32 @@
 [
   {
-    "id": "channelsuk",
-    "name": "Channel S Uk",
+    "id": "canal2international",
+    "name": "Canal 2 International",
     "category": "International",
-    "logo": "",
+    "logo": "https://i.imgur.com/BzA2z7m.png",
+    "epg_id": "Canal2International.cm@SD",
     "servers": [
       {
-        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8",
-        "latency": 155,
-        "quality": "HD",
-        "stability": 0.9775280898876404,
+        "url": "http://69.64.57.208/canal2international/playlist.m3u8",
+        "latency": 519,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "france2",
+    "name": "France 2",
+    "category": "International",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png",
+    "epg_id": "France2.fr@SD",
+    "servers": [
+      {
+        "url": "http://69.64.57.208/france2/mono.m3u8",
+        "latency": 527,
+        "quality": "FHD",
+        "stability": 1,
         "type": "hls"
       }
     ]
@@ -22,9 +39,9 @@
     "servers": [
       {
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8",
-        "latency": 154,
+        "latency": 322,
         "quality": "",
-        "stability": 0.976878612716763,
+        "stability": 0.9770114942528736,
         "type": "hls"
       }
     ]
@@ -37,8 +54,24 @@
     "servers": [
       {
         "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8",
-        "latency": 263,
+        "latency": 856,
         "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "france5",
+    "name": "France 5",
+    "category": "International",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png",
+    "epg_id": "France5.fr@SD",
+    "servers": [
+      {
+        "url": "http://69.64.57.208/france5/mono.m3u8",
+        "latency": 547,
+        "quality": "FHD",
         "stability": 1,
         "type": "hls"
       }
@@ -53,9 +86,40 @@
     "servers": [
       {
         "url": "https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8",
-        "latency": 728,
+        "latency": 1097,
         "quality": "FHD",
-        "stability": 0.9943181818181818,
+        "stability": 0.9943502824858758,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "globaltv",
+    "name": "Global Tv",
+    "category": "International",
+    "logo": "https://s3.aynaott.com/storage/ffd7ba9b76ad555933f94bcb7ff26b44",
+    "servers": [
+      {
+        "url": "https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1774249571&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=926f52fe5edcc312876f535cf0c7e55c",
+        "latency": 2778,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "golfchannellatinamerica",
+    "name": "Golf Channel Latin America",
+    "category": "International",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Golf_Channel_Logo_2018.png/960px-Golf_Channel_Logo_2018.png",
+    "epg_id": "GolfChannelLatinAmerica.us@SD",
+    "servers": [
+      {
+        "url": "http://181.114.57.246:4000/play/BHGDIhvdyuw/index.m3u8",
+        "latency": 650,
+        "quality": "",
+        "stability": 1,
         "type": "hls"
       }
     ]
@@ -69,9 +133,24 @@
     "servers": [
       {
         "url": "https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8",
-        "latency": 1169,
+        "latency": 1571,
         "quality": "SD",
-        "stability": 0.9204545454545454,
+        "stability": 0.9209039548022598,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "ibtvusa",
+    "name": "Ibtv USA",
+    "category": "International",
+    "logo": "https://s3.aynaott.com/storage/1678abdbf203bb77af4bbf2905a3de59",
+    "servers": [
+      {
+        "url": "https://tvsen7.aynascope.net/ibtvusa/index.m3u8?e=1774249719&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=8bde5e1f4baca8c279367e2ba3834e84",
+        "latency": 421,
+        "quality": "",
+        "stability": 1,
         "type": "hls"
       }
     ]
@@ -84,7 +163,7 @@
     "servers": [
       {
         "url": "https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8",
-        "latency": 282,
+        "latency": 790,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -99,8 +178,24 @@
     "epg_id": "216",
     "servers": [
       {
-        "url": "https://yuppnimrestreammum.akamaized.net/090823/smil:manatvint.smil/playlist.m3u8?hdnts=st%3D1774235883~exp%3D1774257483~acl%3D%21%2A%2F090823%2Fsmil%3Amanatvint.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_57.151.121.193_yuppfast_2_channel_216_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_57.151.121.193_yuppfast_2_channel_216_-1~hmac%3D92271e37ca1f892453e26684eb8b117c6a181777f84e7e410e4bc6134981258e",
-        "latency": 1025,
+        "url": "https://livegeorouus.akamaized.net/090823/smil:manatvint.smil/playlist.m3u8?hdnts=st%3D1774243471~exp%3D1774265071~acl%3D%21%2A%2F090823%2Fsmil%3Amanatvint.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_20.169.72.169_yuppfast_2_channel_216_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_20.169.72.169_yuppfast_2_channel_216_-1~hmac%3D627f17042542b6c65267c9e0ffbc87cb41ff46937704b277cdd65fc3afe69c93",
+        "latency": 192,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "mbcchungbuk",
+    "name": "Mbc Chungbuk",
+    "category": "International",
+    "logo": "https://i.imgur.com/uR0gScb.png",
+    "epg_id": "HLAODTV.kr@SD",
+    "servers": [
+      {
+        "url": "http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8",
+        "latency": 772,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -115,7 +210,7 @@
     "servers": [
       {
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ntvuk00332211.stream/playlist.m3u8",
-        "latency": 150,
+        "latency": 314,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -130,9 +225,39 @@
     "epg_id": "67",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-YuppTV/title-THE-CHUKKER-CHANNEL-INT_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3bd726a3-0d30-491d-b5e7-e1afb6e02112/master.m3u8?hdnts=st%3D1774235923~exp%3D1774257523~acl%3D%21%2A%2Fptnr-YuppTV%2Ftitle-THE-CHUKKER-CHANNEL-INT_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F3bd726a3-0d30-491d-b5e7-e1afb6e02112%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_57.151.121.193_yuppfast_2_channel_67_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_57.151.121.193_yuppfast_2_channel_67_-1~hmac%3Da07500ac561b5e5278b36af6b91666ae5991859d2a7edbfe568fab6aaa6f49a8",
-        "latency": 814,
+        "url": "https://streams2.sofast.tv/ptnr-YuppTV/title-THE-CHUKKER-CHANNEL-INT_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3bd726a3-0d30-491d-b5e7-e1afb6e02112/master.m3u8?hdnts=st%3D1774243535~exp%3D1774265135~acl%3D%21%2A%2Fptnr-YuppTV%2Ftitle-THE-CHUKKER-CHANNEL-INT_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F3bd726a3-0d30-491d-b5e7-e1afb6e02112%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_20.169.72.169_yuppfast_2_channel_67_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_20.169.72.169_yuppfast_2_channel_67_-1~hmac%3D2247b5b740b2a158164d4b20a44e5521ae5620c7e6179192a4acc068d252f4c8",
+        "latency": 885,
         "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "usatv",
+    "name": "USA Tv",
+    "category": "International",
+    "logo": "https://s3.aynaott.com/storage/376b8483457b06dbc5b7b7b327a21ac6",
+    "servers": [
+      {
+        "url": "https://tvsen6.aynascope.net/usa/index.m3u8?e=1774249723&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3be22deda4b27dfc9522b1ae1846231e",
+        "latency": 1011,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "zeebanglainternational",
+    "name": "ZEE Bangla International",
+    "category": "International",
+    "logo": "https://s3.aynaott.com/storage/0cb865748deefd42e69fd9a221cf38ee",
+    "servers": [
+      {
+        "url": "https://tvsen5.aynascope.net/PNEb3v2q6GBk/index.m3u8?e=1774249767&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5075758b7794eaddc2f30b557a333739",
+        "latency": 529,
+        "quality": "",
         "stability": 1,
         "type": "hls"
       }
@@ -146,8 +271,8 @@
     "epg_id": "29",
     "servers": [
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeeupuk/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/a8c57b70-538f-49ae-af12-2fc2acaa4ff1/main.m3u8?hdnts=st%3D1774235840~exp%3D1774257440~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeeupuk%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fa8c57b70-538f-49ae-af12-2fc2acaa4ff1%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_57.151.121.193_yuppfast_2_channel_29_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_57.151.121.193_yuppfast_2_channel_29_-1~hmac%3Dfc6866f384f19a37689641b05648c311550cfa883dd93299b49fddba1a2b2411",
-        "latency": 957,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeeupuk/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/a8c57b70-538f-49ae-af12-2fc2acaa4ff1/main.m3u8?hdnts=st%3D1774243405~exp%3D1774265005~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeeupuk%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fa8c57b70-538f-49ae-af12-2fc2acaa4ff1%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_20.169.72.169_yuppfast_2_channel_29_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_20.169.72.169_yuppfast_2_channel_29_-1~hmac%3D02984c69945a7e03b9ba1e893d7b27f4919cfc37c8b515877f67e3929cc63082",
+        "latency": 365,
         "quality": "HD",
         "stability": 1,
         "type": "hls"

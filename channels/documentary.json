@@ -7,7 +7,7 @@
     "servers": [
       {
         "url": "https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8",
-        "latency": 239,
+        "latency": 1166,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -18,20 +18,27 @@
     "id": "animalplanet",
     "name": "Animal Planet",
     "category": "Documentary",
-    "logo": "http://103.144.89.251/assets/images/ANIMAL PLANET HD1745038671.png",
-    "epg_id": "animal.planet.hd",
+    "logo": "https://s3.aynaott.com/storage/18d95033c5d53fc3b159141a842fdeac",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/ANIMAL.PLANET.HD/index.m3u8?token=a4029ce4023d4af14a6418a02c6ed880decd8c2f-7d4d2b37c8a854b1de566d1e2d9448a7-1774248351-1774237551&remote=no_check_ip",
-        "latency": 539,
+        "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
+        "latency": 1594,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
-      },
+      }
+    ]
+  },
+  {
+    "id": "cgtndocu",
+    "name": "CGTN Docu",
+    "category": "Documentary",
+    "logo": "https://s3.aynaott.com/storage/319020b844885cbabcd34e3f2f84d283",
+    "servers": [
       {
-        "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
-        "latency": 1248,
-        "quality": "HD",
+        "url": "https://tvsen6.aynascope.net/cgtnDocumentary/index.m3u8?e=1774249704&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3f4d1fdc464013d0fd0d86b6c4a6053e",
+        "latency": 306,
+        "quality": "",
         "stability": 1,
         "type": "hls"
       }
@@ -41,13 +48,57 @@
     "id": "discovery",
     "name": "Discovery",
     "category": "Documentary",
-    "logo": "http://103.144.89.251/assets/images/discovery hd.png",
-    "epg_id": "discovery.hd",
+    "logo": "https://s3.aynaott.com/storage/99526d9269f86250d6bb6cb625cd8275",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/DISCOVERY.HD/index.m3u8?token=ee0f2aba87d8d0b7ae8e3dd3d401f32b0ac738c7-0b924cc460e2ca855fda552ded144c56-1774248358-1774237558&remote=no_check_ip",
-        "latency": 511,
+        "url": "https://tvsen6.aynascope.net/discovery_hd/index.m3u8?e=1774249682&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a0ed30d73e8174a3cef7f6392a4cf6b8",
+        "latency": 434,
         "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "discoveryfamily",
+    "name": "Discovery Family",
+    "category": "Documentary",
+    "logo": "https://s3.aynaott.com/storage/3f7983c0bc7cacd206dd195a2eff6b10",
+    "servers": [
+      {
+        "url": "https://tvsen5.aynascope.net/discoveryfamily/index.m3u8?e=1774249707&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=bd8780ffc4c16de66757fba9231fa5d2",
+        "latency": 421,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "discoveryscience",
+    "name": "Discovery Science",
+    "category": "Documentary",
+    "logo": "https://s3.aynaott.com/storage/530b47c088522c355a93788fd80fbb1b",
+    "servers": [
+      {
+        "url": "https://tvsen6.aynascope.net/discovery_science/index.m3u8?e=1774249675&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5b14288c71934b8de06d3c4e1109da88",
+        "latency": 776,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "discoveryturbo",
+    "name": "Discovery Turbo",
+    "category": "Documentary",
+    "logo": "https://s3.aynaott.com/storage/d3f1746d033e2c46deca83fd5e54b08b",
+    "servers": [
+      {
+        "url": "https://tvsen6.aynascope.net/discovery_turbo/index.m3u8?e=1774249704&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=fc6e396bead3d7c1c01c5ae7b41cffd2",
+        "latency": 306,
+        "quality": "",
         "stability": 1,
         "type": "hls"
       }
@@ -61,57 +112,40 @@
     "servers": [
       {
         "url": "https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8",
-        "latency": 768,
+        "latency": 1100,
         "quality": "SD",
-        "stability": 0.9943820224719101,
+        "stability": 0.994413407821229,
         "type": "hls"
       }
     ]
   },
   {
-    "id": "historytv",
-    "name": "History Tv",
+    "id": "geokahani",
+    "name": "Geo Kahani",
     "category": "Documentary",
-    "logo": "http://103.144.89.251/assets/images/HISTORY TV HD1745033679.png",
-    "epg_id": "history.tv.hd",
+    "logo": "https://i.imgur.com/uKYH0IM.png",
+    "epg_id": "GeoKahani.pk@SD",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/HISTORY.TV.18.HD/index.m3u8?token=9cf772f843e33929cb0a7ba8b33c0f2806615e0a-ffa4b66694414b565ea8271402fd6962-1774248362-1774237562&remote=no_check_ip",
-        "latency": 549,
-        "quality": "HD",
+        "url": "http://116.90.120.151:8000/play/a023/index.m3u8",
+        "latency": 347,
+        "quality": "",
         "stability": 1,
         "type": "hls"
       }
     ]
   },
   {
-    "id": "historytv18",
-    "name": "History Tv18",
+    "id": "history",
+    "name": "History",
     "category": "Documentary",
-    "logo": "https://dtil.tmsimg.com/assets/s143133_ld_h15_aa.png?lock=720x540",
-    "epg_id": "HistoryTV18.in@HD",
+    "logo": "https://s3.aynaott.com/storage/72ea808c9221d980cb79623ce3c5e820",
     "servers": [
       {
-        "url": "https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8",
-        "latency": 353,
-        "quality": "FHD",
+        "url": "https://tvsen5.aynascope.net/historyen/index.m3u8?e=1774249703&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=025ad54ccb3ef26962652a9ad7127251",
+        "latency": 473,
+        "quality": "",
         "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "indiatvaapkiadalat",
-    "name": "India Tv Aap Ki Adalat",
-    "category": "Documentary",
-    "logo": "https://play-lh.googleusercontent.com/2IlBX3IQHna8g4g-56vwGWb14K38spcviIh3i7uJCJ32ydfhcKZdOsacgijPkPeerEA",
-    "epg_id": "IndiaTVAapKiAdalat.in@SD",
-    "servers": [
-      {
-        "url": "https://amg01550-amg01550c6-samsung-in-4679.playouts.now.amagi.tv/playlist/amg01550-indiatvfast-indiatvakasamsung-samsungin/playlist.m3u8",
-        "latency": 432,
-        "quality": "FHD",
-        "stability": 0.9829545454545454,
         "type": "hls"
       }
     ]
@@ -124,7 +158,7 @@
     "servers": [
       {
         "url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8",
-        "latency": 492,
+        "latency": 842,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -140,7 +174,7 @@
     "servers": [
       {
         "url": "https://amg00861-amg00861c7-stirr-us-8227.playouts.now.amagi.tv/playlist.m3u8",
-        "latency": 278,
+        "latency": 1258,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -148,16 +182,15 @@
     ]
   },
   {
-    "id": "natgeowild",
-    "name": "Natgeo Wild",
+    "id": "natgeotv",
+    "name": "Nat Geo Tv",
     "category": "Documentary",
-    "logo": "http://103.144.89.251/assets/images/NATGEO WILD HD1745038542.png",
-    "epg_id": "natgeo.wild.hd",
+    "logo": "https://s3.aynaott.com/storage/2dce8297266bbc9c235c27119f914e1b",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/NATGEO.WILD.HD/index.m3u8?token=f57b4b941e063215f5621cae1fae1c0de0842c1e-0861123e181fa1e8669acf1a3d9ad92f-1774248370-1774237570&remote=no_check_ip",
-        "latency": 471,
-        "quality": "HD",
+        "url": "https://tvsen6.aynascope.net/natgeo/index.m3u8?e=1774249715&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=19907a362b2d34a9587cd36159cf5a46",
+        "latency": 361,
+        "quality": "",
         "stability": 1,
         "type": "hls"
       }
@@ -167,19 +200,19 @@
     "id": "nationalgeographic",
     "name": "National Geographic",
     "category": "Documentary",
-    "logo": "http://103.144.89.251/assets/images/NATGEO HD1745038634.png",
-    "epg_id": "natgeo.hd",
+    "logo": "https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540",
+    "epg_id": "NationalGeographic.in@HD",
     "servers": [
       {
-        "url": "http://103.144.89.251:8082/NATGEO.HD/index.m3u8?token=8604151106471c14869ae509b7bb377694879ff1-b6f7339a0fc86ba410a1b6e1f7c1d893-1774248370-1774237570&remote=no_check_ip",
-        "latency": 451,
+        "url": "http://151.80.18.177:86/National_Geo_HD/index.m3u8",
+        "latency": 646,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "http://116.90.120.151:8000/play/a0in/index.m3u8",
-        "latency": 620,
+        "latency": 2324,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -195,7 +228,7 @@
     "servers": [
       {
         "url": "http://116.90.120.151:8000/play/a0ie/index.m3u8",
-        "latency": 621,
+        "latency": 2323,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -210,7 +243,7 @@
     "servers": [
       {
         "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8",
-        "latency": 4827,
+        "latency": 1726,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -226,9 +259,9 @@
     "servers": [
       {
         "url": "https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8",
-        "latency": 735,
+        "latency": 1503,
         "quality": "SD",
-        "stability": 0.9886363636363636,
+        "stability": 0.9887005649717514,
         "type": "hls"
       }
     ]
