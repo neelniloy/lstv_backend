@@ -17,7 +17,7 @@ type downloadResult struct {
 	Error   error
 }
 
-// FetchPlaylists reads sources.txt and downloads each playlist content.
+// FetchPlaylists reads sourcesPath and downloads or reads each playlist content.
 func FetchPlaylists(sourcesPath string) ([]string, error) {
 	file, err := os.Open(sourcesPath)
 	if err != nil {
@@ -25,12 +25,12 @@ func FetchPlaylists(sourcesPath string) ([]string, error) {
 	}
 	defer file.Close()
 
-	var urls []string
+	var sources []string
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
-		url := strings.TrimSpace(scanner.Text())
-		if url != "" && !strings.HasPrefix(url, "#") {
-			urls = append(urls, url)
+		line := strings.TrimSpace(scanner.Text())
+		if line != "" && !strings.HasPrefix(line, "#") {
+			sources = append(sources, line)
 		}
 	}
 
@@ -38,19 +38,28 @@ func FetchPlaylists(sourcesPath string) ([]string, error) {
 		return nil, fmt.Errorf("error reading sources file: %w", err)
 	}
 
-	total := len(urls)
+	total := len(sources)
 	playlists := make([]string, total)
 	results := make(chan downloadResult, total)
 	var wg sync.WaitGroup
 
-	for i, url := range urls {
+	for i, source := range sources {
 		wg.Add(1)
-		go func(index int, u string) {
+		go func(index int, s string) {
 			defer wg.Done()
-			fmt.Printf("Fetching playlist [%d/%d]: %s\n", index+1, total, u)
-			content, err := downloadURL(u)
+			var content string
+			var err error
+
+			if strings.HasPrefix(s, "http://") || strings.HasPrefix(s, "https://") {
+				fmt.Printf("Fetching playlist [%d/%d]: %s\n", index+1, total, s)
+				content, err = downloadURL(s)
+			} else {
+				fmt.Printf("Reading local playlist [%d/%d]: %s\n", index+1, total, s)
+				content, err = readLocalFile(s)
+			}
+
 			results <- downloadResult{Index: index, Content: content, Error: err}
-		}(i, url)
+		}(i, source)
 	}
 
 	go func() {
@@ -61,14 +70,14 @@ func FetchPlaylists(sourcesPath string) ([]string, error) {
 	successCount := 0
 	for res := range results {
 		if res.Error != nil {
-			fmt.Printf("Warning: failed to download playlist at index %d: %v\n", res.Index, res.Error)
+			fmt.Printf("Warning: failed to load playlist at index %d: %v\n", res.Index, res.Error)
 			continue
 		}
 		playlists[res.Index] = res.Content
 		successCount++
 	}
 
-	// Filter out empty strings (failed downloads)
+	// Filter out empty strings (failed loads)
 	var filtered []string
 	for _, p := range playlists {
 		if p != "" {
@@ -76,7 +85,7 @@ func FetchPlaylists(sourcesPath string) ([]string, error) {
 		}
 	}
 
-	fmt.Printf("Successfully fetched %d/%d playlists.\n", successCount, total)
+	fmt.Printf("Successfully loaded %d/%d playlists.\n", successCount, total)
 	return filtered, nil
 }
 
@@ -97,4 +106,12 @@ func downloadURL(url string) (string, error) {
 	}
 
 	return string(body), nil
+}
+
+func readLocalFile(path string) (string, error) {
+	content, err := os.ReadFile(path)
+	if err != nil {
+		return "", fmt.Errorf("failed to read local file %s: %w", path, err)
+	}
+	return string(content), nil
 }
