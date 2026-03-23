@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-func runPipeline() {
+func runPipeline() error {
 	fmt.Printf("\n--- Starting Pipeline: %s ---\n", time.Now().Format(time.RFC3339))
 
 	// 0. Load Stability Data
@@ -19,8 +19,7 @@ func runPipeline() {
 	// 1. Fetch Playlists
 	playlists, err := FetchPlaylists("sources.txt")
 	if err != nil {
-		fmt.Printf("Error fetching playlists: %v\n", err)
-		return
+		return fmt.Errorf("error fetching playlists: %w", err)
 	}
 
 	// 2. Parse and Normalize
@@ -68,13 +67,12 @@ func runPipeline() {
 	}
 
 	// 5. Generate JSON
-	err = GenerateJSON(healthyEntries, "channels.json")
-	if err != nil {
-		fmt.Printf("Error generating output: %v\n", err)
-		return
+	if err := GenerateJSON(healthyEntries, "channels.json"); err != nil {
+		return fmt.Errorf("error generating output: %w", err)
 	}
 
 	fmt.Printf("--- Pipeline Completed: %v ---\n", time.Now().Format(time.RFC3339))
+	return nil
 }
 
 func main() {
@@ -83,7 +81,10 @@ func main() {
 
 	if *cronMode {
 		fmt.Println("Running in CRON mode (one-shot)")
-		runPipeline()
+		if err := runPipeline(); err != nil {
+			fmt.Fprintf(os.Stderr, "Pipeline failed: %v\n", err)
+			os.Exit(1)
+		}
 		os.Exit(0)
 	}
 
