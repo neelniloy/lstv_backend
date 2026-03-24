@@ -3,12 +3,19 @@
     "id": "10tv",
     "name": "10 Tv",
     "category": "News",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_10TV/images/LOGO_HD/image.png",
-    "epg_id": "10TV.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/10tv.png",
+    "epg_id": "147",
     "servers": [
       {
+        "url": "https://yuppirecloriginvt.akamaized.net/181224/smil:10tv.smil/playlist.m3u8?hdnts=st%3D1774371665~exp%3D1774393265~acl%3D%21%2A%2F181224%2Fsmil%3A10tv.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_147_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_147_-1~hmac%3D09e6b3f0ad914da0e775340c40131cce04065a3997f6645797d18fa748b06107",
+        "latency": 81,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
         "url": "https://cdn-1.pishow.tv/live/391/master.m3u8",
-        "latency": 769,
+        "latency": 698,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -24,7 +31,7 @@
     "servers": [
       {
         "url": "http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8",
-        "latency": 362,
+        "latency": 285,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -40,8 +47,24 @@
     "servers": [
       {
         "url": "https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8",
-        "latency": 947,
+        "latency": 897,
         "quality": "FHD",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "24ghanta",
+    "name": "24 Ghanta",
+    "category": "News",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/uperuc.png",
+    "epg_id": "7",
+    "servers": [
+      {
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee24ghanta/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f386957b-dfda-4779-8dd8-f525e37d92ab/main.m3u8?hdnts=st%3D1774371661~exp%3D1774393261~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zee24ghanta%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Ff386957b-dfda-4779-8dd8-f525e37d92ab%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_7_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_7_-1~hmac%3Db57452532b06966c9a162f8b71f02f2f71a937f34b808fc51a98c35ae928d6b4",
+        "latency": 323,
+        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -56,9 +79,25 @@
     "servers": [
       {
         "url": "https://segment.yuppcdn.net/110322/channel24/playlist.m3u8",
-        "latency": 277,
+        "latency": 3,
         "quality": "",
-        "stability": 0.9851485148514851,
+        "stability": 0.9852216748768473,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "24taas",
+    "name": "24 Taas",
+    "category": "News",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/ldybum.png",
+    "epg_id": "6",
+    "servers": [
+      {
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee24_taas/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4de43174-6b8f-4a36-9209-fe80b21b8733/main.m3u8?hdnts=st%3D1774371659~exp%3D1774393259~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zee24_taas%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F4de43174-6b8f-4a36-9209-fe80b21b8733%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_6_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_6_-1~hmac%3D83ec8ed6b0059d42a15c9e0d457ac1e57ee1d27a515abd16b0184c92f625da13",
+        "latency": 341,
+        "quality": "HD",
+        "stability": 1,
         "type": "hls"
       }
     ]
@@ -72,7 +111,7 @@
     "servers": [
       {
         "url": "https://cdn-4.pishow.tv/live/1007/master.m3u8",
-        "latency": 702,
+        "latency": 634,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -88,9 +127,9 @@
     "servers": [
       {
         "url": "https://cdn-1.pishow.tv/live/232/master.m3u8",
-        "latency": 784,
+        "latency": 685,
         "quality": "",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -103,8 +142,8 @@
     "epg_id": "148",
     "servers": [
       {
-        "url": "https://yuppparoriglin.akamaized.net/181224/smil:6tv.smil/playlist.m3u8?hdnts=st%3D1774367119~exp%3D1774388719~acl%3D%21%2A%2F181224%2Fsmil%3A6tv.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_148_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_148_-1~hmac%3D4a4655ed1b9a69e3982d116ff72955fd24ab1be0a9dc42693ea17a9352bd8dfa",
-        "latency": 137,
+        "url": "https://yuppparoriglin.akamaized.net/181224/smil:6tv.smil/playlist.m3u8?hdnts=st%3D1774371667~exp%3D1774393267~acl%3D%21%2A%2F181224%2Fsmil%3A6tv.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_148_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_148_-1~hmac%3Df01a67a4003aa76adce5600f0cdb88fa6d5466b51204218f49e2d2e801c605b5",
+        "latency": 36,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -120,7 +159,7 @@
     "servers": [
       {
         "url": "https://cdn-1.pishow.tv/live/1211/master.m3u8",
-        "latency": 773,
+        "latency": 690,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -131,19 +170,12 @@
     "id": "abpananda",
     "name": "ABP Ananda",
     "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/wlyrmq.png",
-    "epg_id": "226",
+    "logo": "https://dtil.tmsimg.com/assets/s142518_ld_h15_aa.png?lock=720x540",
+    "epg_id": "ABPAnanda.in@SD",
     "servers": [
       {
-        "url": "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-664562/ananda/master.m3u8?hdnts=st%3D1774367113~exp%3D1774388713~acl%3D%21%2A%2Fvglive-sk-664562%2Fananda%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_226_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_226_-1~hmac%3D8cd075e26205267a3796f09b225e817c44d4bc93688c291c60283039330e2ffe",
-        "latency": 318,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master.m3u8",
-        "latency": 802,
+        "latency": 651,
         "quality": "4K",
         "stability": 1,
         "type": "hls"
@@ -154,20 +186,13 @@
     "id": "abpasmita",
     "name": "ABP Asmita",
     "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/ymbgfv.png",
-    "epg_id": "228",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/ABP_Asmita_logo.svg/500px-ABP_Asmita_logo.svg.png",
+    "epg_id": "ABPAsmita.in@SD",
     "servers": [
       {
         "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master.m3u8",
-        "latency": 778,
+        "latency": 714,
         "quality": "4K",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-818459/asmita/master.m3u8?hdnts=st%3D1774367122~exp%3D1774388722~acl%3D%21%2A%2Fvglive-sk-818459%2Fasmita%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_228_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_228_-1~hmac%3Ddaa69956d4019d06f826d04b032495cbfbd1d74fb8eb2ca1f23c0f67fed5b036",
-        "latency": 996,
-        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -182,24 +207,8 @@
     "servers": [
       {
         "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8",
-        "latency": 772,
+        "latency": 647,
         "quality": "4K",
-        "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "abpmajha",
-    "name": "ABP Majha",
-    "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/jhfmvj.png",
-    "epg_id": "227",
-    "servers": [
-      {
-        "url": "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-355289/majha/master.m3u8?hdnts=st%3D1774367109~exp%3D1774388709~acl%3D%21%2A%2Fvglive-sk-355289%2Fmajha%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_227_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_227_-1~hmac%3D9d63956123d07548ed13cbb093bfcde18e023bf1b749b3f54c7bbb32f633bc2f",
-        "latency": 302,
-        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -209,19 +218,12 @@
     "id": "abpnews",
     "name": "ABP News",
     "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/mphzpu.png",
-    "epg_id": "225",
+    "logo": "https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540",
+    "epg_id": "ABPNews.in@SD",
     "servers": [
       {
-        "url": "https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8?hdnts=st%3D1774367093~exp%3D1774388693~acl%3D%21%2A%2Fvglive-sk-472500%2Fabpnews%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_225_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_225_-1~hmac%3D2dc16275286889764d6f792929b23336cf3f313fe940f09a7b5f13c6f4b2b896",
-        "latency": 156,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8",
-        "latency": 759,
+        "latency": 634,
         "quality": "4K",
         "stability": 1,
         "type": "hls"
@@ -237,7 +239,7 @@
     "servers": [
       {
         "url": "https://bozztv.com/rongo/rongo-ATNNews/index.m3u8",
-        "latency": 200,
+        "latency": 105,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -253,14 +255,14 @@
     "servers": [
       {
         "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
-        "latency": 71,
+        "latency": 24,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://feeds.intoday.in/aajtak/api/master.m3u8",
-        "latency": 89,
+        "latency": 29,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -274,8 +276,8 @@
     "logo": "https://s3.aynaott.com/storage/065af1ce1aa68d9d96c27050a8125413",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/AbcNews/index.m3u8?e=1774371932&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=644edf095cc9840921cec701ba14988f",
-        "latency": 1503,
+        "url": "https://tvsen6.aynascope.net/AbcNews/index.m3u8?e=1774377458&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=1e3e55d3ec2e8c9496a740b74e421812",
+        "latency": 1821,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -291,7 +293,7 @@
     "servers": [
       {
         "url": "https://live.legitpro.co.in/cnnnews/index.m3u8",
-        "latency": 941,
+        "latency": 881,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -306,9 +308,9 @@
     "servers": [
       {
         "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
-        "latency": 358,
+        "latency": 66,
         "quality": "",
-        "stability": 0.9950980392156863,
+        "stability": 0.9951219512195122,
         "type": "hls"
       }
     ]
@@ -322,7 +324,7 @@
     "servers": [
       {
         "url": "https://amarujala.ottlive.co.in/amarujala/index.m3u8",
-        "latency": 1732,
+        "latency": 387,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -338,7 +340,7 @@
     "servers": [
       {
         "url": "https://account19.livebox.co.in/Anandabarta2hls/live.m3u8",
-        "latency": 1128,
+        "latency": 916,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -353,17 +355,17 @@
     "epg_id": "ANBNews.in@SD",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/ANB_News/index.m3u8?e=1774371946&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=0ad3720135288006f697a2d16f248007",
-        "latency": 1368,
+        "url": "https://tvsen6.aynascope.net/ANB_News/index.m3u8?e=1774377473&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=21f8ce084607ba4efd2f154919a950b0",
+        "latency": 1689,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://mumt05.tangotv.in/ANBNEWSNATIONAL/index.m3u8",
-        "latency": 940,
+        "latency": 880,
         "quality": "",
-        "stability": 0.9851485148514851,
+        "stability": 0.9852216748768473,
         "type": "hls"
       }
     ]
@@ -377,9 +379,9 @@
     "servers": [
       {
         "url": "https://legitpro.co.in/annnews/annnews/index.m3u8",
-        "latency": 948,
+        "latency": 907,
         "quality": "FHD",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -393,9 +395,9 @@
     "servers": [
       {
         "url": "https://mumt01.tangotv.in/APN/index.m3u8",
-        "latency": 956,
+        "latency": 760,
         "quality": "",
-        "stability": 0.9801980198019802,
+        "stability": 0.9802955665024631,
         "type": "hls"
       }
     ]
@@ -408,8 +410,8 @@
     "epg_id": "152",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/apnnews/playlist.m3u8?hdnts=st%3D1774367104~exp%3D1774388704~acl%3D%21%2A%2Ffta%2Fapnnews%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_152_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_152_-1~hmac%3Da8f803945d2696e1a86cf3bcc8616026dd78aef99bd65985215502e635509d9c",
-        "latency": 488,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/apnnews/playlist.m3u8?hdnts=st%3D1774371653~exp%3D1774393253~acl%3D%21%2A%2Ffta%2Fapnnews%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_152_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_152_-1~hmac%3D59e32358ae468904bf5cb86044fe6301fedd810bf938479c102dd3d6f15396fe",
+        "latency": 463,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -424,8 +426,8 @@
     "epg_id": "153",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/argusnews/playlist.m3u8?hdnts=st%3D1774367131~exp%3D1774388731~acl%3D%21%2A%2Ffta%2Fargusnews%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_153_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_153_-1~hmac%3D7e2b8e0863daa6cb159708ad91756265d51acb36b5e7c42641f8a7ee52156f23",
-        "latency": 464,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/argusnews/playlist.m3u8?hdnts=st%3D1774371677~exp%3D1774393277~acl%3D%21%2A%2Ffta%2Fargusnews%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_153_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_153_-1~hmac%3Df28f78b6293fe7dd17f01ba504d182b6492ffada586422d27c6f61bbbc12bb1d",
+        "latency": 601,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -441,9 +443,9 @@
     "servers": [
       {
         "url": "https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8",
-        "latency": 375,
+        "latency": 293,
         "quality": "FHD",
-        "stability": 0.9702970297029703,
+        "stability": 0.9704433497536946,
         "type": "hls"
       }
     ]
@@ -456,8 +458,8 @@
     "epg_id": "282",
     "servers": [
       {
-        "url": "https://asianet-yupptv.vgcdn.net/ptnr-yupptv/title-Asianet_News/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/26f4b1f3-41c6-4a57-b7f2-759f8b319ac8/main.m3u8?hdnts=st%3D1774367129~exp%3D1774388729~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-Asianet_News%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F26f4b1f3-41c6-4a57-b7f2-759f8b319ac8%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_282_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_282_-1~hmac%3D119bb58450f7f95800a88247b84c4d5e9693a8a844a746ef4d61cde9f9d5c201",
-        "latency": 509,
+        "url": "https://asianet-yupptv.vgcdn.net/ptnr-yupptv/title-Asianet_News/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/26f4b1f3-41c6-4a57-b7f2-759f8b319ac8/main.m3u8?hdnts=st%3D1774371675~exp%3D1774393275~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-Asianet_News%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F26f4b1f3-41c6-4a57-b7f2-759f8b319ac8%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_282_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_282_-1~hmac%3D3857768fe131806ae7846063a788a47033878de11a8cc2f18583031ed4e4f113",
+        "latency": 453,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -473,7 +475,7 @@
     "servers": [
       {
         "url": "https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8",
-        "latency": 892,
+        "latency": 416,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -489,9 +491,9 @@
     "servers": [
       {
         "url": "https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8",
-        "latency": 974,
+        "latency": 877,
         "quality": "HD",
-        "stability": 0.9851485148514851,
+        "stability": 0.9852216748768473,
         "type": "hls"
       }
     ]
@@ -504,9 +506,24 @@
     "servers": [
       {
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
-        "latency": 42,
+        "latency": 27,
         "quality": "",
-        "stability": 0.9346733668341709,
+        "stability": 0.935,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "bbcnews",
+    "name": "BBC News",
+    "category": "News",
+    "logo": "",
+    "servers": [
+      {
+        "url": "http://45.148.145.57/IN_BN/index.m3u8",
+        "latency": 213,
+        "quality": "",
+        "stability": 1,
         "type": "hls"
       }
     ]
@@ -519,8 +536,8 @@
     "epg_id": "135",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/bansalnews/playlist.m3u8?hdnts=st%3D1774367104~exp%3D1774388704~acl%3D%21%2A%2Ffta%2Fbansalnews%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_135_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_135_-1~hmac%3Dd50c585ece61410fab5ab98456dc5f6802954934222b50d2854b01f50c9cc09a",
-        "latency": 546,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/bansalnews/playlist.m3u8?hdnts=st%3D1774371653~exp%3D1774393253~acl%3D%21%2A%2Ffta%2Fbansalnews%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_135_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_135_-1~hmac%3Dbaccd5cd46db10b35073cc727ccb1491dd653b6ebdf18af8501cca31decbdf6f",
+        "latency": 410,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -535,7 +552,7 @@
     "servers": [
       {
         "url": "https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEeast.smil/playlist.m3u8",
-        "latency": 461,
+        "latency": 664,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -550,24 +567,24 @@
     "epg_id": "159",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/bharatsamachar/playlist.m3u8?hdnts=st%3D1774367101~exp%3D1774388701~acl%3D%21%2A%2Ffta%2Fbharatsamachar%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_159_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_159_-1~hmac%3D974df08681fc9cb89579c40b79ddd9092495f96326f7d8fbc0e9ae5357db1cd5",
-        "latency": 521,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/bharatsamachar/playlist.m3u8?hdnts=st%3D1774371651~exp%3D1774393251~acl%3D%21%2A%2Ffta%2Fbharatsamachar%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_159_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_159_-1~hmac%3Dd95240d302aec78e703c757208058aeaa0a3b965bcb66060bcc8912db74fb3c5",
+        "latency": 478,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen7.aynascope.net/BharatSamachar/index.m3u8?e=1774371953&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=62dc78f5693b8b4ae6849d31f611d860",
-        "latency": 2815,
+        "url": "https://tvsen7.aynascope.net/BharatSamachar/index.m3u8?e=1774377480&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=885ac84a409e05a3785ef8ac6904c5ab",
+        "latency": 2344,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8",
-        "latency": 898,
+        "latency": 1085,
         "quality": "SD",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -581,24 +598,8 @@
     "servers": [
       {
         "url": "https://cdn.ottlive.co.in/bharat24/index.fmp4.m3u8",
-        "latency": 1715,
+        "latency": 1555,
         "quality": "FHD",
-        "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "bigtv",
-    "name": "Big Tv",
-    "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/big-tv.png",
-    "epg_id": "133",
-    "servers": [
-      {
-        "url": "https://yuppnimresmum.akamaized.net/120723/smil:bigtv.smil/playlist.m3u8?hdnts=st%3D1774367118~exp%3D1774388718~acl%3D%21%2A%2F120723%2Fsmil%3Abigtv.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_133_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_133_-1~hmac%3D4c419fd011c21639a924a624220b6607f30afb026169f19ec9f3f809edd58bd2",
-        "latency": 21,
-        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -613,7 +614,7 @@
     "servers": [
       {
         "url": "https://cdn-1.pishow.tv/live/1037/master.m3u8",
-        "latency": 775,
+        "latency": 507,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -628,7 +629,7 @@
     "servers": [
       {
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8",
-        "latency": 179,
+        "latency": 132,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -643,14 +644,14 @@
     "servers": [
       {
         "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
-        "latency": 160,
+        "latency": 76,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen6.aynascope.net/cnn/index.m3u8?e=1774371942&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=585214dc4480ef3b9070559335a94f47",
-        "latency": 1632,
+        "url": "https://tvsen6.aynascope.net/cnn/index.m3u8?e=1774377468&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e27264c40b59f3c23dde96a12523b257",
+        "latency": 1715,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -665,8 +666,8 @@
     "epg_id": "116",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/calcuttanews/playlist.m3u8?hdnts=st%3D1774367114~exp%3D1774388714~acl%3D%21%2A%2Ffta%2Fcalcuttanews%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_116_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_116_-1~hmac%3Df2c308c4e3969a45f974d48cdf777f21e4a485bdeb87f048aca8f9c03d7dc807",
-        "latency": 272,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/calcuttanews/playlist.m3u8?hdnts=st%3D1774371662~exp%3D1774393262~acl%3D%21%2A%2Ffta%2Fcalcuttanews%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_116_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_116_-1~hmac%3Db58295bd942fae6ca7d84f7d0248ac09f16fa4cd616a867e97a18f0902558d0b",
+        "latency": 604,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -677,19 +678,19 @@
     "id": "channel24",
     "name": "Channel 24",
     "category": "News",
-    "logo": "https://s3.aynaott.com/storage/129b0d0a02566999a0c164cd7d506e55",
+    "logo": "https://i.imgur.com/4JLkaF7.png",
     "epg_id": "Channel24.bd@SD",
     "servers": [
       {
         "url": "https://bozztv.com/rongo/rongo-Channel24HD/index.m3u8",
-        "latency": 150,
+        "latency": 110,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen6.aynascope.net/channel24/index.m3u8?e=1774371936&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6f22666427231205eac901667f5b310a",
-        "latency": 1524,
+        "url": "https://tvsen6.aynascope.net/channel24/index.m3u8?e=1774377463&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=03238a553955b3cc96066b5e84e2d00a",
+        "latency": 2342,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -705,9 +706,9 @@
     "servers": [
       {
         "url": "https://chardikalatimestv.gigabitcdn.net/in-chardikala/chardikala-gurbani-tv/playlist.m3u8",
-        "latency": 408,
+        "latency": 537,
         "quality": "FHD",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -721,7 +722,7 @@
     "servers": [
       {
         "url": "https://chardikalagurbanitv.gigabitcdn.net/in-chardikala/chardikala-timetv/playlist.m3u8",
-        "latency": 678,
+        "latency": 156,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -737,9 +738,9 @@
     "servers": [
       {
         "url": "https://chardikalanorthamerica.gigabitcdn.net/in-chardikala/chardikala-north-usa/playlist.m3u8",
-        "latency": 402,
+        "latency": 217,
         "quality": "FHD",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -753,25 +754,9 @@
     "servers": [
       {
         "url": "https://legitpro.co.in/cnews/cnews/index.fmp4.m3u8",
-        "latency": 961,
+        "latency": 564,
         "quality": "HD",
-        "stability": 0.995049504950495,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "ctvnakdplus",
-    "name": "Ctvn Akd Plus",
-    "category": "News",
-    "logo": "https://dtil.tmsimg.com/assets/s142754_ld_h15_aa.png?lock=720x540",
-    "epg_id": "CTVNAKDPlus.in@SD",
-    "servers": [
-      {
-        "url": "https://live.legitpro.co.in/ctvnakdplus/index.m3u8",
-        "latency": 902,
-        "quality": "FHD",
-        "stability": 1,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -785,7 +770,7 @@
     "servers": [
       {
         "url": "https://cdn-2.pishow.tv/live/425/master.m3u8",
-        "latency": 777,
+        "latency": 677,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -800,8 +785,8 @@
     "epg_id": "150",
     "servers": [
       {
-        "url": "https://yuppnimrestreammum.akamaized.net/181224/smil:cvrnewseng.smil/playlist.m3u8?hdnts=st%3D1774367089~exp%3D1774388689~acl%3D%21%2A%2F181224%2Fsmil%3Acvrnewseng.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_150_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_150_-1~hmac%3D83177010b45dcd99c62c0a04a422739a41c80a9560fe86ebe000aa6feef24243",
-        "latency": 586,
+        "url": "https://yuppparoriglin.akamaized.net/181224/smil:cvrnewseng.smil/playlist.m3u8?hdnts=st%3D1774371639~exp%3D1774393239~acl%3D%21%2A%2F181224%2Fsmil%3Acvrnewseng.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_150_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_150_-1~hmac%3D3c248c85253b0408ad431051d58cfea7ea880cd819a7e14d6da296b641fd8b06",
+        "latency": 59,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -812,20 +797,13 @@
     "id": "cvrnews",
     "name": "Cvr News",
     "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/vncsik.png",
-    "epg_id": "139",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CVR_NEWS/images/LOGO_HD/LOGO_HD_image.png",
+    "epg_id": "CVRNews.in@SD",
     "servers": [
       {
         "url": "https://mumt04.tangotv.in/CVRNEWS/index.m3u8",
-        "latency": 829,
+        "latency": 434,
         "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://yuppnimrestreammum.akamaized.net/181224/smil:cvrtelugu.smil/playlist.m3u8?hdnts=st%3D1774367119~exp%3D1774388719~acl%3D%21%2A%2F181224%2Fsmil%3Acvrtelugu.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_139_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_139_-1~hmac%3D239c076b1f0c3ca1ae0ea19479967320965b667ac73f7cf571a55be7f0cc6974",
-        "latency": 1205,
-        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -835,13 +813,21 @@
     "id": "dbcnews",
     "name": "DBC News",
     "category": "News",
-    "logo": "https://s3.aynaott.com/storage/2c5a73ac3f9772a9cb2d18df1b152545",
+    "logo": "https://i.imgur.com/Qbt6q4z.png",
+    "epg_id": "DBCNews.bd@SD",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/dbcnews/index.m3u8?e=1774371938&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5ee630d83fa997004f7436e54a259fb0",
-        "latency": 1869,
+        "url": "https://tvsen6.aynascope.net/dbcnews/index.m3u8?e=1774377465&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=338d9db0b2001cb58f5e9150fe6388f4",
+        "latency": 1610,
         "quality": "",
         "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8",
+        "latency": 688,
+        "quality": "SD",
+        "stability": 0.9653465346534653,
         "type": "hls"
       }
     ]
@@ -854,14 +840,14 @@
     "servers": [
       {
         "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
-        "latency": 238,
+        "latency": 17,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1",
-        "latency": 244,
+        "latency": 33,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -876,15 +862,38 @@
     "servers": [
       {
         "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
-        "latency": 124,
+        "latency": 69,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
-        "latency": 444,
+        "latency": 141,
         "quality": "",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "ddindia",
+    "name": "Dd India",
+    "category": "News",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/dd-india.png",
+    "epg_id": "194",
+    "servers": [
+      {
+        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ceda14583477426aa162a65392d8ea07/index.m3u8",
+        "latency": 229,
+        "quality": "FHD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://test-yupptv.cachefly.net/120723/smil:ddindiahd.smil/playlist.m3u8?hdnts=st%3D1774371635~exp%3D1774393235~acl%3D%21%2A%2F120723%2Fsmil%3Addindiahd.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_194_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_194_-1~hmac%3De7ae494c6a95c64345f223f4bd717a4948414641d276cac9e331394657fbdf06",
+        "latency": 479,
+        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -899,14 +908,37 @@
     "servers": [
       {
         "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8",
-        "latency": 297,
+        "latency": 229,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://mumt04.tangotv.in/DDNEWS/index.m3u8",
-        "latency": 484,
+        "latency": 490,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "deshtv",
+    "name": "Desh Tv",
+    "category": "News",
+    "logo": "https://i.imgur.com/ItrZok1.png",
+    "epg_id": "DeshTV.bd@SD",
+    "servers": [
+      {
+        "url": "https://bozztv.com/rongo/rongo-DeshTV/index.m3u8",
+        "latency": 100,
+        "quality": "FHD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://tvsen6.aynascope.net/deshtv/index.m3u8?e=1774377447&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c008d612e4f8174007b021a5c90920bc",
+        "latency": 1621,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -922,9 +954,9 @@
     "servers": [
       {
         "url": "https://mumt04.tangotv.in/DY365/index.m3u8",
-        "latency": 652,
+        "latency": 841,
         "quality": "",
-        "stability": 0.9158415841584159,
+        "stability": 0.916256157635468,
         "type": "hls"
       }
     ]
@@ -936,31 +968,8 @@
     "logo": "https://s3.aynaott.com/storage/d91767995b2f2a54852c92bbbc20daa7",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/ekattorbdtv/index.m3u8?e=1774371940&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f94dfb623ba9d7e073720ef570e43e48",
-        "latency": 1904,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "ekhontv",
-    "name": "Ekhon Tv",
-    "category": "News",
-    "logo": "https://s3.aynaott.com/storage/274c30c492e8795c8011d0129113f4bc",
-    "epg_id": "EkhonTV.bd@SD",
-    "servers": [
-      {
-        "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
-        "latency": 179,
-        "quality": "FHD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/ekhontv/index.m3u8?e=1774371939&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2cba32891acd6ec695b5af064464df3b",
-        "latency": 1978,
+        "url": "https://tvsen6.aynascope.net/ekattorbdtv/index.m3u8?e=1774377467&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=bbe3875e1310d5cdc34e1fe0e9fcd79b",
+        "latency": 1825,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -976,16 +985,16 @@
     "servers": [
       {
         "url": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8",
-        "latency": 453,
+        "latency": 495,
         "quality": "",
-        "stability": 0.9554455445544554,
+        "stability": 0.9556650246305419,
         "type": "hls"
       },
       {
         "url": "https://ekusheyserver.com/etvlivesn.m3u8",
-        "latency": 1124,
+        "latency": 354,
         "quality": "SD",
-        "stability": 0.9362745098039216,
+        "stability": 0.9365853658536586,
         "type": "hls"
       }
     ]
@@ -999,7 +1008,7 @@
     "servers": [
       {
         "url": "https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8",
-        "latency": 1016,
+        "latency": 841,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -1015,9 +1024,9 @@
     "servers": [
       {
         "url": "https://mumt03.tangotv.in/1STINDIANEWS/index.m3u8",
-        "latency": 1185,
+        "latency": 1168,
         "quality": "",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -1029,8 +1038,8 @@
     "logo": "https://s3.aynaott.com/storage/18fb4fcb519d5df8323e48c1d58f5ae7",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/foxnews/index.m3u8?e=1774371955&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=943317017f2e62e393e9b9e77f289db9",
-        "latency": 1511,
+        "url": "https://tvsen6.aynascope.net/foxnews/index.m3u8?e=1774377481&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a5e0fda6af2a62ec3ad546f81ae8e998",
+        "latency": 1674,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1045,7 +1054,7 @@
     "servers": [
       {
         "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
-        "latency": 601,
+        "latency": 38,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1061,7 +1070,7 @@
     "servers": [
       {
         "url": "http://116.90.120.151:8000/play/a020/index.m3u8",
-        "latency": 531,
+        "latency": 668,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1076,25 +1085,9 @@
     "servers": [
       {
         "url": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8",
-        "latency": 147,
+        "latency": 32,
         "quality": "SD",
         "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "goa365",
-    "name": "Goa365",
-    "category": "News",
-    "logo": "https://www.goa365.tv/images/GOA-365-Logo.jpg",
-    "epg_id": "Goa365.in@SD",
-    "servers": [
-      {
-        "url": "https://ktismaservers.in:3086/live/goa365live.m3u8",
-        "latency": 643,
-        "quality": "FHD",
-        "stability": 0.698019801980198,
         "type": "hls"
       }
     ]
@@ -1108,9 +1101,9 @@
     "servers": [
       {
         "url": "https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8",
-        "latency": 929,
+        "latency": 753,
         "quality": "HD",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -1124,9 +1117,9 @@
     "servers": [
       {
         "url": "https://mumt05.tangotv.in/GSTV/index.m3u8",
-        "latency": 694,
+        "latency": 736,
         "quality": "",
-        "stability": 0.9851485148514851,
+        "stability": 0.9852216748768473,
         "type": "hls"
       }
     ]
@@ -1140,7 +1133,7 @@
     "servers": [
       {
         "url": "https://guaranteenews.in:8443/live/gnews/index.m3u8",
-        "latency": 2031,
+        "latency": 981,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -1156,9 +1149,9 @@
     "servers": [
       {
         "url": "https://live.legitpro.co.in/gujaratfirst/index.m3u8",
-        "latency": 940,
+        "latency": 876,
         "quality": "FHD",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -1172,9 +1165,9 @@
     "servers": [
       {
         "url": "https://tv.hamdardtv.com/hamdard/index.m3u8",
-        "latency": 965,
+        "latency": 880,
         "quality": "FHD",
-        "stability": 0.8910891089108911,
+        "stability": 0.8916256157635468,
         "type": "hls"
       }
     ]
@@ -1188,9 +1181,9 @@
     "servers": [
       {
         "url": "https://mumt01.tangotv.in/HARKHABAR/index.m3u8",
-        "latency": 563,
+        "latency": 379,
         "quality": "",
-        "stability": 0.9851485148514851,
+        "stability": 0.9852216748768473,
         "type": "hls"
       }
     ]
@@ -1204,7 +1197,7 @@
     "servers": [
       {
         "url": "https://highmedia.livebox.co.in/HIGHNEWShls/LIVE.m3u8",
-        "latency": 685,
+        "latency": 567,
         "quality": "SD",
         "stability": 1,
         "type": "hls"
@@ -1219,22 +1212,22 @@
     "epg_id": "160",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/hindikhabar/playlist.m3u8?hdnts=st%3D1774367095~exp%3D1774388695~acl%3D%21%2A%2Ffta%2Fhindikhabar%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_160_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_160_-1~hmac%3Db7c08224e4ea0c292070d113ce468ef20ecddc10957c7657055f6a869de9abd5",
-        "latency": 496,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/hindikhabar/playlist.m3u8?hdnts=st%3D1774371645~exp%3D1774393245~acl%3D%21%2A%2Ffta%2Fhindikhabar%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_160_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_160_-1~hmac%3D23572529a40f2bdb7257c546b207f5688295984ad1110d86812460de850cba2d",
+        "latency": 234,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://cdn-2.pishow.tv/live/1041/master.m3u8",
-        "latency": 807,
+        "latency": 652,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen7.aynascope.net/HindiKhabar/index.m3u8?e=1774371952&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6534e7155ff8cc959dcc45de5029631e",
-        "latency": 2465,
+        "url": "https://tvsen7.aynascope.net/HindiKhabar/index.m3u8?e=1774377478&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=62e67aae7ed1ff8fab51ca22b2605c14",
+        "latency": 2189,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1249,15 +1242,15 @@
     "epg_id": "102",
     "servers": [
       {
-        "url": "https://yuppnimresmum.akamaized.net/28072023/smil:hmtv.smil/playlist.m3u8?hdnts=st%3D1774367118~exp%3D1774388718~acl%3D%21%2A%2F28072023%2Fsmil%3Ahmtv.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_102_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_102_-1~hmac%3Dc80057471eda2e6753c25311152c62970a5bf648d75058168bd4445c55377ce0",
-        "latency": 50,
+        "url": "https://cdn-1.pishow.tv/live/280/master.m3u8",
+        "latency": 209,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://cdn-1.pishow.tv/live/280/master.m3u8",
-        "latency": 475,
+        "url": "https://livegeoroueu.akamaized.net/28072023/smil:hmtv.smil/playlist.m3u8?hdnts=st%3D1774371667~exp%3D1774393267~acl%3D%21%2A%2F28072023%2Fsmil%3Ahmtv.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_102_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_102_-1~hmac%3D9012b2ea2fbde111b06d7d198ac542f1ce3ae2c4c15e853ea11cfc85064cabe2",
+        "latency": 447,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1273,9 +1266,9 @@
     "servers": [
       {
         "url": "https://ott.livelegitpro.in:9899/hnnnews/hnnnews/tracks-v1/index.fmp4.m3u8",
-        "latency": 950,
+        "latency": 834,
         "quality": "",
-        "stability": 0.9455445544554455,
+        "stability": 0.9458128078817734,
         "type": "hls"
       }
     ]
@@ -1288,15 +1281,15 @@
     "epg_id": "171",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/hornbilltv/playlist.m3u8?hdnts=st%3D1774367086~exp%3D1774388686~acl%3D%21%2A%2Ffta%2Fhornbilltv%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_171_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_171_-1~hmac%3D5f3ad90b802d54b47744c3d49308031c0c1c262c5b9a5788ef9aa78e36d5c55a",
-        "latency": 545,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/hornbilltv/playlist.m3u8?hdnts=st%3D1774371637~exp%3D1774393237~acl%3D%21%2A%2Ffta%2Fhornbilltv%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_171_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_171_-1~hmac%3Daf98a86ddf525cb94cd23f4ac3885f7ec8566d44386b9b748d8837776f922b6d",
+        "latency": 484,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://cdn-2.pishow.tv/live/1463/master.m3u8",
-        "latency": 767,
+        "latency": 607,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1312,7 +1305,7 @@
     "servers": [
       {
         "url": "http://116.90.120.151:8000/play/a024/index.m3u8",
-        "latency": 550,
+        "latency": 642,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -1328,7 +1321,7 @@
     "servers": [
       {
         "url": "https://cdn-3.pishow.tv/live/220/master.m3u8",
-        "latency": 695,
+        "latency": 675,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1344,9 +1337,9 @@
     "servers": [
       {
         "url": "https://mumt02.tangotv.in/IND24/index.m3u8",
-        "latency": 446,
+        "latency": 272,
         "quality": "",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -1355,19 +1348,19 @@
     "id": "independenttv",
     "name": "Independent Tv",
     "category": "News",
-    "logo": "https://s3.aynaott.com/storage/6653326503fcade746d87881d5c99697",
+    "logo": "https://i.imgur.com/POXFhGN.png",
     "epg_id": "IndependentTV.bd@SD",
     "servers": [
       {
         "url": "https://bozztv.com/rongo/rongo-IndependentTV/index.m3u8",
-        "latency": 148,
+        "latency": 108,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen6.aynascope.net/independenttv/index.m3u8?e=1774371937&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=037209627d311cb500de251f34767f30",
-        "latency": 1918,
+        "url": "https://tvsen6.aynascope.net/independenttv/index.m3u8?e=1774377464&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=03509e97a799dd82e92cdfccfc76ac9a",
+        "latency": 2361,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1383,9 +1376,9 @@
     "servers": [
       {
         "url": "https://mumt05.tangotv.in/INDIAAHEAD/index.m3u8",
-        "latency": 639,
+        "latency": 505,
         "quality": "",
-        "stability": 0.9851485148514851,
+        "stability": 0.9852216748768473,
         "type": "hls"
       }
     ]
@@ -1399,9 +1392,9 @@
     "servers": [
       {
         "url": "https://indiadaily.ottlive.co.in/indiadailylive/index.m3u8",
-        "latency": 581,
+        "latency": 365,
         "quality": "FHD",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -1414,16 +1407,16 @@
     "epg_id": "IndiaToday.in@SD",
     "servers": [
       {
-        "url": "https://feeds.intoday.in/hltapps/api/master.m3u8",
-        "latency": 198,
-        "quality": "",
+        "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
+        "latency": 264,
+        "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
-        "latency": 797,
-        "quality": "HD",
+        "url": "https://feeds.intoday.in/hltapps/api/master.m3u8",
+        "latency": 1118,
+        "quality": "",
         "stability": 1,
         "type": "hls"
       }
@@ -1433,12 +1426,19 @@
     "id": "indiatv",
     "name": "India Tv",
     "category": "News",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TV/images/LOGO_HD/image.png",
-    "epg_id": "IndiaTV.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/india-tv.png",
+    "epg_id": "231",
     "servers": [
       {
         "url": "https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8",
-        "latency": 386,
+        "latency": 93,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://vg-indiatvyupp.akamaized.net/ptnr-yupptv/title-Indiatvmi/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9bb243fa-9ec5-4045-9d1d-0326debcace6/main.m3u8?hdnts=st%3D1774371641~exp%3D1774393241~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-Indiatvmi%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F9bb243fa-9ec5-4045-9d1d-0326debcace6%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_231_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_231_-1~hmac%3D3270556b737c10654f52d3d019fc0904c12c87e9cff506556233f67bf2557dd3",
+        "latency": 1024,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1454,14 +1454,14 @@
     "servers": [
       {
         "url": "https://mumt04.tangotv.in/INDIAVOICE/index.m3u8",
-        "latency": 338,
+        "latency": 238,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/indiavoice/playlist.m3u8?hdnts=st%3D1774367103~exp%3D1774388703~acl%3D%21%2A%2Ffta%2Findiavoice%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_134_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_134_-1~hmac%3D05e4da23b6bfea64aae335846828f517b5b7efb865406e60b3ed3dc11cce62b0",
-        "latency": 488,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/indiavoice/playlist.m3u8?hdnts=st%3D1774371652~exp%3D1774393252~acl%3D%21%2A%2Ffta%2Findiavoice%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_134_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_134_-1~hmac%3Dba74623662de09ded8722d47f4bcb0d8cd790b765136aacd612ee22abf78c515",
+        "latency": 465,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1472,19 +1472,12 @@
     "id": "inews",
     "name": "Inews",
     "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/inews.png",
-    "epg_id": "141",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/I_News.png",
+    "epg_id": "INews.in@SD",
     "servers": [
       {
-        "url": "https://yuppnimresmum.akamaized.net/28072023/smil:inews.smil/playlist.m3u8?hdnts=st%3D1774367117~exp%3D1774388717~acl%3D%21%2A%2F28072023%2Fsmil%3Ainews.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_141_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_141_-1~hmac%3De6950e8dc977365056907c869216193dedcd1f9d9442c5622b01d4d1523c4746",
-        "latency": 52,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://cdn-1.pishow.tv/live/411/master.m3u8",
-        "latency": 345,
+        "latency": 239,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1499,15 +1492,15 @@
     "epg_id": "155",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/inh24x7/playlist.m3u8?hdnts=st%3D1774367100~exp%3D1774388700~acl%3D%21%2A%2Ffta%2Finh24x7%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_155_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_155_-1~hmac%3D1f0665159a87d99db1916ffecf13f29e7c57da79ce9272e75afac5e17195de8d",
-        "latency": 498,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/inh24x7/playlist.m3u8?hdnts=st%3D1774371649~exp%3D1774393249~acl%3D%21%2A%2Ffta%2Finh24x7%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_155_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_155_-1~hmac%3Dfe1b63b1e56177ae6ceaef1ffd18eed7fb77161e635b6453f9b19745f0d6ea81",
+        "latency": 439,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://mumt01.tangotv.in/INH24X7/index.m3u8",
-        "latency": 602,
+        "latency": 464,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1522,9 +1515,9 @@
     "servers": [
       {
         "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8",
-        "latency": 831,
+        "latency": 770,
         "quality": "",
-        "stability": 0.9854368932038835,
+        "stability": 0.9855072463768116,
         "type": "hls"
       }
     ]
@@ -1537,17 +1530,17 @@
     "epg_id": "162",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/jaimaharashtra/playlist.m3u8?hdnts=st%3D1774367111~exp%3D1774388711~acl%3D%21%2A%2Ffta%2Fjaimaharashtra%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_162_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_162_-1~hmac%3D8b23be693ec8983fd644f90d6e1125973f79203d60449aabb6b913b66f35d825",
-        "latency": 476,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/jaimaharashtra/playlist.m3u8?hdnts=st%3D1774371659~exp%3D1774393259~acl%3D%21%2A%2Ffta%2Fjaimaharashtra%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_162_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_162_-1~hmac%3D4524606988dbadbf2867fdecf3e82556f2b535937fb85807756895bfbe9d69c0",
+        "latency": 411,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://cdn-3.pishow.tv/live/1465/master.m3u8",
-        "latency": 689,
+        "latency": 636,
         "quality": "",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -1556,19 +1549,19 @@
     "id": "jamunatv",
     "name": "Jamuna Tv",
     "category": "News",
-    "logo": "https://s3.aynaott.com/storage/aac6488b68844e5756ab46eb79659de8",
+    "logo": "https://www.jamuna.tv/wp-content/themes/jtv-news/img/logo.png",
     "epg_id": "JamunaTV.bd@SD",
     "servers": [
       {
         "url": "https://bozztv.com/rongo/rongo-JamunaTelevision/index.m3u8",
-        "latency": 149,
+        "latency": 96,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen6.aynascope.net/jamunatv/index.m3u8?e=1774371941&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=411be8225f327a863ed4bc6223198a4e",
-        "latency": 2171,
+        "url": "https://tvsen6.aynascope.net/jamunatv/index.m3u8?e=1774377467&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3f52eb059084b06735ace01d4f81eec5",
+        "latency": 2501,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1584,14 +1577,14 @@
     "servers": [
       {
         "url": "https://cdn-6.pishow.tv/live/10004/master.m3u8",
-        "latency": 312,
+        "latency": 306,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/jantv/playlist.m3u8?hdnts=st%3D1774367103~exp%3D1774388703~acl%3D%21%2A%2Ffta%2Fjantv%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_120_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_120_-1~hmac%3D4d4434c8b08e570d20b1ef3d013bbdb577146cdc58c84da811aa2c748c803067",
-        "latency": 491,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/jantv/playlist.m3u8?hdnts=st%3D1774371653~exp%3D1774393253~acl%3D%21%2A%2Ffta%2Fjantv%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_120_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_120_-1~hmac%3Db9dd0564eb5fee93568b80caa832e0e012f735a07cbbd61e8f1c42f465e69aa1",
+        "latency": 471,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1607,9 +1600,9 @@
     "servers": [
       {
         "url": "https://live.jswk.online/IK_RTPM/live/index.m3u8",
-        "latency": 429,
+        "latency": 372,
         "quality": "FHD",
-        "stability": 0.9653465346534653,
+        "stability": 0.9655172413793104,
         "type": "hls"
       }
     ]
@@ -1622,8 +1615,8 @@
     "epg_id": "127",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/jantantratv/playlist.m3u8?hdnts=st%3D1774367103~exp%3D1774388703~acl%3D%21%2A%2Ffta%2Fjantantratv%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_127_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_127_-1~hmac%3D73a145efa0520ee36b4e281f68f1e6b4d5d24dcf7aaa62217907c075a881b71c",
-        "latency": 484,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/jantantratv/playlist.m3u8?hdnts=st%3D1774371652~exp%3D1774393252~acl%3D%21%2A%2Ffta%2Fjantantratv%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_127_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_127_-1~hmac%3Dff82e62a168836cfd124b6fb09885b103c0665c27bd483cb8dd72ecfafe0f37c",
+        "latency": 279,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1639,7 +1632,7 @@
     "servers": [
       {
         "url": "https://mumt02.tangotv.in/KNEWSINDIA/index.m3u8",
-        "latency": 328,
+        "latency": 819,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1655,7 +1648,7 @@
     "servers": [
       {
         "url": "https://cdn-3.pishow.tv/live/1469/master.m3u8",
-        "latency": 598,
+        "latency": 567,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1671,7 +1664,7 @@
     "servers": [
       {
         "url": "https://live-cf-kalaignarnews.dailyhunt.in/master.m3u8",
-        "latency": 125,
+        "latency": 52,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1686,17 +1679,17 @@
     "epg_id": "187",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/kalingatv/playlist.m3u8?hdnts=st%3D1774367131~exp%3D1774388731~acl%3D%21%2A%2Ffta%2Fkalingatv%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_187_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_187_-1~hmac%3D67bced063a8ee49161cfab63095c8ed2d2418ce856ff37a2ef87c2ec129cdc73",
-        "latency": 518,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/kalingatv/playlist.m3u8?hdnts=st%3D1774371678~exp%3D1774393278~acl%3D%21%2A%2Ffta%2Fkalingatv%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_187_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_187_-1~hmac%3D96b8aeaf7642f577e3241f5177306c26436db6a51a4b4adfb35a1b09bbf7d14a",
+        "latency": 601,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://server.thelegitpro.in/kalingatv/kalingatv/index.fmp4.m3u8",
-        "latency": 956,
+        "latency": 973,
         "quality": "HD",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -1710,7 +1703,7 @@
     "servers": [
       {
         "url": "https://stream.logichost.in/kannurvision/live/playlist.m3u8",
-        "latency": 1142,
+        "latency": 837,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -1725,15 +1718,15 @@
     "epg_id": "164",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/kashishnews/playlist.m3u8?hdnts=st%3D1774367104~exp%3D1774388704~acl%3D%21%2A%2Ffta%2Fkashishnews%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_164_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_164_-1~hmac%3D69184291f0b1843f7b54342cc6ab55b6ce5847577685fcdec40e5845dd8241ea",
-        "latency": 486,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/kashishnews/playlist.m3u8?hdnts=st%3D1774371654~exp%3D1774393254~acl%3D%21%2A%2Ffta%2Fkashishnews%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_164_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_164_-1~hmac%3D14d674e118bbc21ed58794ff00c4fc41e004b69dd7e3e782ba1e554754d16440",
+        "latency": 240,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8",
-        "latency": 991,
+        "latency": 844,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1749,9 +1742,9 @@
     "servers": [
       {
         "url": "https://mumt04.tangotv.in/KHABARFAST/index.m3u8",
-        "latency": 487,
+        "latency": 461,
         "quality": "",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -1764,17 +1757,17 @@
     "epg_id": "158",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/khabreinabhitak/playlist.m3u8?hdnts=st%3D1774367101~exp%3D1774388701~acl%3D%21%2A%2Ffta%2Fkhabreinabhitak%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_158_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_158_-1~hmac%3D5494514487c51ad3ca5b4ebbb9333a745a0795e37ed5830e06f5ef70142ec6ce",
-        "latency": 539,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/khabreinabhitak/playlist.m3u8?hdnts=st%3D1774371651~exp%3D1774393251~acl%3D%21%2A%2Ffta%2Fkhabreinabhitak%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_158_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_158_-1~hmac%3D4c92c9c481110a5eb1b27c471ab9766eff80323065f1d8df6ca523b05a21b85e",
+        "latency": 509,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://mumt05.tangotv.in/KHABRAINABHITAK/index.m3u8",
-        "latency": 341,
+        "latency": 227,
         "quality": "",
-        "stability": 0.9851485148514851,
+        "stability": 0.9852216748768473,
         "type": "hls"
       }
     ]
@@ -1788,9 +1781,9 @@
     "servers": [
       {
         "url": "https://stream.ottlive.co.in/livingindia/index.m3u8",
-        "latency": 1185,
+        "latency": 1114,
         "quality": "FHD",
-        "stability": 0.9653465346534653,
+        "stability": 0.9655172413793104,
         "type": "hls"
       }
     ]
@@ -1804,7 +1797,7 @@
     "servers": [
       {
         "url": "https://see.lokshahi.live/live/index.m3u8",
-        "latency": 1012,
+        "latency": 896,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -1820,7 +1813,7 @@
     "servers": [
       {
         "url": "https://mumt01.tangotv.in/MNADU/index.m3u8",
-        "latency": 685,
+        "latency": 438,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1836,7 +1829,7 @@
     "servers": [
       {
         "url": "https://cdn-3.pishow.tv/live/1476/master.m3u8",
-        "latency": 419,
+        "latency": 442,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1851,8 +1844,8 @@
     "epg_id": "106",
     "servers": [
       {
-        "url": "https://yuppnimrestreammum.akamaized.net/181224/smil:mahatv.smil/playlist.m3u8?hdnts=st%3D1774367117~exp%3D1774388717~acl%3D%21%2A%2F181224%2Fsmil%3Amahatv.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_106_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_106_-1~hmac%3D882cce8f4bf91c75d364ac5603f69c89c34b059e8d570490895e697f8b12de41",
-        "latency": 530,
+        "url": "https://yuppparoriglin.akamaized.net/181224/smil:mahatv.smil/playlist.m3u8?hdnts=st%3D1774371665~exp%3D1774393265~acl%3D%21%2A%2F181224%2Fsmil%3Amahatv.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_106_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_106_-1~hmac%3Db710e05281793ea04fe685fe9b59461fc7706feceb75bb85432ecff79e965dfc",
+        "latency": 54,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1868,9 +1861,9 @@
     "servers": [
       {
         "url": "http://cloud.logichost.in:1935/live/malabarnews/index.m3u8",
-        "latency": 535,
+        "latency": 440,
         "quality": "HD",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -1884,9 +1877,9 @@
     "servers": [
       {
         "url": "https://amg17783-amg17783c1-amgplt0173.playout.now3.amagi.tv/playlist/amg17783-amg17783c1-amgplt0173/playlist.m3u8",
-        "latency": 380,
+        "latency": 176,
         "quality": "FHD",
-        "stability": 0.9702970297029703,
+        "stability": 0.9704433497536946,
         "type": "hls"
       }
     ]
@@ -1899,8 +1892,8 @@
     "epg_id": "103",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/mantavya/playlist.m3u8?hdnts=st%3D1774367124~exp%3D1774388724~acl%3D%21%2A%2Ffta%2Fmantavya%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_103_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_103_-1~hmac%3D0e70a534479590e579d7b62aedf082fe015bd53021ee868f019576a59eeec12d",
-        "latency": 724,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/mantavya/playlist.m3u8?hdnts=st%3D1774371671~exp%3D1774393271~acl%3D%21%2A%2Ffta%2Fmantavya%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_103_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_103_-1~hmac%3D258449ce35fa5ffa371bff9204bfef5f0994569dd1386ffe9831dd358fec5503",
+        "latency": 307,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1916,7 +1909,7 @@
     "servers": [
       {
         "url": "https://mumt02.tangotv.in/MATHRUBHUMINEWS/index.m3u8",
-        "latency": 898,
+        "latency": 860,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1932,7 +1925,7 @@
     "servers": [
       {
         "url": "https://cdn-3.pishow.tv/live/1481/master.m3u8",
-        "latency": 372,
+        "latency": 384,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1948,9 +1941,9 @@
     "servers": [
       {
         "url": "https://mumt04.tangotv.in/MHONENEWS/index.m3u8",
-        "latency": 534,
+        "latency": 441,
         "quality": "",
-        "stability": 0.9554455445544554,
+        "stability": 0.9556650246305419,
         "type": "hls"
       }
     ]
@@ -1959,14 +1952,21 @@
     "id": "mirrornow",
     "name": "Mirror Now",
     "category": "News",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MIRROR_NOW/images/LOGO_HD/image.png",
-    "epg_id": "MirrorNow.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/mirror-now.png",
+    "epg_id": "213",
     "servers": [
       {
-        "url": "https://dai.google.com/linear/hls/event/ClPOullTQky5vGPf7fMZ8g/master.m3u8",
-        "latency": 704,
+        "url": "https://vg-timesgroup.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/73455029-b0f3-4c11-b54d-010c52f42ee9/main.m3u8?hdnts=st%3D1774371636~exp%3D1774393236~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F73455029-b0f3-4c11-b54d-010c52f42ee9%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_213_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_213_-1~hmac%3D329b24a21b8e9379eaff529718723d968918664d05efe1ae8f7eb3f1bdb24bf6",
+        "latency": 389,
         "quality": "HD",
-        "stability": 0.995049504950495,
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://dai.google.com/linear/hls/event/ClPOullTQky5vGPf7fMZ8g/master.m3u8",
+        "latency": 464,
+        "quality": "HD",
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -1978,8 +1978,8 @@
     "logo": "https://s3.aynaott.com/storage/9a9ca715640d3dc227a0a74750ab17f2",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/msnbc/index.m3u8?e=1774372075&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=eeccd707eb42a4d998df64baeaa41795",
-        "latency": 771,
+        "url": "https://tvsen6.aynascope.net/msnbc/index.m3u8?e=1774377602&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b5b16c4c57f855e24ec72e1712676ec4",
+        "latency": 1477,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1990,13 +1990,20 @@
     "id": "ndtv24x7",
     "name": "NDTV 24x7",
     "category": "News",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_24X7/images/LOGO_HD/image.png",
-    "epg_id": "NDTV24x7.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/mlwpdv.png",
+    "epg_id": "1",
     "servers": [
       {
         "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
-        "latency": 387,
+        "latency": 312,
         "quality": "SD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://vg-ndtvlive.akamaized.net/ptnr-yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-252389/main.m3u8?hdnts=st%3D1774371635~exp%3D1774393235~acl%3D%21%2A%2Fptnr-yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fvglive-sk-252389%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_1_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_1_-1~hmac%3D8de1f898ef69a6fc398aa9d4540de2486542fa3877202b709ced2fb1553721f2",
+        "latency": 365,
+        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -2011,9 +2018,9 @@
     "servers": [
       {
         "url": "https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8",
-        "latency": 359,
+        "latency": 272,
         "quality": "FHD",
-        "stability": 0.9702970297029703,
+        "stability": 0.9704433497536946,
         "type": "hls"
       }
     ]
@@ -2022,13 +2029,20 @@
     "id": "ndtvindia",
     "name": "NDTV India",
     "category": "News",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_INDIA/images/LOGO_HD/image.png",
-    "epg_id": "NDTVIndia.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/sltkhm.png",
+    "epg_id": "2",
     "servers": [
       {
         "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
-        "latency": 313,
+        "latency": 249,
         "quality": "SD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://vg-ndtvyupp.akamaized.net/ptnr-yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-685223/main.m3u8?hdnts=st%3D1774371644~exp%3D1774393244~acl%3D%21%2A%2Fptnr-yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fvglive-sk-685223%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_2_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_2_-1~hmac%3Dec162dc0e8e6e547b15ed4607cf1fc67167d1af840f1f19abf9693a0491edcc8",
+        "latency": 447,
+        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -2043,9 +2057,9 @@
     "servers": [
       {
         "url": "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8",
-        "latency": 150,
+        "latency": 235,
         "quality": "FHD",
-        "stability": 0.7178217821782178,
+        "stability": 0.7192118226600985,
         "type": "hls"
       }
     ]
@@ -2059,9 +2073,9 @@
     "servers": [
       {
         "url": "https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u8",
-        "latency": 330,
+        "latency": 53,
         "quality": "FHD",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -2074,8 +2088,8 @@
     "epg_id": "38",
     "servers": [
       {
-        "url": "https://vg-ndtvlive.akamaized.net/ptnr-yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-860950/main.m3u8?hdnts=st%3D1774367096~exp%3D1774388696~acl%3D%21%2A%2Fptnr-yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fvglive-sk-860950%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_38_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_38_-1~hmac%3D54ed88ee339188c68a8a4cd26424b9b59122a638787bb5af13ec92fb0ac4393d",
-        "latency": 394,
+        "url": "https://vg-ndtvlive.akamaized.net/ptnr-yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-860950/main.m3u8?hdnts=st%3D1774371646~exp%3D1774393246~acl%3D%21%2A%2Fptnr-yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fvglive-sk-860950%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_38_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_38_-1~hmac%3D62aaff68c65458130a0c40f3920d91ba4deae3a6584b9d19e186b51e8e5b1e41",
+        "latency": 752,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -2090,7 +2104,7 @@
     "servers": [
       {
         "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8",
-        "latency": 45,
+        "latency": 255,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -2105,17 +2119,17 @@
     "epg_id": "3",
     "servers": [
       {
-        "url": "https://yuppnimrestreammum.akamaized.net/181224/smil:ndtvprofit.smil/playlist.m3u8?hdnts=st%3D1774367087~exp%3D1774388687~acl%3D%21%2A%2F181224%2Fsmil%3Andtvprofit.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_3_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_3_-1~hmac%3Db73b67dac2a189080a115fa8c6bfcf8f780265bb52b0d77dbbae8cad4f1ae846",
-        "latency": 148,
+        "url": "https://yuppparoriglin.akamaized.net/181224/smil:ndtvprofit.smil/playlist.m3u8?hdnts=st%3D1774371639~exp%3D1774393239~acl%3D%21%2A%2F181224%2Fsmil%3Andtvprofit.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_3_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_3_-1~hmac%3D5a0c59fad1a8865e8b001d42bb617773ed448cbeb58d29320a86afc015f69f35",
+        "latency": 351,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8",
-        "latency": 120,
+        "latency": 35,
         "quality": "FHD",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -2128,17 +2142,17 @@
     "epg_id": "39",
     "servers": [
       {
-        "url": "https://vg-ndtvyupp.akamaized.net/ptnr-yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-753641/main.m3u8?hdnts=st%3D1774367099~exp%3D1774388699~acl%3D%21%2A%2Fptnr-yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fvglive-sk-753641%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_39_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_39_-1~hmac%3D8cb37f4da8f73d4119faa85fd9069fbdcd191463a5ed45d55ca755d4b0554e28",
-        "latency": 1078,
+        "url": "https://vg-ndtvyupp.akamaized.net/ptnr-yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-753641/main.m3u8?hdnts=st%3D1774371647~exp%3D1774393247~acl%3D%21%2A%2Fptnr-yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fvglive-sk-753641%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_39_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_39_-1~hmac%3D1ec22663a8277bfc2afea4bf70a944307dd3f35586f37783caad6a10eb020a4d",
+        "latency": 687,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8",
-        "latency": 327,
+        "latency": 232,
         "quality": "FHD",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -2150,17 +2164,17 @@
     "logo": "https://s3.aynaott.com/storage/d969a37a7e1bbd49449ae092d34f0549",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/nhkworld/index.m3u8?e=1774371944&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=ce893885976dcf7ebc5c90253420d732",
-        "latency": 1590,
+        "url": "https://tvsen6.aynascope.net/nhkworld/index.m3u8?e=1774377470&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=dc5fe6aad1f8a6bca013f1e1d99cfde3",
+        "latency": 1912,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "http://103.175.73.12:8080/live/417/417_0.m3u8",
-        "latency": 442,
+        "latency": 466,
         "quality": "",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -2174,9 +2188,9 @@
     "servers": [
       {
         "url": "https://cdn-6.pishow.tv/live/10014/master.m3u8",
-        "latency": 540,
+        "latency": 508,
         "quality": "",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -2189,8 +2203,8 @@
     "epg_id": "185",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/Nandighoshatv/playlist.m3u8?hdnts=st%3D1774367131~exp%3D1774388731~acl%3D%21%2A%2Ffta%2FNandighoshatv%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_185_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_185_-1~hmac%3Df9207dfa3daa8d1234cd9ac8937c4bde5afda3ef3d73500ad0df961178d5ac4e",
-        "latency": 464,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/Nandighoshatv/playlist.m3u8?hdnts=st%3D1774371678~exp%3D1774393278~acl%3D%21%2A%2Ffta%2FNandighoshatv%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_185_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_185_-1~hmac%3Db214effbe6ad20d455f6ace5f4ccaa33f1af7dab1db70e42576bba74da6e31d7",
+        "latency": 601,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -2206,9 +2220,9 @@
     "servers": [
       {
         "url": "https://mumt05.tangotv.in/NENEWS/index.m3u8",
-        "latency": 269,
+        "latency": 263,
         "quality": "",
-        "stability": 0.9851485148514851,
+        "stability": 0.9852216748768473,
         "type": "hls"
       }
     ]
@@ -2222,7 +2236,7 @@
     "servers": [
       {
         "url": "https://cdn-6.pishow.tv/live/10011/master.m3u8",
-        "latency": 535,
+        "latency": 540,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -2237,15 +2251,15 @@
     "epg_id": "129",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/news1india/playlist.m3u8?hdnts=st%3D1774367100~exp%3D1774388700~acl%3D%21%2A%2Ffta%2Fnews1india%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_129_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_129_-1~hmac%3Dc9a082cd62d61671cc52b926a1bb7341c310beab82edee2a8da22f4eb069a1ed",
-        "latency": 587,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/news1india/playlist.m3u8?hdnts=st%3D1774371650~exp%3D1774393250~acl%3D%21%2A%2Ffta%2Fnews1india%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_129_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_129_-1~hmac%3D5742f1df85cb08540f57dd38f40c62e17f98bea75d148cf22be1ffab2b72b34c",
+        "latency": 425,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen6.aynascope.net/News1India/index.m3u8?e=1774371947&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=19bdbb8ba060b9e30d6ca34c7bfdbc5e",
-        "latency": 2024,
+        "url": "https://tvsen6.aynascope.net/News1India/index.m3u8?e=1774377474&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=472c6975082349636c6944cf4dd68e09",
+        "latency": 2413,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -2261,7 +2275,7 @@
     "servers": [
       {
         "url": "https://mumt02.tangotv.in/NEWS11BHARAT/index.m3u8",
-        "latency": 416,
+        "latency": 491,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -2276,8 +2290,8 @@
     "epg_id": "161",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/news11bharat/playlist.m3u8?hdnts=st%3D1774367097~exp%3D1774388697~acl%3D%21%2A%2Ffta%2Fnews11bharat%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_161_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_161_-1~hmac%3D04f1c4bbd81f3272adb8a1c178bd50cb38d184ee21e751209f90b315e316460d",
-        "latency": 484,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/news11bharat/playlist.m3u8?hdnts=st%3D1774371647~exp%3D1774393247~acl%3D%21%2A%2Ffta%2Fnews11bharat%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_161_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_161_-1~hmac%3D9b3a4ca3a4ea7be6755c7be47d964c4d5b1a3a0087776781ec27690a1808eeb8",
+        "latency": 567,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -2292,17 +2306,17 @@
     "epg_id": "181",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/News1st/playlist.m3u8?hdnts=st%3D1774367121~exp%3D1774388721~acl%3D%21%2A%2Ffta%2FNews1st%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_181_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_181_-1~hmac%3Da23c4b93c76f740d6e2c991849f2ef87ad0bc11078f8f711c65cdba89e31e4d9",
-        "latency": 270,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/News1st/playlist.m3u8?hdnts=st%3D1774371670~exp%3D1774393270~acl%3D%21%2A%2Ffta%2FNews1st%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_181_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_181_-1~hmac%3D52ae386981b48c3d06d7f91d092eb36f067e599b6bb6a61f0ba73e359254f4a8",
+        "latency": 326,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://cdn-3.pishow.tv/live/268/master.m3u8",
-        "latency": 387,
+        "latency": 272,
         "quality": "",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -2316,16 +2330,16 @@
     "servers": [
       {
         "url": "https://bozztv.com/rongo/rongo-News24HD/index.m3u8",
-        "latency": 101,
+        "latency": 100,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8",
-        "latency": 802,
+        "latency": 670,
         "quality": "HD",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -2337,8 +2351,8 @@
     "logo": "https://s3.aynaott.com/storage/7c002f22c02096b0d1ba833ae9ea6d5b",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/news24/index.m3u8?e=1774371940&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=8af68a96de413576f0c40c8c201688ad",
-        "latency": 2280,
+        "url": "https://tvsen6.aynascope.net/news24/index.m3u8?e=1774377466&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a11434748dd33461cc3a4af77738d731",
+        "latency": 1599,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -2354,9 +2368,9 @@
     "servers": [
       {
         "url": "https://segment.yuppcdn.net/240122/news7/playlist.m3u8",
-        "latency": 167,
+        "latency": 3,
         "quality": "",
-        "stability": 0.9851485148514851,
+        "stability": 0.9852216748768473,
         "type": "hls"
       }
     ]
@@ -2370,9 +2384,9 @@
     "servers": [
       {
         "url": "https://cdn-6.pishow.tv/live/10009/master.m3u8",
-        "latency": 390,
+        "latency": 362,
         "quality": "",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -2386,7 +2400,7 @@
     "servers": [
       {
         "url": "https://cdn-3.pishow.tv/live/1279/master.m3u8",
-        "latency": 383,
+        "latency": 252,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -2402,7 +2416,7 @@
     "servers": [
       {
         "url": "https://d18a8tqmogafg2.cloudfront.net/newsmalayalam/index.m3u8",
-        "latency": 316,
+        "latency": 280,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2417,7 +2431,7 @@
     "servers": [
       {
         "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
-        "latency": 120,
+        "latency": 54,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -2432,7 +2446,7 @@
     "servers": [
       {
         "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8",
-        "latency": 361,
+        "latency": 296,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -2447,8 +2461,8 @@
     "epg_id": "317",
     "servers": [
       {
-        "url": "https://vglivessai.akamaized.net/ptnr-lg/title-NewsTamil_LGIndia/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/6b4230cd-0a95-4f83-bf79-4dd2eb13bd41/index.m3u8?hdnts=st%3D1774367127~exp%3D1774388727~acl%3D%21%2A%2Fptnr-lg%2Ftitle-NewsTamil_LGIndia%2Fsg%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F6b4230cd-0a95-4f83-bf79-4dd2eb13bd41%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_317_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_317_-1~hmac%3Db2cb51d56b4a1304b7ba6d712bac58089835871b0c748b75b2b024e075faf01f",
-        "latency": 301,
+        "url": "https://vglivessai.akamaized.net/ptnr-lg/title-NewsTamil_LGIndia/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/6b4230cd-0a95-4f83-bf79-4dd2eb13bd41/index.m3u8?hdnts=st%3D1774371673~exp%3D1774393273~acl%3D%21%2A%2Fptnr-lg%2Ftitle-NewsTamil_LGIndia%2Fsg%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F6b4230cd-0a95-4f83-bf79-4dd2eb13bd41%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_317_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_317_-1~hmac%3D036bd3dd0737109b3e17feda4ca901138ead5305919200403f1abdbdd5578ab5",
+        "latency": 948,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -2464,7 +2478,7 @@
     "servers": [
       {
         "url": "https://d18a8tqmogafg2.cloudfront.net/newstamil/index.m3u8",
-        "latency": 310,
+        "latency": 260,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2479,8 +2493,8 @@
     "epg_id": "115",
     "servers": [
       {
-        "url": "https://yuppnimrestreammum.akamaized.net/181224/smil:newstime.smil/playlist.m3u8?hdnts=st%3D1774367114~exp%3D1774388714~acl%3D%21%2A%2F181224%2Fsmil%3Anewstime.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_115_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_115_-1~hmac%3D584cbe76b34e38d153d29d543fadcfedf7e1c35ed4f2dbc8c1d3b22b22b76850",
-        "latency": 541,
+        "url": "https://yuppparoriglin.akamaized.net/181224/smil:newstime.smil/playlist.m3u8?hdnts=st%3D1774371662~exp%3D1774393262~acl%3D%21%2A%2F181224%2Fsmil%3Anewstime.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_115_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_115_-1~hmac%3D6de2415ab1c71b7d8cf2cf0618da354d5c3f25f91bcaff29ee83555720f0694c",
+        "latency": 139,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -2496,7 +2510,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/master.m3u8",
-        "latency": 737,
+        "latency": 266,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2512,7 +2526,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/master.m3u8",
-        "latency": 776,
+        "latency": 320,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2528,7 +2542,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Bihar_Jharkhand_NW18_MOB/output01/master.m3u8",
-        "latency": 740,
+        "latency": 258,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2544,7 +2558,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Gujarati_NW18_MOB/output01/master.m3u8",
-        "latency": 836,
+        "latency": 324,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2560,7 +2574,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/master.m3u8",
-        "latency": 802,
+        "latency": 290,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2576,7 +2590,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_JKLH_NW18_MOB/output01/master.m3u8",
-        "latency": 754,
+        "latency": 285,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2592,7 +2606,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8",
-        "latency": 836,
+        "latency": 256,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2608,7 +2622,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8",
-        "latency": 787,
+        "latency": 878,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2624,7 +2638,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Lokmat_NW18_MOB/output01/master.m3u8",
-        "latency": 758,
+        "latency": 360,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2640,7 +2654,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_MP_Chhattisgarh_NW18_MOB/output01/master.m3u8",
-        "latency": 783,
+        "latency": 283,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2656,7 +2670,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Odia_NW18_MOB/output01/master.m3u8",
-        "latency": 772,
+        "latency": 275,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2672,7 +2686,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/master.m3u8",
-        "latency": 763,
+        "latency": 275,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2688,7 +2702,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8",
-        "latency": 753,
+        "latency": 320,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2704,7 +2718,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8",
-        "latency": 828,
+        "latency": 300,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2720,7 +2734,7 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Urdu_NW18_MOB/output01/master.m3u8",
-        "latency": 800,
+        "latency": 308,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2736,8 +2750,24 @@
     "servers": [
       {
         "url": "https://n18syndication.akamaized.net/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/output01/master.m3u8",
-        "latency": 867,
+        "latency": 340,
         "quality": "FHD",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "news9live",
+    "name": "News9live",
+    "category": "News",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/kcaslr.png",
+    "epg_id": "188",
+    "servers": [
+      {
+        "url": "https://vg-tv9live.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/59d1f22f-8f3f-4458-bb05-204baca5a6ba/main.m3u8?hdnts=st%3D1774371636~exp%3D1774393236~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F59d1f22f-8f3f-4458-bb05-204baca5a6ba%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_188_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_188_-1~hmac%3D0726b78e23ab8cc1f957e3a685cf5a424e791aa6e1fbcca62c5107d66217b5ee",
+        "latency": 1084,
+        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -2751,7 +2781,7 @@
     "servers": [
       {
         "url": "https://a-cdn.klowdtv.com/live1/oan_720p/playlist.m3u8",
-        "latency": 197,
+        "latency": 416,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -2766,8 +2796,8 @@
     "epg_id": "275",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-OAN_PLUS/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/788b88ab-2266-4d4f-b43f-061bc7976f4a/playlist.m3u8?hdnts=st%3D1774367088~exp%3D1774388688~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-OAN_PLUS%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F788b88ab-2266-4d4f-b43f-061bc7976f4a%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_275_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_275_-1~hmac%3D98958344ee7bd99c5e9d0da08286fb1f61315dc34b331696c8059258ae4e104d",
-        "latency": 929,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-OAN_PLUS/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/788b88ab-2266-4d4f-b43f-061bc7976f4a/playlist.m3u8?hdnts=st%3D1774371639~exp%3D1774393239~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-OAN_PLUS%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F788b88ab-2266-4d4f-b43f-061bc7976f4a%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_275_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_275_-1~hmac%3D3a4229b52c2a134a877dce5adf164394224c70ed656fcd84a328413fd37c0e65",
+        "latency": 1181,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -2783,7 +2813,7 @@
     "servers": [
       {
         "url": "https://5dd3981940faa.streamlock.net/onkarentertainment/onkarentertainment/playlist.m3u8",
-        "latency": 957,
+        "latency": 572,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -2799,7 +2829,7 @@
     "servers": [
       {
         "url": "https://cdn-4.pishow.tv/live/1502/master.m3u8",
-        "latency": 676,
+        "latency": 632,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -2815,7 +2845,7 @@
     "servers": [
       {
         "url": "https://live-cf-polimernews.dailyhunt.in/master.m3u8",
-        "latency": 826,
+        "latency": 108,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -2831,7 +2861,7 @@
     "servers": [
       {
         "url": "https://powertvkannada.com/hls/stream.m3u8",
-        "latency": 771,
+        "latency": 875,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -2847,9 +2877,9 @@
     "servers": [
       {
         "url": "https://server.thelegitpro.in/pratidintime/pratidintime/index.fmp4.m3u8",
-        "latency": 916,
+        "latency": 894,
         "quality": "",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -2863,7 +2893,7 @@
     "servers": [
       {
         "url": "https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8",
-        "latency": 242,
+        "latency": 213,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -2879,7 +2909,7 @@
     "servers": [
       {
         "url": "http://158.69.24.53:8080/probashi_tv/index.m3u8",
-        "latency": 157,
+        "latency": 47,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -2894,8 +2924,8 @@
     "epg_id": "109",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/protidintime/playlist.m3u8?hdnts=st%3D1774367127~exp%3D1774388727~acl%3D%21%2A%2Ffta%2Fprotidintime%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_109_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_109_-1~hmac%3D233015f20916ced1984f65ea6b919988100f6473a7acbe8398f321c099c0949d",
-        "latency": 625,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/protidintime/playlist.m3u8?hdnts=st%3D1774371673~exp%3D1774393273~acl%3D%21%2A%2Ffta%2Fprotidintime%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_109_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_109_-1~hmac%3D6f7bff3e5721286f7eb94853fc1ee54d6302e2d4e94994cb5dd79ee837e52960",
+        "latency": 249,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -2911,9 +2941,9 @@
     "servers": [
       {
         "url": "https://prudentmcdn.rixcast.com/prudentm.m3u8",
-        "latency": 1037,
+        "latency": 358,
         "quality": "FHD",
-        "stability": 0.9504950495049505,
+        "stability": 0.9507389162561576,
         "type": "hls"
       }
     ]
@@ -2927,7 +2957,7 @@
     "servers": [
       {
         "url": "https://cdn-3.pishow.tv/live/439/master.m3u8",
-        "latency": 419,
+        "latency": 446,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -2938,21 +2968,14 @@
     "id": "puthiyathalaimurai",
     "name": "Puthiya Thalaimurai",
     "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/puthiya-thalaimurai.png",
-    "epg_id": "175",
+    "logo": "https://dtil.tmsimg.com/assets/s143692_ld_h15_aa.png?lock=720x540",
+    "epg_id": "PuthiyaThalaimurai.in@SD",
     "servers": [
       {
-        "url": "https://yuppnimresmum.akamaized.net/240122/puthiya/playlist.m3u8?hdnts=st%3D1774367128~exp%3D1774388728~acl%3D%21%2A%2F240122%2Fputhiya%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_175_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_175_-1~hmac%3D66ac285d551d260d379ece71b43f98a5806c474270edd5d137383e32efcabce5",
-        "latency": 69,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8",
-        "latency": 169,
+        "latency": 138,
         "quality": "",
-        "stability": 0.9851485148514851,
+        "stability": 0.9852216748768473,
         "type": "hls"
       }
     ]
@@ -2965,9 +2988,9 @@
     "servers": [
       {
         "url": "https://thelegitpro.in/pntv/rplusnews24x7/tracks-v1a1/mono.m3u8",
-        "latency": 918,
+        "latency": 930,
         "quality": "",
-        "stability": 0.985,
+        "stability": 0.9850746268656716,
         "type": "hls"
       }
     ]
@@ -2981,8 +3004,38 @@
     "servers": [
       {
         "url": "https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8",
-        "latency": 6384,
+        "latency": 971,
         "quality": "FHD",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "rtnews",
+    "name": "RT News",
+    "category": "News",
+    "logo": "",
+    "servers": [
+      {
+        "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
+        "latency": 744,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "rtnewsusa",
+    "name": "RT News USA",
+    "category": "News",
+    "logo": "",
+    "servers": [
+      {
+        "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1",
+        "latency": 768,
+        "quality": "",
         "stability": 1,
         "type": "hls"
       }
@@ -2997,7 +3050,7 @@
     "servers": [
       {
         "url": "http://78.130.250.2:8023/play/a04l/index.m3u8",
-        "latency": 342,
+        "latency": 276,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -3013,9 +3066,9 @@
     "servers": [
       {
         "url": "https://mumt03.tangotv.in/RAJNEWSKANDA/index.m3u8",
-        "latency": 1340,
+        "latency": 566,
         "quality": "",
-        "stability": 0.9851485148514851,
+        "stability": 0.9852216748768473,
         "type": "hls"
       }
     ]
@@ -3029,9 +3082,9 @@
     "servers": [
       {
         "url": "https://mumt04.tangotv.in/RAJNEWSMALAYALAM/index.m3u8",
-        "latency": 740,
+        "latency": 608,
         "quality": "",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -3045,9 +3098,9 @@
     "servers": [
       {
         "url": "https://mumt04.tangotv.in/RAJNEWSTELUGU/index.m3u8",
-        "latency": 836,
+        "latency": 697,
         "quality": "",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -3061,7 +3114,7 @@
     "servers": [
       {
         "url": "https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8",
-        "latency": 224,
+        "latency": 566,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -3072,21 +3125,14 @@
     "id": "reportertv",
     "name": "Reporter Tv",
     "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/reporter-tv.png",
-    "epg_id": "140",
+    "logo": "https://dtil.tmsimg.com/assets/s85096_ld_h15_aa.png?lock=720x540",
+    "epg_id": "ReporterTV.in@SD",
     "servers": [
       {
-        "url": "https://yuppnimresmum.akamaized.net/050522/reporter/playlist.m3u8?hdnts=st%3D1774367129~exp%3D1774388729~acl%3D%21%2A%2F050522%2Freporter%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_140_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_140_-1~hmac%3D6c139f0f194a4719c061022f71e821c464694ddb18c9723d8a2a8c0f18f0a64b",
-        "latency": 829,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://segment.yuppcdn.net/050522/reporter/playlist.m3u8",
-        "latency": 14,
+        "latency": 201,
         "quality": "",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -3095,12 +3141,19 @@
     "id": "republicbharat",
     "name": "Republic Bharat",
     "category": "News",
-    "logo": "https://dtil.tmsimg.com/assets/s143724_ld_h15_aa.png?lock=720x540",
-    "epg_id": "RepublicBharat.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/lnnuqu.png",
+    "epg_id": "20",
     "servers": [
       {
+        "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/0f99a1bc-a7d8-44cb-af25-000a09d0d735/main.m3u8?hdnts=st%3D1774371640~exp%3D1774393240~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F0f99a1bc-a7d8-44cb-af25-000a09d0d735%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_20_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_20_-1~hmac%3D0017c1bcec09d91759786efffe350ec7062defc55f4821c2c006a016c179fcb2",
+        "latency": 255,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
         "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8",
-        "latency": 612,
+        "latency": 259,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -3111,12 +3164,19 @@
     "id": "republickannada",
     "name": "Republic Kannada",
     "category": "News",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RSYMDOTKANNADA/images/LOGO_HD/image.png",
-    "epg_id": "RepublicKannada.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/ssufdl.png",
+    "epg_id": "230",
     "servers": [
       {
+        "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fe62a891-0115-43a4-854d-86fd52cc0d0f/main.m3u8?hdnts=st%3D1774371668~exp%3D1774393268~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Ffe62a891-0115-43a4-854d-86fd52cc0d0f%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_230_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_230_-1~hmac%3Db9887dc66a30445587c44c8430b1ebf1ac87bea761df28a6ce5380812e1331de",
+        "latency": 363,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
         "url": "https://vg-republictvlive.akamaized.net/ptnr-republicweb/title-Republic_TV_Kannada/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/1acd1ce1-c6a7-4ae4-afa1-133ffb111ebb/main.m3u8",
-        "latency": 286,
+        "latency": 694,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -3127,12 +3187,19 @@
     "id": "republictv",
     "name": "Republic Tv",
     "category": "News",
-    "logo": "https://dtil.tmsimg.com/assets/s143723_ld_h15_aa.png?lock=720x540",
-    "epg_id": "RepublicTV.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/usnsgu.png",
+    "epg_id": "19",
     "servers": [
       {
+        "url": "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f12a937b-1d7a-473e-ace1-cf53818bb5a5/main.m3u8?hdnts=st%3D1774371634~exp%3D1774393234~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Ff12a937b-1d7a-473e-ace1-cf53818bb5a5%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_19_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_19_-1~hmac%3D24eaab62d438b1a9ce8fe5fa238bee67cc6b064958438370573a5449fc0c7bbb",
+        "latency": 325,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
         "url": "https://samsung-republictv.amagi.tv/ts-ap-s1-n1/playlist/samsungin-republictv-samsungindia/playlist.m3u8",
-        "latency": 662,
+        "latency": 4032,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -3147,7 +3214,7 @@
     "servers": [
       {
         "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1",
-        "latency": 907,
+        "latency": 698,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3163,7 +3230,7 @@
     "servers": [
       {
         "url": "http://116.90.120.151:8000/play/a0j1/index.m3u8",
-        "latency": 527,
+        "latency": 515,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -3179,7 +3246,7 @@
     "servers": [
       {
         "url": "http://116.90.120.151:8000/play/a0h2/index.m3u8",
-        "latency": 528,
+        "latency": 522,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3195,7 +3262,7 @@
     "servers": [
       {
         "url": "https://mumt04.tangotv.in/SACHBEDHADAK/index.m3u8",
-        "latency": 695,
+        "latency": 563,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3211,9 +3278,9 @@
     "servers": [
       {
         "url": "https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8",
-        "latency": 555,
+        "latency": 2,
         "quality": "HD",
-        "stability": 0.9801980198019802,
+        "stability": 0.9802955665024631,
         "type": "hls"
       }
     ]
@@ -3225,8 +3292,8 @@
     "logo": "https://s3.aynaott.com/storage/80e4113d034ad20bcbea341dcb4ae27e",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/SadhnaPrimeNews/index.m3u8?e=1774371948&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=fbdad252fef925f4a682f190dff04e1d",
-        "latency": 1477,
+        "url": "https://tvsen6.aynascope.net/SadhnaPrimeNews/index.m3u8?e=1774377474&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=eca0471aa3624607b79833a1f27c660b",
+        "latency": 2314,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3242,25 +3309,9 @@
     "servers": [
       {
         "url": "https://mumt03.tangotv.in/SAHANANEWS/index.m3u8",
-        "latency": 665,
+        "latency": 645,
         "quality": "",
-        "stability": 0.995049504950495,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "sakshitv",
-    "name": "Sakshi Tv",
-    "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/ykuyew.png",
-    "epg_id": "104",
-    "servers": [
-      {
-        "url": "https://yuppnimresmum.akamaized.net/240122/sakshi/playlist.m3u8?hdnts=st%3D1774367116~exp%3D1774388716~acl%3D%21%2A%2F240122%2Fsakshi%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_104_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_104_-1~hmac%3Dbf01faa9af7465dadc2e4b25be486323a76824d7750e8d889b034e5ce3e6a858",
-        "latency": 55,
-        "quality": "HD",
-        "stability": 1,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -3274,7 +3325,7 @@
     "servers": [
       {
         "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeesalaam/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/426c6db7-595e-4aa8-859c-7e86ed2811d0/af896be5-4743-41fc-8b6a-eb05e44f3a6e/3.m3u8",
-        "latency": 634,
+        "latency": 660,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3290,7 +3341,7 @@
     "servers": [
       {
         "url": "https://server.livelegitpro.in/samaykolkata/samaykolkata/index.m3u8",
-        "latency": 225,
+        "latency": 204,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -3306,23 +3357,7 @@
     "servers": [
       {
         "url": "https://live-cf-sathiyamtv.dailyhunt.in/master.m3u8",
-        "latency": 812,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "seithigaltv",
-    "name": "Seithigal Tv",
-    "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/seithigal-tv.png",
-    "epg_id": "119",
-    "servers": [
-      {
-        "url": "https://yuppnimresmum.akamaized.net/120723/smil:seithagal.smil/playlist.m3u8?hdnts=st%3D1774367128~exp%3D1774388728~acl%3D%21%2A%2F120723%2Fsmil%3Aseithagal.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_119_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_119_-1~hmac%3D9e16d3cd530686bc6f674d36a999a70034452607b57435d69361b269970ffa21",
-        "latency": 831,
+        "latency": 118,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3336,8 +3371,8 @@
     "logo": "https://s3.aynaott.com/storage/69d8281f965475f3293a3e30de8c0ccb",
     "servers": [
       {
-        "url": "https://tvsen5.aynascope.net/skynews/index.m3u8?e=1774371951&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=1ee7dd6cc2eb0960a904a2ea02851825",
-        "latency": 1495,
+        "url": "https://tvsen5.aynascope.net/skynews/index.m3u8?e=1774377478&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=4f07f311dcd5f61efd4846a4d744c4c6",
+        "latency": 1573,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3352,9 +3387,9 @@
     "servers": [
       {
         "url": "https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8",
-        "latency": 622,
+        "latency": 156,
         "quality": "",
-        "stability": 0.6225490196078431,
+        "stability": 0.624390243902439,
         "type": "hls"
       }
     ]
@@ -3363,19 +3398,19 @@
     "id": "somoynewstv",
     "name": "Somoy News Tv",
     "category": "News",
-    "logo": "https://s3.aynaott.com/storage/ece71c1163a377fbe2d93f9d28c34f60",
+    "logo": "https://i.imgur.com/i54AQic.png",
     "epg_id": "SomoyNewsTV.bd@SD",
     "servers": [
       {
         "url": "https://bozztv.com/rongo/rongo-somoy/index.m3u8",
-        "latency": 119,
+        "latency": 112,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen6.aynascope.net/somoytv/index.m3u8?e=1774371935&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f60f3daa1679aa00ec5ed2a071c3de8c",
-        "latency": 2024,
+        "url": "https://tvsen6.aynascope.net/somoytv/index.m3u8?e=1774377462&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5f23da7a5b76ed596f847b7466fc6ba1",
+        "latency": 1701,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3390,17 +3425,17 @@
     "epg_id": "138",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/sudarshan/playlist.m3u8?hdnts=st%3D1774367096~exp%3D1774388696~acl%3D%21%2A%2Ffta%2Fsudarshan%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_138_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_138_-1~hmac%3Da2a203c5f8217cb02a074ce4b5cc8b3db941ee44badef68fb33a2818af82b0c5",
-        "latency": 591,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/sudarshan/playlist.m3u8?hdnts=st%3D1774371646~exp%3D1774393246~acl%3D%21%2A%2Ffta%2Fsudarshan%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_138_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_138_-1~hmac%3Db56454805030e1a8f78d38e847ab37d74a01db809aa7e3dc2d6df065636546a4",
+        "latency": 224,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8",
-        "latency": 946,
+        "latency": 886,
         "quality": "FHD",
-        "stability": 0.9702970297029703,
+        "stability": 0.9704433497536946,
         "type": "hls"
       }
     ]
@@ -3414,9 +3449,9 @@
     "servers": [
       {
         "url": "https://cdn-2.pishow.tv/live/465/master.m3u8",
-        "latency": 372,
+        "latency": 257,
         "quality": "HD",
-        "stability": 0.9900990099009901,
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -3429,15 +3464,15 @@
     "epg_id": "151",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/swarajexpresssmbc/playlist.m3u8?hdnts=st%3D1774367102~exp%3D1774388702~acl%3D%21%2A%2Ffta%2Fswarajexpresssmbc%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_151_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_151_-1~hmac%3D33e7b8b437c9c137c5ea292a25e9b850c034874c698aedb0808fc4490b99500e",
-        "latency": 495,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/swarajexpresssmbc/playlist.m3u8?hdnts=st%3D1774371652~exp%3D1774393252~acl%3D%21%2A%2Ffta%2Fswarajexpresssmbc%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_151_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_151_-1~hmac%3Db4bca6dbc4a932ece2dd3305e2e66d497416ab904f90a0e48b331f437c1a80b0",
+        "latency": 316,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://cdn-2.pishow.tv/live/477/master.m3u8",
-        "latency": 636,
+        "latency": 470,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3453,7 +3488,7 @@
     "servers": [
       {
         "url": "https://mumbai-edge.smartplaytv.in/SwatantraTV/index.m3u8",
-        "latency": 243,
+        "latency": 214,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -3468,7 +3503,7 @@
     "servers": [
       {
         "url": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8",
-        "latency": 153,
+        "latency": 48,
         "quality": "SD",
         "stability": 1,
         "type": "hls"
@@ -3479,19 +3514,12 @@
     "id": "tnews",
     "name": "T News",
     "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/t-news.png",
-    "epg_id": "108",
+    "logo": "https://dtil.tmsimg.com/assets/s143919_ld_h15_aa.png?lock=720x540",
+    "epg_id": "TNews.in@SD",
     "servers": [
       {
-        "url": "https://yuppnimresmum.akamaized.net/120723/smil:tnews.smil/playlist.m3u8?hdnts=st%3D1774367116~exp%3D1774388716~acl%3D%21%2A%2F120723%2Fsmil%3Atnews.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_108_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_108_-1~hmac%3D537cf1fb814adecdd3bc9a1aba5702aa0067efd64fb18638096ec22a04a6823b",
-        "latency": 88,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://cdn-1.pishow.tv/live/385/master.m3u8",
-        "latency": 788,
+        "latency": 675,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3507,7 +3535,7 @@
     "servers": [
       {
         "url": "https://mumt01.tangotv.in/JANAMTVTAMIL/index.m3u8",
-        "latency": 342,
+        "latency": 325,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3523,7 +3551,7 @@
     "servers": [
       {
         "url": "https://cdn-3.pishow.tv/live/1612/master.m3u8",
-        "latency": 222,
+        "latency": 208,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3534,12 +3562,19 @@
     "id": "timesnownavbharat",
     "name": "Times Now Navbharat",
     "category": "News",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TIMES_NOW_NAVBHARAT_HD/images/LOGO_HD/image.png",
-    "epg_id": "TimesNowNavbharat.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/times-now-navbharat.png",
+    "epg_id": "196",
     "servers": [
       {
+        "url": "https://vg-timesgroup.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/345a8f3d-c6a7-4214-b519-0494d75b6bf9/main.m3u8?hdnts=st%3D1774371642~exp%3D1774393242~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F345a8f3d-c6a7-4214-b519-0494d75b6bf9%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_196_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_196_-1~hmac%3D004418873631fbdf981d5f76204299c9c3517d6237356b89f7fd2c869bfe4524",
+        "latency": 380,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
         "url": "https://amg01448-samsungin-tinnavbharat-samsungin-ad-m8.amagi.tv/playlist/amg01448-samsungin-tinnavbharat-samsungin/playlist.m3u8",
-        "latency": 636,
+        "latency": 477,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -3554,7 +3589,7 @@
     "servers": [
       {
         "url": "https://live.sli.ke/live/npnhm84gz9/master.m3u8",
-        "latency": 1097,
+        "latency": 936,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3569,8 +3604,8 @@
     "epg_id": "128",
     "servers": [
       {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/totaltv/playlist.m3u8?hdnts=st%3D1774367100~exp%3D1774388700~acl%3D%21%2A%2Ffta%2Ftotaltv%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_128_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_128_-1~hmac%3D1638a741281ab8975761f563fa985fdecb017ee0c1e2cc6583b14d794fb44ea3",
-        "latency": 381,
+        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/totaltv/playlist.m3u8?hdnts=st%3D1774371650~exp%3D1774393250~acl%3D%21%2A%2Ffta%2Ftotaltv%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_128_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_128_-1~hmac%3D1d25e8eef910c615f872f3d5df99dc27fa916e6d0b640d21ab9d67b84e1221ed",
+        "latency": 398,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3585,30 +3620,7 @@
     "servers": [
       {
         "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
-        "latency": 214,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "tv5",
-    "name": "Tv5",
-    "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/cwlloq.png",
-    "epg_id": "105",
-    "servers": [
-      {
-        "url": "https://yuppnimresmum.akamaized.net/110322/tv5/playlist.m3u8?hdnts=st%3D1774367116~exp%3D1774388716~acl%3D%21%2A%2F110322%2Ftv5%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_105_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_105_-1~hmac%3Daf27555ed3ee84686a8ac1bf18513b8fa483d9df02c4c5cfc758b3fa24b55620",
-        "latency": 133,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "http://5.253.46.190:8000/play/a0eo/index.m3u8",
-        "latency": 282,
+        "latency": 371,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3619,19 +3631,12 @@
     "id": "tv5kannada",
     "name": "Tv5 Kannada",
     "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/tv5-kannada.png",
-    "epg_id": "211",
+    "logo": "https://dtil.tmsimg.com/assets/s144024_ld_h15_aa.png?lock=720x540",
+    "epg_id": "TV5Kannada.in@SD",
     "servers": [
       {
-        "url": "https://yuppnimresmum.akamaized.net/050522/tv5kannada/playlist.m3u8?hdnts=st%3D1774367121~exp%3D1774388721~acl%3D%21%2A%2F050522%2Ftv5kannada%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_211_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_211_-1~hmac%3D2ba4631e55ab12c91cc6e9b3ed2a83dd86da79dffd6859a6cf1d677c83434dbd",
-        "latency": 124,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://cdn-3.pishow.tv/live/1526/master.m3u8",
-        "latency": 222,
+        "latency": 671,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3643,10 +3648,18 @@
     "name": "Tv9 Bangla",
     "category": "News",
     "logo": "https://s3.aynaott.com/storage/7b93f6be496c9fd25769b09970180c4c",
+    "epg_id": "35",
     "servers": [
       {
+        "url": "https://vg-tv9live.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/c7ddad43-3d1c-46ce-bcd5-bd6b5cd4be09/main.m3u8?hdnts=st%3D1774371662~exp%3D1774393262~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fc7ddad43-3d1c-46ce-bcd5-bd6b5cd4be09%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_35_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_35_-1~hmac%3D2efc53dffe40e64bbfc3b4eed2fc32019504ded30ef3ceaa9c2011083ea63a10",
+        "latency": 351,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
         "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8",
-        "latency": 513,
+        "latency": 560,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3657,12 +3670,19 @@
     "id": "tv9bharatvarsh",
     "name": "Tv9 Bharatvarsh",
     "category": "News",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TV9_BHARATVARSH/images/LOGO_HD/image.png",
-    "epg_id": "TV9Bharatvarsh.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/rhgutv.png",
+    "epg_id": "34",
     "servers": [
       {
         "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8",
-        "latency": 451,
+        "latency": 492,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://vg-tv9yupp.akamaized.net/ptnr-yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-234604/main.m3u8?hdnts=st%3D1774371641~exp%3D1774393241~acl%3D%21%2A%2Fptnr-yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fvglive-sk-234604%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_34_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_34_-1~hmac%3Dc787b87e23a98051a29e5bd746bc4c07341de3b98099af712c110bd2b075f702",
+        "latency": 938,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3673,12 +3693,35 @@
     "id": "tv9gujarati",
     "name": "Tv9 Gujarati",
     "category": "News",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TV9_GUJARATI/images/LOGO_HD/image.png",
-    "epg_id": "TV9Gujarati.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/vcevdy.png",
+    "epg_id": "12",
     "servers": [
       {
         "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9guj3ki8lu/liveabr/playlist.m3u8",
-        "latency": 678,
+        "latency": 486,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://vg-tv9live.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f22f413f-37f0-450f-8a25-4387adbac8c4/main.m3u8?hdnts=st%3D1774371670~exp%3D1774393270~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Ff22f413f-37f0-450f-8a25-4387adbac8c4%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_12_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_12_-1~hmac%3Dc3dc45260954e9f9989bd4bc0e89865765d674d5e8abad01a11d73df98b6bc34",
+        "latency": 716,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "tv9kannada",
+    "name": "Tv9 Kannada",
+    "category": "News",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/ivzkvy.png",
+    "epg_id": "10",
+    "servers": [
+      {
+        "url": "https://vg-tv9live.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/744e7b25-47a5-4711-888b-e7e274c40fc4/main.m3u8?hdnts=st%3D1774371668~exp%3D1774393268~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F744e7b25-47a5-4711-888b-e7e274c40fc4%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_10_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_10_-1~hmac%3Daf48ce26a2647a390307866d2ff660bc1c3425597854f5a392564a9b45bd432d",
+        "latency": 345,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3689,12 +3732,35 @@
     "id": "tv9marathi",
     "name": "Tv9 Marathi",
     "category": "News",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TV9_MARATHI/images/LOGO_HD/image.png",
-    "epg_id": "TV9Marathi.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/syutfx.png",
+    "epg_id": "11",
     "servers": [
       {
+        "url": "https://vg-tv9live.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b0207305-0529-4d2b-bef0-e6f1c7395e53/main.m3u8?hdnts=st%3D1774371659~exp%3D1774393259~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fb0207305-0529-4d2b-bef0-e6f1c7395e53%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_11_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_11_-1~hmac%3D8c98b867f75cba47f4291685cf8a6ee10d63defdf7c96ddbfaeb783bd16b1133",
+        "latency": 466,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
         "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8",
-        "latency": 678,
+        "latency": 738,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "tv9news",
+    "name": "Tv9 News",
+    "category": "News",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/cmwyio.png",
+    "epg_id": "9",
+    "servers": [
+      {
+        "url": "https://vg-tv9live.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/26a5f7d4-3af8-4c5d-a1fa-5f53049f913f/main.m3u8?hdnts=st%3D1774371662~exp%3D1774393262~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F26a5f7d4-3af8-4c5d-a1fa-5f53049f913f%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_9_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_9_-1~hmac%3Dfeb49dc2d4885f0760f5e15156c3a07c31a952aa1fe775b716174b53b7969867",
+        "latency": 666,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3710,7 +3776,7 @@
     "servers": [
       {
         "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8",
-        "latency": 677,
+        "latency": 503,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3726,7 +3792,7 @@
     "servers": [
       {
         "url": "https://cdn-3.pishow.tv/live/461/master.m3u8",
-        "latency": 240,
+        "latency": 671,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -3742,25 +3808,9 @@
     "servers": [
       {
         "url": "https://live.vipnews24x7.co.in/vipnews24x7/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8",
-        "latency": 627,
+        "latency": 637,
         "quality": "SD",
-        "stability": 0.9851485148514851,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "vtvgujarati",
-    "name": "Vtv Gujarati",
-    "category": "News",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/vtv-gujarati.png",
-    "epg_id": "165",
-    "servers": [
-      {
-        "url": "https://d1msejlow1t3l4.cloudfront.net/fta/vtvgujarati/playlist.m3u8?hdnts=st%3D1774367125~exp%3D1774388725~acl%3D%21%2A%2Ffta%2Fvtvgujarati%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_165_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_165_-1~hmac%3D556beb461edf6410ba8ba27275c63475ec64c83d08028d8547395a09013d8655",
-        "latency": 396,
-        "quality": "HD",
-        "stability": 1,
+        "stability": 0.9852216748768473,
         "type": "hls"
       }
     ]
@@ -3773,16 +3823,16 @@
     "epg_id": "14",
     "servers": [
       {
-        "url": "http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8?hdnts=st%3D1774367083~exp%3D1774388683~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-wion%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F20c3c0d9-0256-43fe-bca6-70fdd490b957%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_14_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_14_-1~hmac%3D18dde1f709f39be875146479caf2d30058e84b584f9d17f383b78323ea422b51",
-        "latency": 534,
-        "quality": "HD",
+        "url": "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8",
+        "latency": 42,
+        "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8",
-        "latency": 764,
-        "quality": "",
+        "url": "http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8?hdnts=st%3D1774371634~exp%3D1774393234~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-wion%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F20c3c0d9-0256-43fe-bca6-70fdd490b957%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_14_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_14_-1~hmac%3D0f3eb825ad5e586a5c4a7a7335f23b76246e6196aad469417a5ea35cb999f1b4",
+        "latency": 838,
+        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -3797,14 +3847,14 @@
     "servers": [
       {
         "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee24kalak/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/497f7199-758d-495d-9d2f-a5489231c428/14b7c8ec-16da-47f2-8d7e-5bbaec67b3e2/3.m3u8",
-        "latency": 314,
+        "latency": 288,
         "quality": "4K",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee24kalak/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/497f7199-758d-495d-9d2f-a5489231c428/main.m3u8?hdnts=st%3D1774367123~exp%3D1774388723~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zee24kalak%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F497f7199-758d-495d-9d2f-a5489231c428%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_32_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_32_-1~hmac%3D2e2e6eb8d6d045925b17c944277581915ad120dd02d627465fe7ebf00ea47dc0",
-        "latency": 331,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee24kalak/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/497f7199-758d-495d-9d2f-a5489231c428/main.m3u8?hdnts=st%3D1774371671~exp%3D1774393271~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zee24kalak%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F497f7199-758d-495d-9d2f-a5489231c428%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_32_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_32_-1~hmac%3D5cf661d54c6f19ab38069d78b96615381c72d3f11a9d693f85658cf1ddebbc2e",
+        "latency": 301,
         "quality": "4K",
         "stability": 1,
         "type": "hls"
@@ -3820,7 +3870,7 @@
     "servers": [
       {
         "url": "https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8",
-        "latency": 799,
+        "latency": 776,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3836,7 +3886,7 @@
     "servers": [
       {
         "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8",
-        "latency": 283,
+        "latency": 312,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3847,14 +3897,21 @@
     "id": "zeebiharjharkhand",
     "name": "ZEE Bihar Jharkhand",
     "category": "News",
-    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG00230Y44.png?lock=720x540",
-    "epg_id": "ZeeBiharJharkhand.in@SD",
+    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/zjjkih.png",
+    "epg_id": "30",
     "servers": [
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeebiharjharkhand/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/28077955-07d7-4ae2-8b11-9f318cd69420/main.m3u8",
-        "latency": 299,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeebiharjharkhand/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/28077955-07d7-4ae2-8b11-9f318cd69420/main.m3u8?hdnts=st%3D1774371646~exp%3D1774393246~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeebiharjharkhand%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F28077955-07d7-4ae2-8b11-9f318cd69420%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_30_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_30_-1~hmac%3D340610ae266531a5a92b869b6aa8232aa5aba621be0d802803a8d01b3be2ec1e",
+        "latency": 385,
         "quality": "HD",
-        "stability": 0.9900990099009901,
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeebiharjharkhand/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/28077955-07d7-4ae2-8b11-9f318cd69420/main.m3u8",
+        "latency": 284,
+        "quality": "HD",
+        "stability": 0.9901477832512315,
         "type": "hls"
       }
     ]
@@ -3867,15 +3924,15 @@
     "epg_id": "5",
     "servers": [
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee_business/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/af1b3fa3-f56d-4741-9c63-78409a798988/main.m3u8?hdnts=st%3D1774367105~exp%3D1774388705~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zee_business%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Faf1b3fa3-f56d-4741-9c63-78409a798988%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_5_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_5_-1~hmac%3D17f8302de79e9568c46fb7cdd1a086cc9d47b34ac0cc9fa133c6dab9149dfafc",
-        "latency": 759,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee_business/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/af1b3fa3-f56d-4741-9c63-78409a798988/main.m3u8?hdnts=st%3D1774371655~exp%3D1774393255~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zee_business%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Faf1b3fa3-f56d-4741-9c63-78409a798988%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_5_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_5_-1~hmac%3Dcddfa719e4e530f9e57371e81c80dd4f276739a802ddbeabe1aec37a53360f84",
+        "latency": 298,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://dwby15d04agvq.cloudfront.net/index_5.m3u8",
-        "latency": 766,
+        "latency": 620,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3890,15 +3947,15 @@
     "epg_id": "31",
     "servers": [
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8",
-        "latency": 311,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8?hdnts=st%3D1774371647~exp%3D1774393247~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeedelhincr%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fcc483a15-1b39-4642-872d-5d08d362ed01%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_31_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_31_-1~hmac%3Dc92ed9e169d08cb21e6fda0183c6950b3b514b5047c79f8b7ed2b1d7cc93f405",
+        "latency": 341,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8?hdnts=st%3D1774367097~exp%3D1774388697~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeedelhincr%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fcc483a15-1b39-4642-872d-5d08d362ed01%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_31_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_31_-1~hmac%3Dfbfd3121e31f2f6bebf6c3463a26d26fad2433f4b0edd2a8b1914506e09c384c",
-        "latency": 856,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8",
+        "latency": 695,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3913,8 +3970,8 @@
     "epg_id": "25",
     "servers": [
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8?hdnts=st%3D1774367095~exp%3D1774388695~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeehindustan%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F96bbab12-582e-4540-af70-510ab6824581%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_25_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_25_-1~hmac%3D01a968eb8c9423b59c6890e5dc31d8903c931e97fd41ef2def15084a4c8f7524",
-        "latency": 854,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8?hdnts=st%3D1774371644~exp%3D1774393244~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeehindustan%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F96bbab12-582e-4540-af70-510ab6824581%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_25_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_25_-1~hmac%3Dd0d71cd5638c3223a9cb88ca390155d5a13909228553532b6385d52032788879",
+        "latency": 332,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3930,7 +3987,7 @@
     "servers": [
       {
         "url": "https://d3vzwoqcbpfm8p.cloudfront.net/index_4.m3u8",
-        "latency": 775,
+        "latency": 703,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -3945,17 +4002,17 @@
     "epg_id": "28",
     "servers": [
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8?hdnts=st%3D1774367097~exp%3D1774388697~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeemadhyachhattisgarh%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F2ab17056-6187-4f0e-a34d-f436ac479d6c%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_28_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_28_-1~hmac%3D92d062ce32abfdcf1d992eb3ad234d2503ae1c25535d3f0b5939427e756cce1c",
-        "latency": 468,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8?hdnts=st%3D1774371647~exp%3D1774393247~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeemadhyachhattisgarh%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F2ab17056-6187-4f0e-a34d-f436ac479d6c%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_28_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_28_-1~hmac%3D8a5fc8cd2900105ebf93347d98bdfd2bad9a96592af80784be3caa4dcc265c6b",
+        "latency": 669,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8",
-        "latency": 288,
+        "latency": 680,
         "quality": "HD",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -3969,9 +4026,9 @@
     "servers": [
       {
         "url": "https://d1ty2af03alkwd.cloudfront.net/index_4.m3u8",
-        "latency": 810,
+        "latency": 696,
         "quality": "HD",
-        "stability": 0.995049504950495,
+        "stability": 0.9950738916256158,
         "type": "hls"
       }
     ]
@@ -3984,16 +4041,16 @@
     "epg_id": "13",
     "servers": [
       {
-        "url": "https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8",
-        "latency": 813,
-        "quality": "FHD",
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeenews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8744f9fb-d696-4204-9795-5215ad930c39/main.m3u8?hdnts=st%3D1774371643~exp%3D1774393243~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeenews%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F8744f9fb-d696-4204-9795-5215ad930c39%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_13_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_13_-1~hmac%3D68b657c580f43c42f38d13502e141e380c76f2e964e24aa3a13336686228323c",
+        "latency": 325,
+        "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeenews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8744f9fb-d696-4204-9795-5215ad930c39/main.m3u8?hdnts=st%3D1774367093~exp%3D1774388693~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeenews%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F8744f9fb-d696-4204-9795-5215ad930c39%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_13_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_13_-1~hmac%3D047acf2025f344b6725f106abaaf1917e5ae48ad0706b5c49c970e8323222ce8",
-        "latency": 852,
-        "quality": "HD",
+        "url": "https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8",
+        "latency": 706,
+        "quality": "FHD",
         "stability": 1,
         "type": "hls"
       }
@@ -4007,8 +4064,8 @@
     "epg_id": "33",
     "servers": [
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeetelugunews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/17fe98f0-d496-4c26-beeb-96b466d01162/main.m3u8?hdnts=st%3D1774367118~exp%3D1774388718~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeetelugunews%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F17fe98f0-d496-4c26-beeb-96b466d01162%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_33_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_33_-1~hmac%3D68ca20e03ac72f6588347215fcc088238d84018b106281ea19f26fb9f0ae8aac",
-        "latency": 348,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeetelugunews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/17fe98f0-d496-4c26-beeb-96b466d01162/main.m3u8?hdnts=st%3D1774371666~exp%3D1774393266~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeetelugunews%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F17fe98f0-d496-4c26-beeb-96b466d01162%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_33_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_33_-1~hmac%3De1235e13fc5893ca2b2d89e2dac953fe5442229d77a0452e0cce431dbade3b0b",
+        "latency": 313,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -4023,15 +4080,15 @@
     "epg_id": "15",
     "servers": [
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeepunjabharyanahima/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/65eed269-2f3a-4dd0-ac89-d18959af28e3/main.m3u8?hdnts=st%3D1774367126~exp%3D1774388726~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeepunjabharyanahima%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F65eed269-2f3a-4dd0-ac89-d18959af28e3%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_15_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_15_-1~hmac%3D3a2a0fba16bbec4c3401c408958910d2b31468f407c28409edf679837851541e",
-        "latency": 310,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeepunjabharyanahima/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/65eed269-2f3a-4dd0-ac89-d18959af28e3/main.m3u8?hdnts=st%3D1774371672~exp%3D1774393272~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeepunjabharyanahima%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F65eed269-2f3a-4dd0-ac89-d18959af28e3%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_15_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_15_-1~hmac%3D0aa469c60b37813cccf73fa0a4a3b9583242af536a19aa5005cdb4d0f17381cc",
+        "latency": 305,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeepunjabharyanahima/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/65eed269-2f3a-4dd0-ac89-d18959af28e3/main.m3u8",
-        "latency": 610,
+        "latency": 320,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -4047,7 +4104,7 @@
     "servers": [
       {
         "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8e864b9a-1681-41a0-99a6-387490bc5b24/main.m3u8",
-        "latency": 299,
+        "latency": 281,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -4062,8 +4119,8 @@
     "epg_id": "26",
     "servers": [
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8e864b9a-1681-41a0-99a6-387490bc5b24/main.m3u8?hdnts=st%3D1774367099~exp%3D1774388699~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeerajashthannews%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F8e864b9a-1681-41a0-99a6-387490bc5b24%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_26_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_26_-1~hmac%3Dec484fdd4ed6693da035d2d4267a18c0b74d2df2d84c938be629bdac0e3c72ce",
-        "latency": 412,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8e864b9a-1681-41a0-99a6-387490bc5b24/main.m3u8?hdnts=st%3D1774371649~exp%3D1774393249~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeerajashthannews%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F8e864b9a-1681-41a0-99a6-387490bc5b24%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_26_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_26_-1~hmac%3Daab22c34fb28eb81bc4f4e1b8b5529a88f1458051a00180e2a41d71c9f61f272",
+        "latency": 679,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -4078,8 +4135,8 @@
     "epg_id": "27",
     "servers": [
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeesalaam/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/426c6db7-595e-4aa8-859c-7e86ed2811d0/main.m3u8?hdnts=st%3D1774367126~exp%3D1774388726~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeesalaam%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F426c6db7-595e-4aa8-859c-7e86ed2811d0%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_27_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_20.109.36.227_yuppfast_2_channel_27_-1~hmac%3Dec9cf0a310d19255d9f5a427e0a5e67bfb252563eacd1e5b97234ad3d308035d",
-        "latency": 305,
+        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeesalaam/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/426c6db7-595e-4aa8-859c-7e86ed2811d0/main.m3u8?hdnts=st%3D1774371672~exp%3D1774393272~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeesalaam%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F426c6db7-595e-4aa8-859c-7e86ed2811d0%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_27_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.184.211.248_yuppfast_2_channel_27_-1~hmac%3Da65703fb07436c08e8ad286b2d87223d7215de14c0f00545b5388203a492a451",
+        "latency": 738,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -4095,7 +4152,7 @@
     "servers": [
       {
         "url": "https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8",
-        "latency": 790,
+        "latency": 710,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -4111,7 +4168,7 @@
     "servers": [
       {
         "url": "https://duw35ict5q7th.cloudfront.net/index_3.m3u8",
-        "latency": 1009,
+        "latency": 665,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -4127,9 +4184,9 @@
     "servers": [
       {
         "url": "https://server.zillarbarta.com/zillarbarta/index.m3u8",
-        "latency": 599,
+        "latency": 606,
         "quality": "",
-        "stability": 0.9356435643564357,
+        "stability": 0.9359605911330049,
         "type": "hls"
       }
     ]
