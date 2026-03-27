@@ -7,14 +7,7 @@
     "servers": [
       {
         "url": "https://tvsen6.aynascope.net/3abnkids/index.m3u8?e=1774658411&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a7369fab2081b2b37f879b0f1aa1ccda",
-        "latency": 788,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/3abnkids/index.m3u8?e=1774654921&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c79425517dadf9303961857ab4325c89",
-        "latency": 849,
+        "latency": 694,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -28,24 +21,31 @@
     "logo": "https://s3.aynaott.com/storage/a89142109d049ae325fd1681b50bfffb",
     "servers": [
       {
-        "url": "https://tvsen5.aynascope.net/cartoonnetwork/index.m3u8?e=1774654917&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3b0dd39a58c374d449d1477ade8b38a8",
-        "latency": 952,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/cartoon-network/index.m3u8?token=1a55d14b8d16267af78a742f996f9310d4a7ea50-2022529e65f03d1e8ba5872b366c3862-1774655339-1774651739",
+        "latency": 387,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/cartoon-network-hd/index.m3u8?token=3a89a4d483c4320e35e12a489353e7ee1a747c9c-f2831787662a498dc1d9e2fedea6aebe-1774655339-1774651739",
+        "latency": 437,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
         "url": "https://tvsen5.aynascope.net/cartoonnetwork/index.m3u8?e=1774658407&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=872c3c2ebd0e321f56c4cdcdd1a62f4a",
-        "latency": 1473,
+        "latency": 751,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
-        "latency": 21,
+        "latency": 19,
         "quality": "",
-        "stability": 0.927710843373494,
+        "stability": 0.928,
         "type": "hls"
       }
     ]
@@ -58,8 +58,8 @@
     "epg_id": "48",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8?hdnts=st%3D1774648889~exp%3D1774670489~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fd5543c06-5122-49a7-9662-32187f48aa2c%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_57.151.137.180_yuppfast_2_channel_48_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_57.151.137.180_yuppfast_2_channel_48_-1~hmac%3Da44cb5117fa07083339ed056188cba8dd0399e3e62b7966a367a59d71c187dbb",
-        "latency": 170,
+        "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8?hdnts=st%3D1774654508~exp%3D1774676108~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fd5543c06-5122-49a7-9662-32187f48aa2c%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_68.220.59.49_yuppfast_2_channel_48_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_68.220.59.49_yuppfast_2_channel_48_-1~hmac%3D2a932aeeaad7600c5336adc86cef07818008c9a6450ac9fa3df5888d45d80fca",
+        "latency": 150,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -75,9 +75,9 @@
     "servers": [
       {
         "url": "https://cdn-6.pishow.tv/live/1243/master.m3u8",
-        "latency": 633,
+        "latency": 617,
         "quality": "",
-        "stability": 0.9961538461538462,
+        "stability": 0.9961685823754789,
         "type": "hls"
       }
     ]
@@ -90,7 +90,22 @@
     "servers": [
       {
         "url": "https://s.emisoras.tv:8081/diostevekids/index.m3u8",
-        "latency": 60,
+        "latency": 46,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "discoverykids",
+    "name": "Discovery Kids",
+    "category": "Kids",
+    "logo": "https://tvassets.roarzone.info/images/discoverykids.png",
+    "servers": [
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/discovery-kids/index.m3u8?token=edc377252edbb5eab811c2d954fbdb6fb04387be-54dfc5d66a0b3759a555f2cfe46af680-1774655339-1774651739",
+        "latency": 903,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -106,21 +121,14 @@
     "servers": [
       {
         "url": "http://151.80.18.177:86/Disney_Channel_HD/index.m3u8",
-        "latency": 185,
+        "latency": 199,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://tvsen7.aynascope.net/disney/index.m3u8?e=1774658418&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b12301678f46ca25b3528f62c8e8c052",
-        "latency": 786,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen7.aynascope.net/disney/index.m3u8?e=1774654927&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5075f4c5277973893cbb7bab6083a864",
-        "latency": 804,
+        "latency": 1204,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -136,21 +144,14 @@
     "servers": [
       {
         "url": "http://151.80.18.177:86/Disney_Junior_HD/index.m3u8",
-        "latency": 173,
+        "latency": 187,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://tvsen7.aynascope.net/disneyjr/index.m3u8?e=1774658409&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3cee300162c74b4abecf1b356c1a17c1",
-        "latency": 583,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen7.aynascope.net/disneyjr/index.m3u8?e=1774654919&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=26adde3e156839b4a522ff3feee0f229",
-        "latency": 609,
+        "latency": 608,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -164,15 +165,8 @@
     "logo": "https://s3.aynaott.com/storage/f9b945284524683f1de8beb07ded8989",
     "servers": [
       {
-        "url": "https://tvsen5.aynascope.net/disneyxd/index.m3u8?e=1774654928&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=01844945575dd10e69ca712ffbe9e7d1",
-        "latency": 825,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen5.aynascope.net/disneyxd/index.m3u8?e=1774658418&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=339958bdb1e5a53c32c993998ca185b3",
-        "latency": 860,
+        "latency": 1425,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -187,9 +181,9 @@
     "servers": [
       {
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
-        "latency": 16,
+        "latency": 55,
         "quality": "",
-        "stability": 0.921875,
+        "stability": 0.9221789883268483,
         "type": "hls"
       }
     ]
@@ -202,8 +196,8 @@
     "epg_id": "83",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-KIDDO-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/5bcf9d24-04f2-401d-a93f-7af54f29461a/manifest.m3u8?hdnts=st%3D1774648889~exp%3D1774670489~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-KIDDO-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F5bcf9d24-04f2-401d-a93f-7af54f29461a%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_57.151.137.180_yuppfast_2_channel_83_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_57.151.137.180_yuppfast_2_channel_83_-1~hmac%3D3b3d1e3b8654f840fd64e1f7ea386cbd62ac2190dabaf9606dd5929b2d7a52f0",
-        "latency": 228,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-KIDDO-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/5bcf9d24-04f2-401d-a93f-7af54f29461a/manifest.m3u8?hdnts=st%3D1774654508~exp%3D1774676108~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-KIDDO-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F5bcf9d24-04f2-401d-a93f-7af54f29461a%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_68.220.59.49_yuppfast_2_channel_83_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_68.220.59.49_yuppfast_2_channel_83_-1~hmac%3D80d4b16a1632cccbb74f2c122546ecd5e0ab8ef7dec200c6e06ae286fd3dc4bc",
+        "latency": 961,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -218,7 +212,7 @@
     "servers": [
       {
         "url": "https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8",
-        "latency": 165,
+        "latency": 153,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -233,14 +227,7 @@
     "servers": [
       {
         "url": "https://tvsen6.aynascope.net/MoonbugKids/index.m3u8?e=1774658415&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=ae202e1fce899b4443308234b183e8ce",
-        "latency": 624,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/MoonbugKids/index.m3u8?e=1774654925&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c49656f8f2793eadf203dd86d39649d7",
-        "latency": 697,
+        "latency": 665,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -257,7 +244,7 @@
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
         "latency": 16,
         "quality": "",
-        "stability": 0.94140625,
+        "stability": 0.9416342412451362,
         "type": "hls"
       }
     ]
@@ -271,28 +258,21 @@
     "servers": [
       {
         "url": "http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8",
-        "latency": 119,
+        "latency": 85,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "http://151.80.18.177:86/Nickelodeon_FR/index.m3u8",
-        "latency": 188,
+        "latency": 174,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen7.aynascope.net/nicklodean/index.m3u8?e=1774654929&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=72e6db6517d13c59f9121cef88c2fb02",
-        "latency": 727,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen7.aynascope.net/nicklodean/index.m3u8?e=1774658420&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=4306219b4ce9b4d8665995bc27b123ba",
-        "latency": 971,
+        "latency": 1210,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -308,7 +288,7 @@
     "servers": [
       {
         "url": "http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8",
-        "latency": 174,
+        "latency": 88,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -323,14 +303,7 @@
     "servers": [
       {
         "url": "https://tvsen5.aynascope.net/nickjr/index.m3u8?e=1774658410&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=4069520039563e0b78ddf84c285f32b6",
-        "latency": 836,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen5.aynascope.net/nickjr/index.m3u8?e=1774654920&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=1322a55c1d48a5e6577202aa801f0ef2",
-        "latency": 1070,
+        "latency": 1338,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -345,14 +318,7 @@
     "servers": [
       {
         "url": "https://tvsen5.aynascope.net/nicktoons/index.m3u8?e=1774658409&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=eadf2c878656ff7c8c85bc87c8bc3309",
-        "latency": 843,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen5.aynascope.net/nicktoons/index.m3u8?e=1774654919&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a4ef219fe6cdbcd636441abbfcb8ec8f",
-        "latency": 983,
+        "latency": 1222,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -367,7 +333,37 @@
     "servers": [
       {
         "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
-        "latency": 276,
+        "latency": 115,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "pogo",
+    "name": "Pogo",
+    "category": "Kids",
+    "logo": "https://tvassets.roarzone.info/images/pogo.png",
+    "servers": [
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/pogo/index.m3u8?token=be22221af60e4830102781e91c8fad18a4a643d8-3612d3e66fde8e973bd46949f2266cbe-1774655339-1774651739",
+        "latency": 674,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "sonyyay",
+    "name": "SONY Yay",
+    "category": "Kids",
+    "logo": "https://tvassets.roarzone.info/images/sonyyay.png",
+    "servers": [
+      {
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/sony-yay/index.m3u8?token=15ceaf11ce1fcab51dfa54d1800326dd56255c6a-f6a81f826352c03f4c5d3e5aadb692a2-1774655339-1774651739",
+        "latency": 1014,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -383,9 +379,9 @@
     "servers": [
       {
         "url": "http://103.229.254.25:7001/play/a0dl/index.m3u8",
-        "latency": 978,
+        "latency": 551,
         "quality": "",
-        "stability": 0.9923664122137404,
+        "stability": 0.9923954372623575,
         "type": "hls"
       }
     ]
@@ -399,9 +395,9 @@
     "servers": [
       {
         "url": "http://31.148.48.15/STS_Kids_HD/index.m3u8",
-        "latency": 268,
+        "latency": 186,
         "quality": "FHD",
-        "stability": 0.9404761904761905,
+        "stability": 0.9411764705882353,
         "type": "hls"
       }
     ]
@@ -414,14 +410,7 @@
     "servers": [
       {
         "url": "https://tvsen7.aynascope.net/teennick/index.m3u8?e=1774658421&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e088601b2bee4eb90e67426be820f2d1",
-        "latency": 875,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen7.aynascope.net/teennick/index.m3u8?e=1774654930&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=4d750dbe3c090aa275e28fbd3d074add",
-        "latency": 934,
+        "latency": 998,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -436,9 +425,9 @@
     "servers": [
       {
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
-        "latency": 16,
+        "latency": 20,
         "quality": "",
-        "stability": 0.9535864978902954,
+        "stability": 0.9537815126050421,
         "type": "hls"
       }
     ]
@@ -451,14 +440,7 @@
     "servers": [
       {
         "url": "https://tvsen6.aynascope.net/TVCArabicKids/index.m3u8?e=1774658417&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=eec3041c7c377d3b525c5d96ea20308a",
-        "latency": 681,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/TVCArabicKids/index.m3u8?e=1774654926&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6a8bb1e80bb158138ff29a39c4e1dec4",
-        "latency": 690,
+        "latency": 771,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -473,7 +455,7 @@
     "servers": [
       {
         "url": "https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8",
-        "latency": 405,
+        "latency": 515,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -487,15 +469,8 @@
     "logo": "https://s3.aynaott.com/storage/d79d89851faee0823a1f2bed1a96e84d",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/ytv/index.m3u8?e=1774654931&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b2ac664796035d833c32cd1128ce3330",
-        "latency": 695,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
         "url": "https://tvsen6.aynascope.net/ytv/index.m3u8?e=1774658422&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=797c6f6568bfbf254ae5fde4fd0a4bf1",
-        "latency": 925,
+        "latency": 951,
         "quality": "",
         "stability": 1,
         "type": "hls"
