@@ -1,5 +1,35 @@
 [
   {
+    "id": "andpictures",
+    "name": "& Pictures",
+    "category": "Movies",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540",
+    "epg_id": "Andpictures.in@HD",
+    "servers": [
+      {
+        "url": "https://tvsen6.aynascope.net/andpictureshd/index.m3u8?e=1774634363&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b9fe50cefbd6996df9b82118d1c71ce7",
+        "latency": 633,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://tvsen6.aynascope.net/andpictureshd/index.m3u8?e=1774630633&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=d1b211ead9a3c5ef52e2cfd80849dc39",
+        "latency": 648,
+        "quality": "HD",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "http://103.229.254.25:7001/play/a033/index.m3u8",
+        "latency": 667,
+        "quality": "FHD",
+        "stability": 0.9606299212598425,
+        "type": "hls"
+      }
+    ]
+  },
+  {
     "id": "andtv",
     "name": "& TV",
     "category": "Movies",
@@ -8,16 +38,16 @@
     "servers": [
       {
         "url": "http://103.229.254.25:7001/play/a09v/index.m3u8",
-        "latency": 536,
+        "latency": 625,
         "quality": "",
-        "stability": 0.9881422924901185,
+        "stability": 0.9881889763779528,
         "type": "hls"
       },
       {
         "url": "http://103.229.254.25:7001/play/a034/index.m3u8",
-        "latency": 540,
+        "latency": 646,
         "quality": "FHD",
-        "stability": 0.9644268774703557,
+        "stability": 0.9645669291338582,
         "type": "hls"
       }
     ]
@@ -30,14 +60,14 @@
     "servers": [
       {
         "url": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
-        "latency": 135,
+        "latency": 147,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
-        "latency": 841,
+        "latency": 1103,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -53,9 +83,9 @@
     "servers": [
       {
         "url": "https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8",
-        "latency": 577,
+        "latency": 534,
         "quality": "HD",
-        "stability": 0.9920948616600791,
+        "stability": 0.9921259842519685,
         "type": "hls"
       }
     ]
@@ -69,9 +99,32 @@
     "servers": [
       {
         "url": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8",
-        "latency": 205,
+        "latency": 302,
         "quality": "FHD",
-        "stability": 0.9762845849802372,
+        "stability": 0.9763779527559056,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "b4ukadak",
+    "name": "B4U Kadak",
+    "category": "Movies",
+    "logo": "https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540",
+    "epg_id": "B4UKadak.in@SD",
+    "servers": [
+      {
+        "url": "https://cdn-2.pishow.tv/live/227/master.m3u8",
+        "latency": 879,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8",
+        "latency": 216,
+        "quality": "FHD",
+        "stability": 0.9573643410852714,
         "type": "hls"
       }
     ]
@@ -80,13 +133,14 @@
     "id": "b4umoviesindia",
     "name": "B4U Movies India",
     "category": "Movies",
-    "logo": "https://s3.aynaott.com/storage/5088d0894a79b329031d5f4669bbb0fe",
+    "logo": "https://i.imgur.com/M9kMFJl.png",
+    "epg_id": "B4UMovies.in@India",
     "servers": [
       {
         "url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8",
-        "latency": 410,
-        "quality": "",
-        "stability": 0.9610894941634242,
+        "latency": 192,
+        "quality": "FHD",
+        "stability": 0.9612403100775194,
         "type": "hls"
       }
     ]
@@ -99,8 +153,8 @@
     "epg_id": "256",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/12a9fc64-24ca-491e-b86c-be18c9be047b/manifest.m3u8?hdnts=st%3D1774623242~exp%3D1774644842~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F12a9fc64-24ca-491e-b86c-be18c9be047b%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_256_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_256_-1~hmac%3D58fd9c38c000ce9ab9e6f9e942b481d6527a4d4d50e36d7f2f5bb2f886c64f99",
-        "latency": 640,
+        "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/12a9fc64-24ca-491e-b86c-be18c9be047b/manifest.m3u8?hdnts=st%3D1774626947~exp%3D1774648547~acl%3D%21%2A%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F12a9fc64-24ca-491e-b86c-be18c9be047b%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_256_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_256_-1~hmac%3D49866db61d23cc39869b2954fcd9589bfe480503b48ab9571faa3df25935949b",
+        "latency": 363,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -115,8 +169,8 @@
     "epg_id": "257",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-BEST_DRAMA_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9800ea5c-2183-4160-9f01-70e5d6428a50/manifest.m3u8?hdnts=st%3D1774623243~exp%3D1774644843~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-BEST_DRAMA_YUPPTV%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F9800ea5c-2183-4160-9f01-70e5d6428a50%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_257_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_257_-1~hmac%3D5e1a9cf82b9ce88c950e71cee9a326facc33611731d189f79eac59cff143d590",
-        "latency": 613,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-BEST_DRAMA_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9800ea5c-2183-4160-9f01-70e5d6428a50/manifest.m3u8?hdnts=st%3D1774626947~exp%3D1774648547~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-BEST_DRAMA_YUPPTV%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F9800ea5c-2183-4160-9f01-70e5d6428a50%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_257_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_257_-1~hmac%3D8120d3993235cbe282dfbbcf0d02810b8523589d7369b8647be038b9b676ec79",
+        "latency": 775,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -131,8 +185,8 @@
     "epg_id": "258",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-BEST_THRILLER_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/ce168a85-c8d4-41d6-a597-cc8fd7baddd9/manifest.m3u8?hdnts=st%3D1774623244~exp%3D1774644844~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-BEST_THRILLER_YUPPTV%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fce168a85-c8d4-41d6-a597-cc8fd7baddd9%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_258_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_258_-1~hmac%3Dad1f1bfaa3f67d9364a1ad2bd066cd04606b71e91b8c99f6891260aea6fc09bd",
-        "latency": 643,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-BEST_THRILLER_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/ce168a85-c8d4-41d6-a597-cc8fd7baddd9/manifest.m3u8?hdnts=st%3D1774626948~exp%3D1774648548~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-BEST_THRILLER_YUPPTV%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fce168a85-c8d4-41d6-a597-cc8fd7baddd9%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_258_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_258_-1~hmac%3Dfa0a51296f7cbb14488f68b700d368a5d4d5d8aa99aa3504b87a252d1d8f6e73",
+        "latency": 317,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -148,7 +202,7 @@
     "servers": [
       {
         "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
-        "latency": 935,
+        "latency": 588,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -163,16 +217,16 @@
     "servers": [
       {
         "url": "https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8",
-        "latency": 25,
+        "latency": 17,
         "quality": "",
-        "stability": 0.9800796812749004,
+        "stability": 0.9801587301587301,
         "type": "hls"
       },
       {
         "url": "https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8",
-        "latency": 30,
+        "latency": 17,
         "quality": "",
-        "stability": 0.9681274900398407,
+        "stability": 0.9682539682539683,
         "type": "hls"
       }
     ]
@@ -185,8 +239,8 @@
     "epg_id": "52",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-COWBOY-MOVIE-CHANNEL-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4434fd47-6d46-43e9-b132-fab122edc732/manifest.m3u8?hdnts=st%3D1774623239~exp%3D1774644839~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-COWBOY-MOVIE-CHANNEL-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F4434fd47-6d46-43e9-b132-fab122edc732%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_52_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_52_-1~hmac%3D69d3ebc3448cd8ae0140e7337397cee682ea104945addc09dd81b3d955daf71f",
-        "latency": 575,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-COWBOY-MOVIE-CHANNEL-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4434fd47-6d46-43e9-b132-fab122edc732/manifest.m3u8?hdnts=st%3D1774626944~exp%3D1774648544~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-COWBOY-MOVIE-CHANNEL-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F4434fd47-6d46-43e9-b132-fab122edc732%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_52_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_52_-1~hmac%3De4ed06c2545b3369f6debb44f8f190e9689b206e5c6e49a63462232f93f16ffa",
+        "latency": 361,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -200,15 +254,15 @@
     "logo": "https://s3.aynaott.com/storage/d63eff8864579b144c097c549ec0470a",
     "servers": [
       {
-        "url": "https://tvsen7.aynascope.net/DhamakaMovies/index.m3u8?e=1774626760&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=81bad9b5079bb74b41d3cf04c8bbf78e",
-        "latency": 797,
+        "url": "https://tvsen7.aynascope.net/DhamakaMovies/index.m3u8?e=1774630622&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6b426cffb7c80b69de76fe08dee5a4e3",
+        "latency": 721,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen7.aynascope.net/DhamakaMovies/index.m3u8?e=1774630622&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6b426cffb7c80b69de76fe08dee5a4e3",
-        "latency": 1149,
+        "url": "https://tvsen7.aynascope.net/DhamakaMovies/index.m3u8?e=1774634352&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=78954573a1b1564f508a36b3887daa0e",
+        "latency": 853,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -224,9 +278,9 @@
     "servers": [
       {
         "url": "https://cdn-1.pishow.tv/live/235/master.m3u8",
-        "latency": 552,
+        "latency": 702,
         "quality": "",
-        "stability": 0.9881422924901185,
+        "stability": 0.9881889763779528,
         "type": "hls"
       }
     ]
@@ -239,8 +293,8 @@
     "epg_id": "55",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-DRIVE-IN-MOVIE-CHANNEL-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e5056383-20ac-488f-b299-6577f66881ff/manifest.m3u8?hdnts=st%3D1774623241~exp%3D1774644841~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-DRIVE-IN-MOVIE-CHANNEL-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fe5056383-20ac-488f-b299-6577f66881ff%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_55_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_55_-1~hmac%3Dea57b9191ef14c8a11ab7f54b0a9bb65e9af44c3c24adc2e14467616d5df15a1",
-        "latency": 606,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-DRIVE-IN-MOVIE-CHANNEL-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e5056383-20ac-488f-b299-6577f66881ff/manifest.m3u8?hdnts=st%3D1774626945~exp%3D1774648545~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-DRIVE-IN-MOVIE-CHANNEL-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fe5056383-20ac-488f-b299-6577f66881ff%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_55_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_55_-1~hmac%3D8b3ed68e0446cc147b7aa3130e26eccff53819c6cf45c4a858f3ed0c7f6b2941",
+        "latency": 355,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -256,7 +310,7 @@
     "servers": [
       {
         "url": "https://epiconvh.akamaized.net/live/filamchi/master.m3u8",
-        "latency": 800,
+        "latency": 501,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -271,9 +325,39 @@
     "servers": [
       {
         "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8",
-        "latency": 207,
+        "latency": 278,
         "quality": "SD",
-        "stability": 0.951417004048583,
+        "stability": 0.9516129032258065,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "goldmines",
+    "name": "Goldmines",
+    "category": "Movies",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png",
+    "epg_id": "Goldmines.in@SD",
+    "servers": [
+      {
+        "url": "https://tvsen6.aynascope.net/Goldmines/index.m3u8?e=1774634333&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=fb32789d1aca329a1e15dcd54a533999",
+        "latency": 552,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://tvsen6.aynascope.net/Goldmines/index.m3u8?e=1774630604&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e708b14e3f909d5881b9f1beb798d0bd",
+        "latency": 804,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
+        "latency": 402,
+        "quality": "",
+        "stability": 0.99609375,
         "type": "hls"
       }
     ]
@@ -287,22 +371,7 @@
     "servers": [
       {
         "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8",
-        "latency": 755,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "goldminesbollywood",
-    "name": "Goldmines Bollywood",
-    "category": "Movies",
-    "logo": "",
-    "servers": [
-      {
-        "url": "http://103.175.73.12:8080/live/52/52_0.m3u8",
-        "latency": 459,
+        "latency": 692,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -313,26 +382,26 @@
     "id": "goldminesmovies",
     "name": "Goldmines Movies",
     "category": "Movies",
-    "logo": "https://s3.aynaott.com/storage/f8d9220406fa9ae79006914639f52e9b",
+    "logo": "https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540",
     "epg_id": "GoldminesMovies.in@SD",
     "servers": [
       {
-        "url": "https://tvsen6.aynascope.net/GoldminesMovies/index.m3u8?e=1774626743&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e916953f7bf80ec357a3d474dd2541f4",
-        "latency": 722,
+        "url": "https://tvsen6.aynascope.net/GoldminesMovies/index.m3u8?e=1774630605&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f9cb4736ad07fcb0f0d8b60b17f1f45a",
+        "latency": 575,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://tvsen6.aynascope.net/GoldminesMovies/index.m3u8?e=1774634334&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=140295366ea96f7a3d2a7aaaff038d83",
+        "latency": 754,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8",
-        "latency": 744,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://tvsen6.aynascope.net/GoldminesMovies/index.m3u8?e=1774630605&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f9cb4736ad07fcb0f0d8b60b17f1f45a",
-        "latency": 1333,
+        "latency": 826,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -346,15 +415,15 @@
     "logo": "https://s3.aynaott.com/storage/4a1291716680b5c095d33e106337bb04",
     "servers": [
       {
-        "url": "https://tvsen5.aynascope.net/hbo/index.m3u8?e=1774626714&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=db7f5ab5734b64ca45c0f9543ee512f1",
-        "latency": 696,
+        "url": "https://tvsen5.aynascope.net/hbo/index.m3u8?e=1774634304&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e74e58d0fe55ad0715a89740ae968e63",
+        "latency": 697,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://tvsen5.aynascope.net/hbo/index.m3u8?e=1774630576&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f71c7fa32c632d7aef759a7baf612565",
-        "latency": 2614,
+        "latency": 1242,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -369,14 +438,14 @@
     "servers": [
       {
         "url": "https://tvsen7.aynascope.net/hbo2/index.m3u8?e=1774630586&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=176ea771e828a3e84b4733fda1215e74",
-        "latency": 1048,
+        "latency": 886,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen7.aynascope.net/hbo2/index.m3u8?e=1774626724&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c0f51be84a5fb05ec7615eff09933865",
-        "latency": 1150,
+        "url": "https://tvsen7.aynascope.net/hbo2/index.m3u8?e=1774634314&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=78002de378d93858b60fa9ebcc3646ff",
+        "latency": 1105,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -391,7 +460,7 @@
     "servers": [
       {
         "url": "https://vods2.aynaott.com/hindimovies/index.m3u8",
-        "latency": 655,
+        "latency": 931,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -406,9 +475,9 @@
     "servers": [
       {
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8",
-        "latency": 59,
+        "latency": 17,
         "quality": "",
-        "stability": 0.9314516129032258,
+        "stability": 0.9317269076305221,
         "type": "hls"
       }
     ]
@@ -421,8 +490,8 @@
     "epg_id": "77",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-HORROR-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/93dc292b-cbcf-4988-ab97-94feced4c14b/master.m3u8?hdnts=st%3D1774623240~exp%3D1774644840~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-HORROR-TV-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F93dc292b-cbcf-4988-ab97-94feced4c14b%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_77_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_77_-1~hmac%3Db0357c5f5a1da4b7b0a93ee49da63f307af869381f25654b46a1602f0fcf85de",
-        "latency": 604,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-HORROR-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/93dc292b-cbcf-4988-ab97-94feced4c14b/master.m3u8?hdnts=st%3D1774626944~exp%3D1774648544~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-HORROR-TV-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F93dc292b-cbcf-4988-ab97-94feced4c14b%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_77_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_77_-1~hmac%3D15e87204501d190f317f08ab41bfcb9d8d0676325b7f7477a61c4f39ada11588",
+        "latency": 433,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -438,7 +507,7 @@
     "servers": [
       {
         "url": "https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8",
-        "latency": 585,
+        "latency": 521,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -454,9 +523,9 @@
     "servers": [
       {
         "url": "http://103.229.254.25:7001/play/a0dt/index.m3u8",
-        "latency": 548,
+        "latency": 688,
         "quality": "FHD",
-        "stability": 0.9803921568627451,
+        "stability": 0.98046875,
         "type": "hls"
       }
     ]
@@ -470,7 +539,7 @@
     "servers": [
       {
         "url": "https://cdn-3.pishow.tv/live/1530/master.m3u8",
-        "latency": 571,
+        "latency": 657,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -478,16 +547,17 @@
     ]
   },
   {
-    "id": "khushboo",
-    "name": "Khushboo",
+    "id": "khushboobangla",
+    "name": "Khushboo Bangla",
     "category": "Movies",
-    "logo": "https://s3.aynaott.com/storage/d90eb718a6674494d2dac28e1d96bf44",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KHUSHBOO_BANGLA/images/LOGO_HD/image.png",
+    "epg_id": "KhushbooBangla.in@SD",
     "servers": [
       {
         "url": "https://cdn-4.pishow.tv/live/1473/master.m3u8",
-        "latency": 645,
-        "quality": "",
-        "stability": 0.9961089494163424,
+        "latency": 218,
+        "quality": "HD",
+        "stability": 0.9961240310077519,
         "type": "hls"
       }
     ]
@@ -500,9 +570,9 @@
     "servers": [
       {
         "url": "https://cloudfrontnet.vercel.app/tplay/playout/209627/master.m3u8",
-        "latency": 22,
+        "latency": 10,
         "quality": "",
-        "stability": 0.9840637450199203,
+        "stability": 0.9841269841269841,
         "type": "hls"
       }
     ]
@@ -515,8 +585,8 @@
     "epg_id": "85",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-KUNG-FU-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/06862a07-6a92-4b4d-abc3-5fea131713b5/manifest.m3u8?hdnts=st%3D1774623242~exp%3D1774644842~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-KUNG-FU-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F06862a07-6a92-4b4d-abc3-5fea131713b5%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_85_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_85_-1~hmac%3D4f52d6d6dd7736966d1841f62ee53172721a400dba0d2c892f750471aa85978b",
-        "latency": 652,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-KUNG-FU-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/06862a07-6a92-4b4d-abc3-5fea131713b5/manifest.m3u8?hdnts=st%3D1774626946~exp%3D1774648546~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-KUNG-FU-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F06862a07-6a92-4b4d-abc3-5fea131713b5%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_85_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_85_-1~hmac%3D9575023e94064d14df655ad8774e2592cef86474fc9309fd66664b21fc2a8e90",
+        "latency": 186,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -532,7 +602,7 @@
     "servers": [
       {
         "url": "https://cdn-6.pishow.tv/live/10007/master.m3u8",
-        "latency": 338,
+        "latency": 750,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -548,9 +618,9 @@
     "servers": [
       {
         "url": "https://cdn-1.pishow.tv/live/1011/master.m3u8",
-        "latency": 252,
+        "latency": 945,
         "quality": "HD",
-        "stability": 0.9960474308300395,
+        "stability": 0.9960629921259843,
         "type": "hls"
       }
     ]
@@ -564,9 +634,9 @@
     "servers": [
       {
         "url": "https://live.maxtn.in/maxmovies/maxmovies/index.m3u8",
-        "latency": 1052,
+        "latency": 873,
         "quality": "FHD",
-        "stability": 0.9920948616600791,
+        "stability": 0.9921259842519685,
         "type": "hls"
       }
     ]
@@ -579,24 +649,24 @@
     "epg_id": "MovieBangla.bd@SD",
     "servers": [
       {
-        "url": "https://tvsen7.aynascope.net/moviebangla/index.m3u8?e=1774626684&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=528e9e29392b0d1240f9e0dd0bf2c4e8",
-        "latency": 716,
+        "url": "https://tvsen7.aynascope.net/moviebangla/index.m3u8?e=1774630547&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=8670025a2aab41cc0baddb2f32d3fda0",
+        "latency": 854,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen7.aynascope.net/moviebangla/index.m3u8?e=1774630547&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=8670025a2aab41cc0baddb2f32d3fda0",
-        "latency": 1062,
+        "url": "https://tvsen7.aynascope.net/moviebangla/index.m3u8?e=1774634274&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b4d18a3907203af5b2ae452093fd58f5",
+        "latency": 968,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "http://alvetv.com/moviebanglatv/8080/index.m3u8",
-        "latency": 524,
+        "latency": 559,
         "quality": "",
-        "stability": 0.8987341772151899,
+        "stability": 0.9,
         "type": "hls"
       }
     ]
@@ -610,9 +680,9 @@
     "servers": [
       {
         "url": "https://mumt04.tangotv.in/MOVIEPLEX/index.m3u8",
-        "latency": 670,
+        "latency": 549,
         "quality": "",
-        "stability": 0.9960474308300395,
+        "stability": 0.9960629921259843,
         "type": "hls"
       }
     ]
@@ -625,7 +695,7 @@
     "servers": [
       {
         "url": "https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8",
-        "latency": 191,
+        "latency": 353,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -641,7 +711,7 @@
     "servers": [
       {
         "url": "https://cdn-4.pishow.tv/live/233/master.m3u8",
-        "latency": 630,
+        "latency": 744,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -656,7 +726,7 @@
     "servers": [
       {
         "url": "https://korhls.persiana.live/hls/stream.m3u8",
-        "latency": 520,
+        "latency": 274,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -672,7 +742,7 @@
     "servers": [
       {
         "url": "https://mumt04.tangotv.in/PUBLICMOVIES/index.m3u8",
-        "latency": 975,
+        "latency": 234,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -688,9 +758,9 @@
     "servers": [
       {
         "url": "https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8",
-        "latency": 1160,
+        "latency": 1380,
         "quality": "FHD",
-        "stability": 0.9367588932806324,
+        "stability": 0.937007874015748,
         "type": "hls"
       }
     ]
@@ -704,9 +774,9 @@
     "servers": [
       {
         "url": "http://103.229.254.25:7001/play/a0ed/index.m3u8",
-        "latency": 570,
+        "latency": 1743,
         "quality": "FHD",
-        "stability": 0.9565217391304348,
+        "stability": 0.9566929133858267,
         "type": "hls"
       }
     ]
@@ -720,23 +790,23 @@
     "servers": [
       {
         "url": "http://103.229.254.25:7001/play/a0dd/index.m3u8",
-        "latency": 583,
+        "latency": 620,
         "quality": "FHD",
-        "stability": 0.9920948616600791,
+        "stability": 0.9921259842519685,
         "type": "hls"
       },
       {
         "url": "http://103.99.249.139/stargold/index.m3u8",
-        "latency": 528,
+        "latency": 562,
         "quality": "HD",
-        "stability": 0.9920318725099602,
+        "stability": 0.9920634920634921,
         "type": "hls"
       },
       {
         "url": "http://103.99.249.139/stargold/tracks-v1a1/mono.m3u8",
-        "latency": 1239,
+        "latency": 695,
         "quality": "",
-        "stability": 0.9561752988047809,
+        "stability": 0.9563492063492064,
         "type": "hls"
       }
     ]
@@ -750,9 +820,9 @@
     "servers": [
       {
         "url": "http://103.229.254.25:7001/play/a0d0/index.m3u8",
-        "latency": 530,
+        "latency": 633,
         "quality": "FHD",
-        "stability": 0.9881422924901185,
+        "stability": 0.9881889763779528,
         "type": "hls"
       }
     ]
@@ -766,9 +836,9 @@
     "servers": [
       {
         "url": "http://103.229.254.25:7001/play/a032/index.m3u8",
-        "latency": 594,
+        "latency": 586,
         "quality": "FHD",
-        "stability": 0.9644268774703557,
+        "stability": 0.9645669291338582,
         "type": "hls"
       }
     ]
@@ -781,7 +851,7 @@
     "servers": [
       {
         "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
-        "latency": 4187,
+        "latency": 420,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -797,7 +867,7 @@
     "servers": [
       {
         "url": "https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/playlist.m3u8",
-        "latency": 1159,
+        "latency": 592,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -813,7 +883,7 @@
     "servers": [
       {
         "url": "https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8",
-        "latency": 783,
+        "latency": 714,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -827,15 +897,15 @@
     "logo": "https://s3.aynaott.com/storage/a6d7d9729aafd5055bfd5356b6fa8eef",
     "servers": [
       {
-        "url": "https://tvsen7.aynascope.net/skycinemanimation/index.m3u8?e=1774626727&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=d8ddd8bc2d6c6ce6c5c745f037ef7b6e",
-        "latency": 723,
+        "url": "https://tvsen7.aynascope.net/skycinemanimation/index.m3u8?e=1774630589&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=7d7cb0fa166fdd36d4f11be2773b655e",
+        "latency": 906,
         "quality": "",
         "stability": 1,
         "type": "hls"
       },
       {
-        "url": "https://tvsen7.aynascope.net/skycinemanimation/index.m3u8?e=1774630589&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=7d7cb0fa166fdd36d4f11be2773b655e",
-        "latency": 999,
+        "url": "https://tvsen7.aynascope.net/skycinemanimation/index.m3u8?e=1774634318&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=214534584e0764382e8517493d386c51",
+        "latency": 1540,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -850,9 +920,9 @@
     "servers": [
       {
         "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8",
-        "latency": 60,
+        "latency": 79,
         "quality": "",
-        "stability": 0.916,
+        "stability": 0.9163346613545816,
         "type": "hls"
       }
     ]
@@ -866,9 +936,9 @@
     "servers": [
       {
         "url": "https://cdn-1.pishow.tv/live/276/master.m3u8",
-        "latency": 750,
+        "latency": 394,
         "quality": "HD",
-        "stability": 0.9960474308300395,
+        "stability": 0.9960629921259843,
         "type": "hls"
       }
     ]
@@ -882,9 +952,9 @@
     "servers": [
       {
         "url": "https://stream.sscloud7.com/live/suriyantv/index.m3u8",
-        "latency": 800,
+        "latency": 1018,
         "quality": "",
-        "stability": 0.9920948616600791,
+        "stability": 0.9921259842519685,
         "type": "hls"
       }
     ]
@@ -897,33 +967,10 @@
     "epg_id": "72",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-TENSIONS-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9db01cea-0af6-4382-b2c6-e23525f6640d/manifest.m3u8?hdnts=st%3D1774623240~exp%3D1774644840~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-TENSIONS-TV-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F9db01cea-0af6-4382-b2c6-e23525f6640d%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_72_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_72_-1~hmac%3Db96ec6025632768cb24c0ab542ad5ade8f35fc833c111b9437c9eef37ba34620",
-        "latency": 586,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-TENSIONS-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9db01cea-0af6-4382-b2c6-e23525f6640d/manifest.m3u8?hdnts=st%3D1774626945~exp%3D1774648545~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-TENSIONS-TV-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F9db01cea-0af6-4382-b2c6-e23525f6640d%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_72_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_72_-1~hmac%3D11db5d8181a5745c2eb36b09dc75e45b03000f361bbcc3eaaa8868c0a0261142",
+        "latency": 377,
         "quality": "HD",
         "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "thalaatv",
-    "name": "Thalaa Tv",
-    "category": "Movies",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/thalaa-tv.png",
-    "epg_id": "ThalaaTV.in@HD",
-    "servers": [
-      {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-THALAA-TV-TAM_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2069c593-3c07-4d62-9d44-746be5c3a5d6/manifest.m3u8?hdnts=st%3D1774623203~exp%3D1774644803~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-THALAA-TV-TAM_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F2069c593-3c07-4d62-9d44-746be5c3a5d6%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_70_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_70_-1~hmac%3D18cf8ff8c26e916af2fb92ce3413a0339c50b051967524db7febb85be06678e8",
-        "latency": 1290,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      },
-      {
-        "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2069c593-3c07-4d62-9d44-746be5c3a5d6/manifest.m3u8",
-        "latency": 1219,
-        "quality": "FHD",
-        "stability": 0.8701298701298701,
         "type": "hls"
       }
     ]
@@ -936,8 +983,8 @@
     "epg_id": "88",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-THE-EXPLORERS-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8?hdnts=st%3D1774623168~exp%3D1774644768~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-THE-EXPLORERS-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F4804aca3-dd54-43d1-8caa-0b836a76d9e9%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_88_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_88_-1~hmac%3D9ee81f3761582dc30e049abd03d4616e3d2da4296ab289fa146b04997a917794",
-        "latency": 1921,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-THE-EXPLORERS-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8?hdnts=st%3D1774626902~exp%3D1774648502~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-THE-EXPLORERS-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F4804aca3-dd54-43d1-8caa-0b836a76d9e9%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_88_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_88_-1~hmac%3Dc75ffcc02789f42fdbd373c5d8a7b3100b1460e1e679a21cdb7b8af7bd66b296",
+        "latency": 600,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -949,20 +996,20 @@
     "name": "Tolly Tv",
     "category": "Movies",
     "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/aumnrs.png",
-    "epg_id": "TollyTV.in@HD",
+    "epg_id": "92",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-TOLLY-TV-TEL_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8?hdnts=st%3D1774623245~exp%3D1774644845~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-TOLLY-TV-TEL_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F13b5735d-52c3-4be0-853d-e0ec0127e708%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_92_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_92_-1~hmac%3Dffa7daa5c41ea20b1cb092561bf44e15262397a4875996490932eb92aa5c83e3",
-        "latency": 1061,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-TOLLY-TV-TEL_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8?hdnts=st%3D1774626948~exp%3D1774648548~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-TOLLY-TV-TEL_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F13b5735d-52c3-4be0-853d-e0ec0127e708%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_92_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_92_-1~hmac%3D0b3f06611c541fed57ac3174928846cda76d7d6ed38b8fb20aed7c12e4cad1f7",
+        "latency": 324,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
       },
       {
         "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8",
-        "latency": 1649,
+        "latency": 386,
         "quality": "FHD",
-        "stability": 0.8917748917748918,
+        "stability": 0.8922413793103449,
         "type": "hls"
       }
     ]
@@ -975,8 +1022,8 @@
     "epg_id": "60",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-URBAN-ACTION-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/7ad8ce96-5a3f-413e-ae15-7c2cef7bc8f8/manifest.m3u8?hdnts=st%3D1774623167~exp%3D1774644767~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-URBAN-ACTION-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F7ad8ce96-5a3f-413e-ae15-7c2cef7bc8f8%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_60_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_60_-1~hmac%3D0507f491feb5394279faec655d62a2aaaef87c9c92a4b6f27e421884cb5b2dcb",
-        "latency": 954,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-URBAN-ACTION-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/7ad8ce96-5a3f-413e-ae15-7c2cef7bc8f8/manifest.m3u8?hdnts=st%3D1774626902~exp%3D1774648502~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-URBAN-ACTION-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F7ad8ce96-5a3f-413e-ae15-7c2cef7bc8f8%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_60_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_60_-1~hmac%3D0bbc9d852543ddf231a8f3d5ec0e159d4895a69794a0355c02378e39223df4de",
+        "latency": 957,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -991,8 +1038,8 @@
     "epg_id": "57",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-WESHORT-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/ea019bed-a45e-4dfe-a452-84f5f2f76ea9/manifest.m3u8?hdnts=st%3D1774623242~exp%3D1774644842~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-WESHORT-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fea019bed-a45e-4dfe-a452-84f5f2f76ea9%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_57_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_128.24.163.86_yuppfast_2_channel_57_-1~hmac%3D4940370532b351c22a112918bb367652b9a492bc2101a519af27b584ace0a44f",
-        "latency": 680,
+        "url": "https://streams2.sofast.tv/ptnr-yupptv/title-WESHORT-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/ea019bed-a45e-4dfe-a452-84f5f2f76ea9/manifest.m3u8?hdnts=st%3D1774626945~exp%3D1774648545~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-WESHORT-ENG_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fea019bed-a45e-4dfe-a452-84f5f2f76ea9%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_57_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.195.179_yuppfast_2_channel_57_-1~hmac%3D9085b4ca82560459ecc4109b39b21d7db7bd2be6247612818a7b94910ecdc738",
+        "latency": 381,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -1007,22 +1054,7 @@
     "servers": [
       {
         "url": "http://103.175.73.12:8080/live/270/270_0.m3u8",
-        "latency": 463,
-        "quality": "",
-        "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
-    "id": "zeeanmoltv",
-    "name": "ZEE Anmol Tv",
-    "category": "Movies",
-    "logo": "",
-    "servers": [
-      {
-        "url": "http://103.175.73.12:8080/live/256/256_0.m3u8",
-        "latency": 464,
+        "latency": 659,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -1038,9 +1070,9 @@
     "servers": [
       {
         "url": "http://103.99.249.139/zeecinema/index.m3u8",
-        "latency": 520,
+        "latency": 621,
         "quality": "HD",
-        "stability": 0.9841897233201581,
+        "stability": 0.984251968503937,
         "type": "hls"
       }
     ]
@@ -1054,16 +1086,16 @@
     "servers": [
       {
         "url": "https://server.zillarbarta.com/ZBCINEMA/tracks-v1a1/mono.ts.m3u8",
-        "latency": 221,
+        "latency": 246,
         "quality": "",
-        "stability": 0.9,
+        "stability": 0.9024390243902439,
         "type": "hls"
       },
       {
         "url": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8",
-        "latency": 775,
+        "latency": 819,
         "quality": "HD",
-        "stability": 0.8142292490118577,
+        "stability": 0.8149606299212598,
         "type": "hls"
       }
     ]
