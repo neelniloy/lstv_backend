@@ -1,21 +1,5 @@
 [
   {
-    "id": "canal2international",
-    "name": "Canal 2 International",
-    "category": "International",
-    "logo": "https://i.imgur.com/BzA2z7m.png",
-    "epg_id": "Canal2International.cm@SD",
-    "servers": [
-      {
-        "url": "http://69.64.57.208/canal2international/playlist.m3u8",
-        "latency": 54,
-        "quality": "HD",
-        "stability": 1,
-        "type": "hls"
-      }
-    ]
-  },
-  {
     "id": "france2",
     "name": "France 2",
     "category": "International",
@@ -24,7 +8,7 @@
     "servers": [
       {
         "url": "http://69.64.57.208/france2/mono.m3u8",
-        "latency": 54,
+        "latency": 100,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -39,9 +23,9 @@
     "servers": [
       {
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8",
-        "latency": 116,
+        "latency": 188,
         "quality": "",
-        "stability": 0.9790794979079498,
+        "stability": 0.9791666666666666,
         "type": "hls"
       }
     ]
@@ -54,7 +38,7 @@
     "servers": [
       {
         "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8",
-        "latency": 354,
+        "latency": 457,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -70,7 +54,7 @@
     "servers": [
       {
         "url": "http://69.64.57.208/france5/mono.m3u8",
-        "latency": 57,
+        "latency": 102,
         "quality": "FHD",
         "stability": 1,
         "type": "hls"
@@ -86,9 +70,9 @@
     "servers": [
       {
         "url": "https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8",
-        "latency": 666,
+        "latency": 684,
         "quality": "FHD",
-        "stability": 0.9959839357429718,
+        "stability": 0.996,
         "type": "hls"
       }
     ]
@@ -97,12 +81,19 @@
     "id": "globaltv",
     "name": "Global Tv",
     "category": "International",
-    "logo": "https://tvassets.roarzone.info/images/global-tv.png",
+    "logo": "https://s3.aynaott.com/storage/ffd7ba9b76ad555933f94bcb7ff26b44",
     "servers": [
       {
-        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/global-tv/index.m3u8?token=f13d25b12c78f15074da6340b738993aa06c99fe-cf33bdee6385f51e665ae544d8667ee6-1774607772-1774604172",
-        "latency": 1043,
+        "url": "https://edge2.roarzone.info:8447/roarzone/edge3/global-tv/index.m3u8?token=8adb78972c258acd88919b025d17819c419d7777-5e897abf88c725f8a24173cad159003c-1774611033-1774607433",
+        "latency": 486,
         "quality": "",
+        "stability": 1,
+        "type": "hls"
+      },
+      {
+        "url": "https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1774614307&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=8edccc561d3efb54f1c5e84382f93ac0",
+        "latency": 1291,
+        "quality": "HD",
         "stability": 1,
         "type": "hls"
       }
@@ -117,7 +108,7 @@
     "servers": [
       {
         "url": "http://181.114.57.246:4000/play/BHGDIhvdyuw/index.m3u8",
-        "latency": 100,
+        "latency": 167,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -133,9 +124,24 @@
     "servers": [
       {
         "url": "https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8",
-        "latency": 4992,
+        "latency": 649,
         "quality": "SD",
-        "stability": 0.9437751004016064,
+        "stability": 0.944,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "ibtvusa",
+    "name": "Ibtv USA",
+    "category": "International",
+    "logo": "https://s3.aynaott.com/storage/1678abdbf203bb77af4bbf2905a3de59",
+    "servers": [
+      {
+        "url": "https://tvsen7.aynascope.net/ibtvusa/index.m3u8?e=1774614452&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3d68a4c53abf231b58a65a36dd86cd20",
+        "latency": 839,
+        "quality": "",
+        "stability": 1,
         "type": "hls"
       }
     ]
@@ -148,7 +154,7 @@
     "servers": [
       {
         "url": "https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8",
-        "latency": 39,
+        "latency": 300,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -163,8 +169,8 @@
     "epg_id": "216",
     "servers": [
       {
-        "url": "https://livegeorouus.akamaized.net/090823/smil:manatvint.smil/playlist.m3u8?hdnts=st%3D1774604189~exp%3D1774625789~acl%3D%21%2A%2F090823%2Fsmil%3Amanatvint.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.209.52_yuppfast_2_channel_216_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.209.52_yuppfast_2_channel_216_-1~hmac%3Dc5b7a8a85a35affc99ef4432f7360507a508107081ef0f399bd835c6041db6c0",
-        "latency": 214,
+        "url": "https://livegeorouus.akamaized.net/090823/smil:manatvint.smil/playlist.m3u8?hdnts=st%3D1774607413~exp%3D1774629013~acl%3D%21%2A%2F090823%2Fsmil%3Amanatvint.smil%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_64.236.134.48_yuppfast_2_channel_216_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_64.236.134.48_yuppfast_2_channel_216_-1~hmac%3D1636d12127f41e72d093e4cfff605d8e74bf029b0ed6b0bef301cae582fe79a5",
+        "latency": 368,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -180,7 +186,7 @@
     "servers": [
       {
         "url": "http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8",
-        "latency": 375,
+        "latency": 299,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -195,7 +201,7 @@
     "servers": [
       {
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ntvuk00332211.stream/playlist.m3u8",
-        "latency": 113,
+        "latency": 194,
         "quality": "",
         "stability": 1,
         "type": "hls"
@@ -210,8 +216,8 @@
     "epg_id": "67",
     "servers": [
       {
-        "url": "https://streams2.sofast.tv/ptnr-YuppTV/title-THE-CHUKKER-CHANNEL-INT_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3bd726a3-0d30-491d-b5e7-e1afb6e02112/master.m3u8?hdnts=st%3D1774604231~exp%3D1774625831~acl%3D%21%2A%2Fptnr-YuppTV%2Ftitle-THE-CHUKKER-CHANNEL-INT_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F3bd726a3-0d30-491d-b5e7-e1afb6e02112%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.209.52_yuppfast_2_channel_67_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.209.52_yuppfast_2_channel_67_-1~hmac%3Da3820bbfe63c619613fa5cb40645ef0562d41fe4caf7b24df2f52bb9fbfbc554",
-        "latency": 584,
+        "url": "https://streams2.sofast.tv/ptnr-YuppTV/title-THE-CHUKKER-CHANNEL-INT_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3bd726a3-0d30-491d-b5e7-e1afb6e02112/master.m3u8?hdnts=st%3D1774607457~exp%3D1774629057~acl%3D%21%2A%2Fptnr-YuppTV%2Ftitle-THE-CHUKKER-CHANNEL-INT_yupptv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F3bd726a3-0d30-491d-b5e7-e1afb6e02112%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_GB_64.236.134.48_yuppfast_2_channel_67_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_GB_64.236.134.48_yuppfast_2_channel_67_-1~hmac%3D15a68d139cea2b630f3528ab324be886d794d13c863b4408ae1aee65ee44b494",
+        "latency": 903,
         "quality": "HD",
         "stability": 1,
         "type": "hls"
@@ -219,16 +225,30 @@
     ]
   },
   {
-    "id": "zeeupuk",
-    "name": "ZEE Up Uk",
+    "id": "timetvusa",
+    "name": "Time Tv USA",
     "category": "International",
-    "logo": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/ipyfdr.png",
-    "epg_id": "29",
+    "logo": "https://s3.aynaott.com/storage/111bfd01fb43770e925ca9cf16663f56",
     "servers": [
       {
-        "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeeupuk/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/a8c57b70-538f-49ae-af12-2fc2acaa4ff1/main.m3u8?hdnts=st%3D1774604138~exp%3D1774625738~acl%3D%21%2A%2Fptnr-yupptv%2Ftitle-zeeupuk%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fa8c57b70-538f-49ae-af12-2fc2acaa4ff1%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.209.52_yuppfast_2_channel_29_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_DE_172.182.209.52_yuppfast_2_channel_29_-1~hmac%3Df2bd829a656e548bf335fc0db9a7c3a82cf0884cd5ac1fb369162c54460e4124",
-        "latency": 412,
-        "quality": "HD",
+        "url": "https://tvsen7.aynascope.net/timetv/index.m3u8?e=1774614292&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=4fff639c22e656d1c855cf99df75c138",
+        "latency": 1798,
+        "quality": "",
+        "stability": 1,
+        "type": "hls"
+      }
+    ]
+  },
+  {
+    "id": "usatv",
+    "name": "USA Tv",
+    "category": "International",
+    "logo": "https://s3.aynaott.com/storage/376b8483457b06dbc5b7b7b327a21ac6",
+    "servers": [
+      {
+        "url": "https://tvsen6.aynascope.net/usa/index.m3u8?e=1774614456&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=ceee2f24ede41d71fb83bae872e26e26",
+        "latency": 960,
+        "quality": "",
         "stability": 1,
         "type": "hls"
       }
