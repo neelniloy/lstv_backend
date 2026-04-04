@@ -58,8 +58,9 @@ func runPipeline() error {
 	fmt.Printf("Unique entries to check: %d\n", len(uniqueEntries))
 
 	// 3. Health Check
-	fmt.Println("Running health checks on streams...")
-	healthyEntries := RunHealthChecks(uniqueEntries, 100)
+	workerCount := min(len(uniqueEntries), 200)
+	fmt.Printf("Running health checks on %d streams with %d workers...\n", len(uniqueEntries), workerCount)
+	healthyEntries := RunHealthChecks(uniqueEntries, workerCount)
 
 	// 4. Save Stability Data
 	if err := SaveStability(); err != nil {
