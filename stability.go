@@ -5,13 +5,15 @@ import (
 	"fmt"
 	"os"
 	"sync"
+	"time"
 )
 
 // StreamStability stores the health history of a stream URL.
 type StreamStability struct {
-	URL      string `json:"url"`
-	Success  int    `json:"success"`
-	Total    int    `json:"total"`
+	URL         string `json:"url"`
+	Success     int    `json:"success"`
+	Total       int    `json:"total"`
+	LastChecked int64  `json:"last_checked"` // unix timestamp of last health check
 }
 
 var (
@@ -112,11 +114,31 @@ func UpdateStability(url string, success bool) float64 {
 	if success {
 		s.Success++
 	}
+	s.LastChecked = time.Now().Unix()
 
 	if s.Total == 0 {
 		return 0
 	}
 	return float64(s.Success) / float64(s.Total)
+}
+
+// ShouldSkipCheck returns true if the stream was recently checked and has high
+// stability — we can safely assume it's still live and skip the network check.
+// Only effective in daemon mode where stability data persists between runs.
+func ShouldSkipCheck(url string) bool {
+	stabilityMu.RLock()
+	defer stabilityMu.RUnlock()
+
+	s, exists := stabilityMap[url]
+	if !exists || s.LastChecked == 0 || s.Total == 0 {
+		return false
+	}
+
+	age := time.Now().Unix() - s.LastChecked
+	stability := float64(s.Success) / float64(s.Total)
+
+	// Skip if checked within 20 minutes AND very stable (>= 0.8)
+	return age < 20*60 && stability >= 0.8
 }
 
 // GetStability returns the current stability score for a URL.
