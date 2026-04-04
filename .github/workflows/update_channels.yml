@@ -33,7 +33,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add channels.json stability.json channels/
+          git add channels.json
           git commit -m "chore: automated 30-minute channel update [skip ci]" || echo "No changes to commit"
           git pull --rebase
           git push

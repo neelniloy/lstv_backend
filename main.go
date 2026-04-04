@@ -91,7 +91,9 @@ func main() {
 	fmt.Println("IPTV Backend Processor Started")
 
 	// Run initially
-	runPipeline()
+	if err := runPipeline(); err != nil {
+		fmt.Fprintf(os.Stderr, "Initial pipeline run failed: %v\n", err)
+	}
 
 	// Schedule every 30 minutes
 	ticker := time.NewTicker(30 * time.Minute)
@@ -101,6 +103,8 @@ func main() {
 
 	for t := range ticker.C {
 		fmt.Printf("Scheduled run at %v\n", t)
-		runPipeline()
+		if err := runPipeline(); err != nil {
+			fmt.Fprintf(os.Stderr, "Pipeline run failed: %v\n", err)
+		}
 	}
 }

@@ -92,7 +92,11 @@ func worker(wg *sync.WaitGroup, jobs <-chan StreamEntry, results chan<- Result) 
 		}
 
 		start := time.Now()
-		req, _ := http.NewRequest("GET", entry.URL, nil)
+		req, err := http.NewRequest("GET", entry.URL, nil)
+		if err != nil {
+			results <- Result{Entry: entry, Success: false}
+			continue
+		}
 		req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
 
 		resp, err := client.Do(req)
@@ -103,15 +107,16 @@ func worker(wg *sync.WaitGroup, jobs <-chan StreamEntry, results chan<- Result) 
 			results <- Result{Entry: entry, Success: false}
 			continue
 		}
-		defer resp.Body.Close()
 
 		if resp.StatusCode != http.StatusOK {
+			resp.Body.Close()
 			results <- Result{Entry: entry, Success: false}
 			continue
 		}
 
-		// Read body to check size and content
-		body, err := io.ReadAll(resp.Body)
+		// Read body to check size and content (cap at 64KB to avoid memory bloat)
+		body, err := io.ReadAll(io.LimitReader(resp.Body, 64*1024))
+		resp.Body.Close()
 		if err != nil || len(body) < 50 {
 			results <- Result{Entry: entry, Success: false}
 			continue
@@ -125,19 +130,21 @@ func worker(wg *sync.WaitGroup, jobs <-chan StreamEntry, results chan<- Result) 
 			// Must contain EXTM3U AND at least one stream/inf tag
 			success = strings.Contains(bodyStr, "#EXTM3U") &&
 				(strings.Contains(bodyStr, "#EXTINF") || strings.Contains(bodyStr, "#EXT-X-STREAM-INF"))
-			
+
 			// Optional Segment Test for HLS
 			if success {
 				segmentURL := extractFirstSegment(bodyStr, entry.URL)
 				if segmentURL != "" {
-					segReq, _ := http.NewRequest("GET", segmentURL, nil)
-					segReq.Header.Set("User-Agent", req.Header.Get("User-Agent"))
-					segResp, segErr := client.Do(segReq)
-					if segErr != nil || segResp.StatusCode != http.StatusOK {
-						success = false // Segment test failed
-					} else {
-						// Body check for segment (shouldn't be an error page)
-						segResp.Body.Close()
+					segReq, segErr := http.NewRequest("GET", segmentURL, nil)
+					if segErr == nil {
+						segReq.Header.Set("User-Agent", req.Header.Get("User-Agent"))
+						segResp, segErr := client.Do(segReq)
+						if segErr != nil || segResp.StatusCode != http.StatusOK {
+							success = false // Segment test failed
+						}
+						if segResp != nil {
+							segResp.Body.Close()
+						}
 					}
 				}
 			}

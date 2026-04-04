@@ -48,8 +48,36 @@ func LoadStability() error {
 	return nil
 }
 
+const stabilityWindow = 20 // rolling window: only track last N checks per URL
+
+// pruneStability removes dead entries and caps Total to the rolling window.
+// Must be called with stabilityMu write-locked.
+func pruneStability() {
+	for url, s := range stabilityMap {
+		// Evict URLs that have never worked after enough tries
+		if s.Total >= 10 && s.Success == 0 {
+			delete(stabilityMap, url)
+			continue
+		}
+		// Cap to rolling window so recent failures lower the score quickly
+		if s.Total > stabilityWindow {
+			excess := s.Total - stabilityWindow
+			s.Total = stabilityWindow
+			if s.Success > excess {
+				s.Success -= excess
+			} else {
+				s.Success = 0
+			}
+		}
+	}
+}
+
 // SaveStability saves historical stability data to stability.json.
 func SaveStability() error {
+	stabilityMu.Lock()
+	pruneStability()
+	stabilityMu.Unlock()
+
 	stabilityMu.RLock()
 	defer stabilityMu.RUnlock()
 

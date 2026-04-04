@@ -8,7 +8,10 @@ import (
 	"os"
 	"strings"
 	"sync"
+	"time"
 )
+
+var playlistClient = &http.Client{Timeout: 30 * time.Second}
 
 // Result represents the outcome of a playlist download.
 type downloadResult struct {
@@ -90,7 +93,7 @@ func FetchPlaylists(sourcesPath string) ([]string, error) {
 }
 
 func downloadURL(url string) (string, error) {
-	resp, err := http.Get(url)
+	resp, err := playlistClient.Get(url)
 	if err != nil {
 		return "", err
 	}

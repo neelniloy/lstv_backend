@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
-	"regexp"
 	"sort"
 	"strings"
 )
@@ -28,12 +27,11 @@ type Server struct {
 	Type      string  `json:"type"`
 }
 
-var reKey = regexp.MustCompile(`[^a-z0-9]`)
-
 // GenerateJSON groups entries and writes them to channels.json.
 func GenerateJSON(entries []StreamEntry, outputPath string) error {
 	// Grouping
 	groups := make(map[string]*Channel)
+	serverURLs := make(map[string]map[string]bool) // key → set of server URLs for O(1) dedup
 
 	for _, entry := range entries {
 		// Grouping key
@@ -52,6 +50,7 @@ func GenerateJSON(entries []StreamEntry, outputPath string) error {
 				EPGID:    entry.TvgID, // Use TvgID as initial EPGID if available
 				Servers:  []Server{},
 			}
+			serverURLs[key] = make(map[string]bool)
 		} else {
 			// Metadata Prioritization
 			if groups[key].Logo == "" && entry.Logo != "" {
@@ -68,16 +67,9 @@ func GenerateJSON(entries []StreamEntry, outputPath string) error {
 			}
 		}
 
-		// Check for duplicate URLs within the same channel
-		isDuplicate := false
-		for _, s := range groups[key].Servers {
-			if s.URL == entry.URL {
-				isDuplicate = true
-				break
-			}
-		}
-
-		if !isDuplicate {
+		// O(1) duplicate URL check
+		if !serverURLs[key][entry.URL] {
+			serverURLs[key][entry.URL] = true
 			groups[key].Servers = append(groups[key].Servers, Server{
 				URL:       entry.URL,
 				Latency:   entry.Latency,
@@ -133,50 +125,5 @@ func GenerateJSON(entries []StreamEntry, outputPath string) error {
 	}
 
 	fmt.Printf("Successfully generated %d channels in %s.\n", len(channels), outputPath)
-
-	// JSON Optimization: Splitting into categories
-	// Ensure channels/ directory exists
-	if err := os.MkdirAll("channels", 0755); err != nil {
-		fmt.Printf("Warning: failed to create channels directory: %v\n", err)
-		return nil // Still return nil as main channels.json was created
-	}
-
-	// Group by category
-	catGroups := make(map[string][]Channel)
-	for _, ch := range channels {
-		cat := strings.ToLower(ch.Category)
-		catGroups[cat] = append(catGroups[cat], ch)
-	}
-
-	// Write category files
-	for cat, catChannels := range catGroups {
-		catPath := fmt.Sprintf("channels/%s.json", cat)
-		catFile, err := os.Create(catPath)
-		if err != nil {
-			fmt.Printf("Warning: failed to create category file %s: %v\n", catPath, err)
-			continue
-		}
-		encoder := json.NewEncoder(catFile)
-		encoder.SetEscapeHTML(false)
-		encoder.SetIndent("", "  ")
-		if err := encoder.Encode(catChannels); err != nil {
-			fmt.Printf("Warning: failed to encode category JSON %s: %v\n", catPath, err)
-		}
-		catFile.Close()
-	}
-
-	// Generate index.json (list of categories)
-	var categories []string
-	for cat := range catGroups {
-		categories = append(categories, cat)
-	}
-	sort.Strings(categories)
-	indexPath := "channels/index.json"
-	indexFile, _ := os.Create(indexPath)
-	if indexFile != nil {
-		json.NewEncoder(indexFile).Encode(categories)
-		indexFile.Close()
-	}
-
 	return nil
 }

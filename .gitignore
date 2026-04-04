@@ -17,5 +17,8 @@ Thumbs.db
 *.swo
 
 # Project
-# We WANT to push channels.json as per user request for automation
-# But we can ignore temporary or large log files if any
+# channels.json is committed intentionally for the LS TV app to consume
+# stability.json is runtime state — too large for GitHub (exceeds 100MB limit)
+stability.json
+# channels/ category splits are no longer generated
+channels/

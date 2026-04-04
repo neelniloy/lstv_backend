@@ -7,8 +7,8 @@ import (
 
 var (
 	reLeadingDigits   = regexp.MustCompile(`^\d{3,}\s+`)
-	reAmpersand       = regexp.MustCompile(`\s*&\s*`)
 	reBrackets        = regexp.MustCompile(`(?i)\[[^\]]*\]`)
+	reKey             = regexp.MustCompile(`[^a-z0-9]`)
 	reParentheses     = regexp.MustCompile(`(?i)\([^\)]*\)`)
 	reSymbols         = regexp.MustCompile(`[^\w\s\-\&]`)
 	reMultipleSpaces  = regexp.MustCompile(`\s+`)
@@ -170,6 +170,38 @@ func NormalizeName(name string) string {
 	return normalized
 }
 
+// categoryWordREs maps category names to pre-compiled word-boundary regexes for name-based overrides.
+// Using word boundaries prevents false matches (e.g. "geo" matching "geography", "uk" matching "fluke").
+var categoryWordREs = func() map[string][]*regexp.Regexp {
+	rules := map[string][]string{
+		"Sports":        {"sport", "cricket", "football", "europort", "fancode", `\bten\b`},
+		"Movies":        {"movie", "cinema", `\bfilm\b`, "prive", `\bflix\b`, "xplore", `\bhbo\b`},
+		"News":          {"news", `\btimes\b`, "reuters", `\bcnn\b`, `\bbbc\b`},
+		"Kids":          {"kids", "cartoon", `\bnick\b`, "disney", "pogo", "sony yay"},
+		"Music":         {"music", `\bsong\b`, `\bvh1\b`, `\bmix\b`, `\bzoom\b`, `\b9x\b`},
+		"Documentary":   {"docu", `\bgeo\b`, `\bhistory\b`, "discovery", "animal planet"},
+		"Religious":     {"islam", "quran", "religion", "peace tv", `\bgod\b`, "church"},
+		"International": {`\buk\b`, `\busa\b`, "france", "germany", "global", "international"},
+	}
+	compiled := make(map[string][]*regexp.Regexp, len(rules))
+	for cat, patterns := range rules {
+		for _, p := range patterns {
+			compiled[cat] = append(compiled[cat], regexp.MustCompile(`(?i)`+p))
+		}
+	}
+	return compiled
+}()
+
+// matchesAny returns true if s matches any of the provided regexes.
+func matchesAny(s string, res []*regexp.Regexp) bool {
+	for _, re := range res {
+		if re.MatchString(s) {
+			return true
+		}
+	}
+	return false
+}
+
 // NormalizeCategory standardizes category names into a fixed list.
 func NormalizeCategory(category string, channelName string) string {
 	parts := strings.Split(category, ";")
@@ -182,30 +214,11 @@ func NormalizeCategory(category string, channelName string) string {
 
 	// Required List: Sports, Movies, News, Kids, Entertainment, Music, Documentary, Religious, International, General
 
-	// 1. Mandatory Name-Based Overrides
-	if strings.Contains(n, "sport") || strings.Contains(n, "cricket") || strings.Contains(n, "football") || strings.Contains(n, "ten ") || strings.Contains(n, "europort") || strings.Contains(n, "fancode") {
-		return "Sports"
-	}
-	if strings.Contains(n, "movie") || strings.Contains(n, "cinema") || strings.Contains(n, "film") || strings.Contains(n, "action") || strings.Contains(n, "prive") || strings.Contains(n, "flix") || strings.Contains(n, "xplore") || strings.Contains(n, "hbo") {
-		return "Movies"
-	}
-	if strings.Contains(n, "news") || strings.Contains(n, "times") || strings.Contains(n, "reuters") || strings.Contains(n, "cnn") || strings.Contains(n, "bbc") {
-		return "News"
-	}
-	if strings.Contains(n, "kids") || strings.Contains(n, "cartoon") || strings.Contains(n, "nick") || strings.Contains(n, "disney") || strings.Contains(n, "pogo") || strings.Contains(n, "sony yay") {
-		return "Kids"
-	}
-	if strings.Contains(n, "music") || strings.Contains(n, "song") || strings.Contains(n, "vh1") || strings.Contains(n, "mix") || strings.Contains(n, "zoom") || strings.Contains(n, "9x") {
-		return "Music"
-	}
-	if strings.Contains(n, "docu") || strings.Contains(n, "geo") || strings.Contains(n, "history") || strings.Contains(n, "discovery") || strings.Contains(n, "animal") || strings.Contains(n, "planet") {
-		return "Documentary"
-	}
-	if strings.Contains(n, "islam") || strings.Contains(n, "quran") || strings.Contains(n, "religion") || strings.Contains(n, "peace tv") || strings.Contains(n, "god") || strings.Contains(n, "church") {
-		return "Religious"
-	}
-	if strings.Contains(n, "uk") || strings.Contains(n, "usa") || strings.Contains(n, "france") || strings.Contains(n, "germany") || strings.Contains(n, "global") || strings.Contains(n, "international") {
-		return "International"
+	// 1. Mandatory Name-Based Overrides (word-boundary safe)
+	for _, cat := range []string{"Sports", "Movies", "News", "Kids", "Music", "Documentary", "Religious", "International"} {
+		if matchesAny(n, categoryWordREs[cat]) {
+			return cat
+		}
 	}
 
 	// 2. Map existing category strings
