@@ -22,9 +22,10 @@ type StreamEntry struct {
 }
 
 var (
-	reTvgID = regexp.MustCompile(`tvg-id="([^"]*)"`)
-	reLogo  = regexp.MustCompile(`tvg-logo="([^"]*)"`)
-	reGroup = regexp.MustCompile(`group-title="([^"]*)"`)
+	reTvgID   = regexp.MustCompile(`tvg-id="([^"]*)"`)
+	reTvgName = regexp.MustCompile(`tvg-name="([^"]*)"`)
+	reLogo    = regexp.MustCompile(`tvg-logo="([^"]*)"`)
+	reGroup   = regexp.MustCompile(`group-title="([^"]*)"`)
 )
 
 // ParseM3U parses M3U playlist content and returns a list of stream entries.
@@ -54,10 +55,16 @@ func ParseM3U(content string) []StreamEntry {
 				currentEntry.Category = groupMatch[1]
 			}
 
-			// Extract name (after the last comma)
+			// Extract name: prefer trailing comma value, fall back to tvg-name
 			lastComma := strings.LastIndex(line, ",")
 			if lastComma != -1 {
 				currentEntry.Name = strings.TrimSpace(line[lastComma+1:])
+			}
+			// If trailing name is empty, use tvg-name attribute as fallback
+			if currentEntry.Name == "" {
+				if tvgNameMatch := reTvgName.FindStringSubmatch(line); len(tvgNameMatch) > 1 {
+					currentEntry.Name = tvgNameMatch[1]
+				}
 			}
 			hasEntry = true
 		} else if hasEntry && line != "" && !strings.HasPrefix(line, "#") {
