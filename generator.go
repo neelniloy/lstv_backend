@@ -84,18 +84,18 @@ func GenerateJSON(entries []StreamEntry, outputPath string) error {
 	for _, ch := range groups {
 		// Priority Sorting:
 		// 1. Stability (highest first)
-		// 2. Latency (lowest first)
-		// 3. Quality (FHD > HD > SD)
+		// 2. Quality (4K > FHD > HD > SD) — a stable 4K stream beats a stable SD stream
+		// 3. Latency (lowest first)
+		qPriority := map[string]int{"4K": 4, "FHD": 3, "HD": 2, "SD": 1, "": 0}
 		sort.Slice(ch.Servers, func(i, j int) bool {
 			s1, s2 := ch.Servers[i], ch.Servers[j]
 			if s1.Stability != s2.Stability {
 				return s1.Stability > s2.Stability
 			}
-			if s1.Latency != s2.Latency {
-				return s1.Latency < s2.Latency
+			if qPriority[s1.Quality] != qPriority[s2.Quality] {
+				return qPriority[s1.Quality] > qPriority[s2.Quality]
 			}
-			qPriority := map[string]int{"4K": 4, "FHD": 3, "HD": 2, "SD": 1, "": 0}
-			return qPriority[s1.Quality] > qPriority[s2.Quality]
+			return s1.Latency < s2.Latency
 		})
 
 		// Limit to 10 servers
